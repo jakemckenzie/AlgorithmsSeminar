@@ -1,0 +1,289 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9863,        279]
+NotebookOptionsPosition[      8575,        248]
+NotebookOutlinePosition[      9024,        265]
+CellTagsIndexPosition[      8981,        262]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+The answers to these problems can be obtained from each matrix, but to use \
+them you must be able to use the definitions I gave you. Rows are the i\
+\[CloseCurlyQuote]th element and columns are the j\[CloseCurlyQuote]th \
+element. The limits were taken to infinity. The most zeros column wise \
+correspond to the fastest growing function and the most infinities the \
+slowest, the inverse of this statement is true for row wise elements.\
+\>", "Text",
+ CellChangeTimes->{{3.742094959626*^9, 3.742095103584*^9}, {3.742095260961*^9,
+   3.742095329646*^9}},ExpressionUUID->"60090603-d01a-4514-aabe-abcd1f8a9c32"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"problem2", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{"2", "^", "i"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "0", ",", "n"}], "}"}]}], "]"}], ",", 
+    RowBox[{"n", "^", "2"}], ",", 
+    RowBox[{
+     RowBox[{"n", "^", 
+      RowBox[{"(", "0.9999999", ")"}]}], 
+     RowBox[{"Log", "[", 
+      RowBox[{"2", ",", "n"}], "]"}]}], ",", 
+    RowBox[{
+     RowBox[{"(", "1.00001", ")"}], "^", "n"}], ",", 
+    RowBox[{"Log", "[", 
+     RowBox[{"2", ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"n", "/", "2"}], ")"}]}]}], "]"}], ",", 
+    RowBox[{"1000000", "n"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.742093608259*^9, 3.742093628479*^9}, {
+  3.7420937052320004`*^9, 3.742093808844*^9}, {3.742093979276*^9, 
+  3.742093986609*^9}, {3.74209407642*^9, 3.74209407831*^9}, {
+  3.742094667153*^9, 3.742094680191*^9}, {3.742094756889*^9, 
+  3.742094760675*^9}},ExpressionUUID->"0e439c30-1269-416d-8e37-52b53d2cf5b9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "1"}], "+", 
+    SuperscriptBox["2", 
+     RowBox[{"1", "+", "n"}]]}], ",", 
+   SuperscriptBox["n", "2"], ",", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["n", "0.9999999`"], " ", 
+     RowBox[{"Log", "[", "n", "]"}]}], 
+    RowBox[{"Log", "[", "2", "]"}]], ",", 
+   SuperscriptBox["1.00001`", "n"], ",", 
+   FractionBox[
+    RowBox[{"Log", "[", 
+     SuperscriptBox["2", 
+      RowBox[{"n", "/", "2"}]], "]"}], 
+    RowBox[{"Log", "[", "2", "]"}]], ",", 
+   RowBox[{"1000000", " ", "n"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.742093811106*^9, 3.7420939403380003`*^9, 3.742093988664*^9, 
+   3.74209408608*^9, {3.742094670999*^9, 3.742094695344*^9}, {
+   3.742094757398*^9, 
+   3.742094762087*^9}},ExpressionUUID->"53a8d4e8-25ba-4256-ac07-e3955c7a19bc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Limit", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"problem2", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "/", 
+       RowBox[{"problem2", "[", 
+        RowBox[{"[", "j", "]"}], "]"}]}], ",", 
+      RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", "6"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "1", ",", "6"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.742093824159*^9, 3.7420939207349997`*^9}, {
+  3.7420939632679996`*^9, 3.742093966561*^9}, {3.7420940189*^9, 
+  3.7420940274300003`*^9}, {3.7420940830629997`*^9, 
+  3.742094084233*^9}},ExpressionUUID->"404f2a24-9163-4ed7-977b-de1382990041"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "\[Infinity]", "\[Infinity]", "\[Infinity]", "\[Infinity]", 
+      "\[Infinity]"},
+     {"0", "1", "\[Infinity]", "0.`", "\[Infinity]", "\[Infinity]"},
+     {"0.`", "0.`", "1.`", "0.`", "0.`", "0.`"},
+     {"0.`", "\[Infinity]", "\[Infinity]", "1.`", "\[Infinity]", 
+      "\[Infinity]"},
+     {"0", "0", "\[Infinity]", "0.`", "1", 
+      FractionBox["1", "2000000"]},
+     {"0", "0", "\[Infinity]", "0.`", "2000000", "1"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.7420939024709997`*^9, 3.742093991159*^9}, 
+   3.7420940279119997`*^9, 3.742094087837*^9, {3.742094672762*^9, 
+   3.7420946978380003`*^9}, 
+   3.7420947663859997`*^9},ExpressionUUID->"025c3ec5-b906-4f68-855e-\
+7cf5a24044c9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"problem3", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n", "^", 
+     RowBox[{"(", 
+      RowBox[{"5", "/", "3"}], ")"}]}], ",", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"i", "+", "1"}], ")"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "0", ",", "n"}], "}"}]}], "]"}], ",", 
+    RowBox[{"n", "*", 
+     RowBox[{"Sqrt", "[", "n", "]"}]}], ",", 
+    RowBox[{"2", "^", 
+     RowBox[{"(", 
+      RowBox[{"n", "/", "2"}], ")"}]}], ",", 
+    RowBox[{"Log", "[", 
+     RowBox[{"2", ",", 
+      RowBox[{"Log", "[", 
+       RowBox[{"2", ",", "n"}], "]"}]}], "]"}], ",", 
+    RowBox[{"n", "^", 
+     RowBox[{"(", "1.5", ")"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.742094130507*^9, 3.742094243936*^9}, {3.742094372409*^9,
+   3.742094383792*^9}, {3.742095160148*^9, 
+  3.742095172297*^9}},ExpressionUUID->"ec11cf4b-266a-4e77-b9fc-77b5c814ac7b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   SuperscriptBox["n", 
+    RowBox[{"5", "/", "3"}]], ",", 
+   RowBox[{
+    FractionBox["1", "2"], " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", "n"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"2", "+", "n"}], ")"}]}], ",", 
+   SuperscriptBox["n", 
+    RowBox[{"3", "/", "2"}]], ",", 
+   SuperscriptBox["2", 
+    RowBox[{"n", "/", "2"}]], ",", 
+   FractionBox[
+    RowBox[{"Log", "[", 
+     FractionBox[
+      RowBox[{"Log", "[", "n", "]"}], 
+      RowBox[{"Log", "[", "2", "]"}]], "]"}], 
+    RowBox[{"Log", "[", "2", "]"}]], ",", 
+   SuperscriptBox["n", "1.5`"]}], "}"}]], "Output",
+ CellChangeTimes->{3.742094254899*^9, 3.742094386172*^9, 
+  3.742095173328*^9},ExpressionUUID->"247c341a-0e37-4408-8189-84f5d155a06c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Limit", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"problem3", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "/", 
+       RowBox[{"problem3", "[", 
+        RowBox[{"[", "j", "]"}], "]"}]}], ",", 
+      RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", "6"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "1", ",", "6"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.742094265125*^9, 
+  3.742094266091*^9}},ExpressionUUID->"a91f181f-8d4c-4b21-b96a-f0e4c2faf7dd"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "\[Infinity]", "0", "\[Infinity]", "\[Infinity]"},
+     {"\[Infinity]", "1", "\[Infinity]", "0", "\[Infinity]", "\[Infinity]"},
+     {"0", "0", "1", "0", "\[Infinity]", "1.`"},
+     {"\[Infinity]", "\[Infinity]", "\[Infinity]", "1", "\[Infinity]", 
+      "\[Infinity]"},
+     {"0", "0", "0", "0", "1", "0.`"},
+     {"0.`", "0.`", "1.`", "0.`", "\[Infinity]", "1.`"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.742094281733*^9, 3.742094387418*^9, 
+  3.74209517829*^9},ExpressionUUID->"afa3e194-ffaa-4f9a-94e7-257051d0c6e4"]
+}, Open  ]]
+},
+WindowSize->{944, 811},
+WindowMargins->{{Automatic, -998}, {Automatic, 84}},
+SpellingDictionaries->{"CorrectWords"->{
+ "th", "i\[CloseCurlyQuote]th", "j\[CloseCurlyQuote]th"}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 620, 9, 78, "Text",ExpressionUUID->"60090603-d01a-4514-aabe-abcd1f8a9c32"],
+Cell[CellGroupData[{
+Cell[1203, 33, 1014, 27, 28, "Input",ExpressionUUID->"0e439c30-1269-416d-8e37-52b53d2cf5b9"],
+Cell[2220, 62, 834, 24, 57, "Output",ExpressionUUID->"53a8d4e8-25ba-4256-ac07-e3955c7a19bc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3091, 91, 778, 19, 28, "Input",ExpressionUUID->"404f2a24-9163-4ed7-977b-de1382990041"],
+Cell[3872, 112, 1232, 29, 138, "Output",ExpressionUUID->"025c3ec5-b906-4f68-855e-7cf5a24044c9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5141, 146, 910, 26, 28, "Input",ExpressionUUID->"ec11cf4b-266a-4e77-b9fc-77b5c814ac7b"],
+Cell[6054, 174, 763, 23, 63, "Output",ExpressionUUID->"247c341a-0e37-4408-8189-84f5d155a06c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6854, 202, 634, 17, 28, "Input",ExpressionUUID->"a91f181f-8d4c-4b21-b96a-f0e4c2faf7dd"],
+Cell[7491, 221, 1068, 24, 130, "Output",ExpressionUUID->"afa3e194-ffaa-4f9a-94e7-257051d0c6e4"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
