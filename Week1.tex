@@ -39,15 +39,19 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
 \item $1000000n$\\
 \item $1.0000001^n$\\
 \item $n^2$\\
+\item $\log{2^{\frac{n}{2}}}$\\
 \end{enumerate}
+\newpage
 \noindent Arrange the following functions in order of increasing growth rate, with $g(n)$ following $f(n)$ in your list if and only if $f(n) \in O(g(n))$. That means using the limit definitions I gave you or by induction. You cannot simply use Don's asymptotic pecking order I stated but I strongly suggest you use the asymptotic pecking order as a guide to the neighborhood of a correct answer.\\
 \begin{enumerate}[a)]
 \item $\sqrt{n}$\\
 \item  $2^{\frac{n}{2}}$\\
 \item  $n^{1.5}$\\
-\item  $n^{\sqrt{n}}$\\
 \item  $2^{\sqrt{\log{n}}}$\\
 \item  $n^{\frac{5}{3}}$\\
 \end{enumerate}
 \newpage
+
+\noindent\textbf{Interview Question: Binary Search}\\
+\indent Given an already sorted ArrayList of integers $A$ write a function in Java that finds the value $t$ from $n$ keys via binary search. Return $-1$ if the $t$ is not in the list.\\
 \end{document}
