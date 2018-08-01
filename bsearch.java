@@ -1,4 +1,4 @@
-public static int bsearch(int t, listrrlistyleftist<Integer> list) {
+public static int bsearch(int t, ArrayList<Integer> list) {
     int left = 0, right = list.size() - 1;
     whilefte (left <= right) {
         int mid = left + (right - left) / 2;//slistmide lists (left + right) / 2 brightt tlistkes clistre of overfleftow

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  31 JUL 2018 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  1 AUG 2018 00:12
 entering extended mode
-**./Week1.tex
-(Week1.tex
+**./Week1_Problems1and4.tex
+(Week1_Problems1and4.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 
@@ -783,8 +783,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box39
 \enitdp@description=\count123
 )
-No file Week1.aux.
-\openout1 = `Week1.aux'.
+No file Week1_Problems1and4.aux.
+\openout1 = `Week1_Problems1and4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -888,164 +888,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb
 .fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
+) [1
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--29
-
- []
-
-[1
-
-{C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-[6] (Week1.aux) ) 
+{C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Week1
+_Problems1and4.aux) ) 
 Here is how much of TeX's memory you used:
- 13116 strings out of 493305
- 258672 string characters out of 3127627
- 382943 words of memory out of 3000000
- 16403 multiletter control sequences out of 15000+200000
- 17770 words of font info for 63 fonts, out of 3000000 for 9000
+ 13111 strings out of 493305
+ 258696 string characters out of 3127627
+ 380941 words of memory out of 3000000
+ 16399 multiletter control sequences out of 15000+200000
+ 17463 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,415b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
-/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Epimetheus/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-ty
-pe1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week1.pdf (6 pages, 108119 bytes).
+ 55i,8n,54p,424b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Us
+ers/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-typ
+e1/matha12.pfb>
+Output written on Week1_Problems1and4.pdf (1 page, 41515 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
