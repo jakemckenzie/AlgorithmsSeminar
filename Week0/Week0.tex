@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx,mathabx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{placeins}
+\usepackage{lipsum}
+\usepackage[shortlabels]{enumitem}
+\begin{document}
+\title{TCSS 343 - Week 0}
+\author{Jake McKenzie}
+\maketitle
+\noindent\centerline{\textbf{Recursion}}\\\\
+1. Benin is a fisherman who is simply good at fishing. One day, he finds a nice place to go fishing with two ponds. 
+Moving from the $i-th$ fish-pond (the one he starts at) to the $j-th$ fishpond would cost $|i - j|$ units of time. 
+Initially Benin can get $F_i$ fish in the $i-th$ fishpond. 
+In the next turn at the same fishpond, the amount of fish he can get is decreased by $D_i$. 
+Notice that Benin will not get negative amount of fish.
+Each turn of fishing takes Benin 1 unit of time if Benin is at that pond and $|i - j|$ units of time to switch.
+\\\\
+For example, if $F_1 = 10$, $F_2 = 5$, $D_1 = 2$, $D_2 = 3$ and Benin can fish for up to eight units of time, then he will get $10 + 8 + 6 + 5 + 4 = 33$.
+Washington Department of Fish and Wildlife (WDFW) requires that Benin switch to the adjacent pond when it has more fish and he cannot fish for "negative" fish.
+Write a recursive algorithm to see how many fish Benin can fish for!
+\newpage
+\end{document}
