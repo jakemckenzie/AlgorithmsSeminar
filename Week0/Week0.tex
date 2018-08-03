@@ -10,19 +10,25 @@
 \title{TCSS 343 - Week 0}
 \author{Jake McKenzie}
 \maketitle
-\noindent\centerline{\textbf{Introduction to Algorithmic Thinking and Recursion}}\\\\
-\newpage
+\noindent\centerline{\textbf{Introduction to Algorithmic Thinking and Recursion}}\\\\\\\\\\\\\\\\
+\begin{center}
+    ``So plant your own gardens and decorate your own soul, instead of waiting for someone to bring you flowers." $\sim$ Jorge Luis Borges
+\end{center}
+\begin{center}
+    ``Beware of bugs in the above code; \\I have only proved it correct, not tried it." $\sim$ Donald Knuth
+\end{center}
+    \newpage
 \centerline{\includegraphics[angle = 90]{grid.jpg}}
-0. Emily loves figuring out all the ways to arrange dominos. Help her find all the ways to arrange dominos in that are $2 \times 1$ in a $2 \times 1$,$2 \times 2$,$2 \times 3$ and $2 \times 4$ grid!\\\\\\\\
-1. Now that you've helped Emily find how many ways to arrange the dominos in problem 0 she gets really philosophical. She starts pondering the nature of zero and wants you to help her find how many ways to arrange a $2 \times 1$ domino in a $2 \times 0$ grid. (You don't have to be too smart: Just find some justification from problem 3)\\\\\\\\
-2. We've had a lot of fun arranging dominos but now Emily wants a recursive formula for the ways to arrange $2 \times 1$ dominos. The key to finding recursive definitions is to find the answer to larger problems by finding the answer to smaller problems.\\\\
+\noindent 0. Emily loves figuring out all the ways to arrange dominos. Help her find all the ways to arrange dominos in that are $2 \times 1$ in a $2 \times 1$,$2 \times 2$,$2 \times 3$ and $2 \times 4$ grid!\\\\\\\\
+\noindent 1. Now that you've helped Emily find how many ways to arrange the dominos in problem 0 she gets really philosophical. She starts pondering the nature of zero and wants you to help her find how many ways to arrange a $2 \times 1$ domino in a $2 \times 0$ grid. (You don't have to be too smart: Just find some justification from problem 3)\\\\\\\\
+\noindent 2. We've had a lot of fun arranging dominos but now Emily wants a recursive formula for the ways to arrange $2 \times 1$ dominos. The key to finding recursive definitions is to find the answer to larger problems by finding the answer to smaller problems.\\\\
 $D_n = $\# of tilings of a $2 \times n =$
 \newpage
 \centerline{\includegraphics[scale = 0.25]{boxing.jpg}}
-3. Let's say we have a group of champions in a room and we want to pit them against one another until there is one and only one winner. This is analogous to finding the max value in an array of integers. Write a simple recursive algorithm which returns back the max.\\\\\\\\\\\\\\\\\\\\\\\\\\
-4. Attempt to prove that this algorithm is correct by contradiction. 
+\noindent 3. Let's say we have a group of champions in a room and we want to pit them against one another until there is one and only one winner. This is analogous to finding the max value in an array of integers. Write a simple recursive algorithm which returns back the max.\\\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent 4. Attempt to prove that this algorithm is correct by contradiction. 
 \newpage
-5. Benin is a fisherman who is simply good at fishing. One day, he finds a nice place to go fishing with two ponds. 
+\noindent 5. Benin is a fisherman who is simply good at fishing. One day, he finds a nice place to go fishing with two ponds. 
 Moving from the $i-th$ fish-pond (the one he starts at) to the $j-th$ fishpond would cost $|i - j|$ units of time. 
 Initially Benin can get $F_i$ fish in the $i-th$ fishpond. 
 In the next turn at the same fishpond, the amount of fish he can get is decreased by $D_i$. 
@@ -33,13 +39,13 @@ For example, if $F_1 = 10$, $F_2 = 5$, $D_1 = 2$, $D_2 = 3$ and Benin can fish f
 Washington Department of Fish and Wildlife (WDFW) requires that Benin switch to the adjacent pond when it has more fish and he cannot fish for "negative" fish.
 Write a recursive algorithm to see how many fish Benin can fish for!
 \newpage
-6. On the last page we had lots of fun but let's get a little more practical. Programmers, no matter what language they use, typically think of their data in trees. Whether their is a collection of JSON objects, Python dicts or Ruby hashes, they're usually a tree. Javascript developers may even take their JSON objects and render them to the DOM, which also happens to be a tree. Trees, trees and more trees. Write a function using recursion that returns true if the tree is symmetric. I encourage you to write as many helper functions as you want.\\
+\noindent 6. On the last page we had lots of fun but let's get a little more practical. Programmers, no matter what language they use, typically think of their data in trees. Whether their is a collection of JSON objects, Python dicts or Ruby hashes, they're usually a tree. Javascript developers may even take their JSON objects and render them to the DOM, which also happens to be a tree. Trees, trees and more trees. Write a function using recursion that returns true if the tree is symmetric. I encourage you to write as many helper functions as you want.\\
 \centerline{\includegraphics[scale = 0.5]{binarytree.jpg}}
 \centerline{(Various binary trees courtesy of Wolfram Mathworld)}
 \newpage
-7. Now that you've done this attempt to write a function which will invert a binary tree using recursion.\\
+\noindent 7. Now that you've done this attempt to write a function which will invert a binary tree using recursion.\\
 \centerline{\includegraphics[scale = 0.4]{invertbtree.png}}
 \newpage
-8. I'm sorry for making you go through this packet. To be honest I've never been a fan of recursion myself but it is a powerful tool in solving problems. Now that you've completed the previous part of the packet. Reattempt problem 7 by now writing an iterative way of inverting a binary tree.
+\noindent 8. I'm sorry for making you go through this packet. To be honest I've never been a fan of recursion myself but it is a powerful tool in solving problems. Now that you've completed the previous part of the packet. Reattempt problem 7 by now writing an iterative way of inverting a binary tree.
 \centerline{\includegraphics[scale = 0.4]{invertbtree.png}}
 \end{document}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 02:02
 entering extended mode
-**./Week0.tex
-(Week0.tex
+**./Week2.tex
+(Week2.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 
@@ -782,8 +782,9 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-) (Week0.aux)
-\openout1 = `Week0.aux'.
+)
+No file Week2.aux.
+\openout1 = `Week2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -927,158 +928,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¸ in font cmr12!
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<grid.jpg, id=12, 200.75pt x 252.945pt>
-File: grid.jpg Graphic file (type jpg)
-<use grid.jpg>
-Package pdftex.def Info: grid.jpg  used on input line 21.
-(pdftex.def)             Requested size: 200.7495pt x 252.94438pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-[2 <./grid.jpg>]
-<boxing.jpg, id=18, 418.56375pt x 275.52937pt>
-File: boxing.jpg Graphic file (type jpg)
-<use boxing.jpg>
-Package pdftex.def Info: boxing.jpg  used on input line 27.
-(pdftex.def)             Requested size: 104.64067pt x 68.88217pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+[2]
+<tree.jpg, id=20, 4047.12pt x 3035.34pt>
+File: tree.jpg Graphic file (type jpg)
+<use tree.jpg>
+Package pdftex.def Info: tree.jpg  used on input line 31.
+(pdftex.def)             Requested size: 202.36786pt x 151.7759pt.
+ [3 <./tree.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+[4] [5]
+<hamming_cat.jpg, id=30, 356.33125pt x 501.875pt>
+File: hamming_cat.jpg Graphic file (type jpg)
+<use hamming_cat.jpg>
+Package pdftex.def Info: hamming_cat.jpg  used on input line 38.
+(pdftex.def)             Requested size: 71.26498pt x 100.37321pt.
+<hamming.jpg, id=31, 85.06781pt x 43.66313pt>
+File: hamming.jpg Graphic file (type jpg)
+<use hamming.jpg>
+Package pdftex.def Info: hamming.jpg  used on input line 50.
+(pdftex.def)             Requested size: 85.0676pt x 43.66301pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
 
  []
 
-[3 <./boxing.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 31--41
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
 
  []
 
-[4]
-<binarytree.jpg, id=26, 442.65375pt x 190.46156pt>
-File: binarytree.jpg Graphic file (type jpg)
-<use binarytree.jpg>
-Package pdftex.def Info: binarytree.jpg  used on input line 43.
-(pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
- [5 <./binarytree.jpg>]
-<invertbtree.png, id=30, 504.88625pt x 310.15875pt>
-File: invertbtree.png Graphic file (type png)
-<use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 47.
-(pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
- [6 <./invertbtree.png>]
-File: invertbtree.png Graphic file (type png)
-<use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 50.
-(pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
- [7] (Week0.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--53
+
+ []
+
+[6 <./hamming_cat.jpg> <./hamming.jpg>] [7] (Week2.aux) ) 
 Here is how much of TeX's memory you used:
- 13130 strings out of 493305
- 258917 string characters out of 3127627
- 380942 words of memory out of 3000000
- 16409 multiletter control sequences out of 15000+200000
+ 13122 strings out of 493305
+ 258750 string characters out of 3127627
+ 381942 words of memory out of 3000000
+ 16405 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,576b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
-s/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week0.pdf (7 pages, 167540 bytes).
+ 55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Epimetheus/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epim
+etheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha8.pfb>
+Output written on Week2.pdf (7 pages, 2687575 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
