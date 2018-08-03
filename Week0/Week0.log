@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 08:51
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -782,7 +782,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-) (Week0.aux)
+)
+No file Week0.aux.
 \openout1 = `Week0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -930,43 +931,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<grid.jpg, id=12, 200.75pt x 252.945pt>
+<grid.jpg, id=13, 200.75pt x 252.945pt>
 File: grid.jpg Graphic file (type jpg)
 <use grid.jpg>
-Package pdftex.def Info: grid.jpg  used on input line 21.
+Package pdftex.def Info: grid.jpg  used on input line 33.
 (pdftex.def)             Requested size: 200.7495pt x 252.94438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
@@ -974,70 +975,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--26
 <boxing.jpg, id=18, 418.56375pt x 275.52937pt>
 File: boxing.jpg Graphic file (type jpg)
 <use boxing.jpg>
-Package pdftex.def Info: boxing.jpg  used on input line 27.
+Package pdftex.def Info: boxing.jpg  used on input line 39.
 (pdftex.def)             Requested size: 104.64067pt x 68.88217pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 [3 <./boxing.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 31--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--53
 
  []
 
@@ -1045,24 +1046,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--41
 <binarytree.jpg, id=26, 442.65375pt x 190.46156pt>
 File: binarytree.jpg Graphic file (type jpg)
 <use binarytree.jpg>
-Package pdftex.def Info: binarytree.jpg  used on input line 43.
+Package pdftex.def Info: binarytree.jpg  used on input line 55.
 (pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
  [5 <./binarytree.jpg>]
 <invertbtree.png, id=30, 504.88625pt x 310.15875pt>
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 47.
+Package pdftex.def Info: invertbtree.png  used on input line 59.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
  [6 <./invertbtree.png>]
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 50.
+Package pdftex.def Info: invertbtree.png  used on input line 62.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
  [7] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
- 13130 strings out of 493305
- 258917 string characters out of 3127627
- 380942 words of memory out of 3000000
+ 13128 strings out of 493305
+ 258838 string characters out of 3127627
+ 380943 words of memory out of 3000000
  16409 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1076,7 +1077,7 @@ mr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week0.pdf (7 pages, 167540 bytes).
+Output written on Week0.pdf (7 pages, 171373 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
