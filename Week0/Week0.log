@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 18:36
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -889,79 +889,156 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 .fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 13--24
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--24
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<grid.jpg, id=15, 200.75pt x 252.945pt>
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
+
+ []
+
+[2]
+<grid.jpg, id=18, 200.75pt x 252.945pt>
 File: grid.jpg Graphic file (type jpg)
 <use grid.jpg>
-Package pdftex.def Info: grid.jpg  used on input line 25.
+Package pdftex.def Info: grid.jpg  used on input line 29.
 (pdftex.def)             Requested size: 200.7495pt x 252.94438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
-[2 <./grid.jpg>] (Week0.aux) ) 
+[3 <./grid.jpg>]
+<binarytree.jpg, id=22, 442.65375pt x 190.46156pt>
+File: binarytree.jpg Graphic file (type jpg)
+<use binarytree.jpg>
+Package pdftex.def Info: binarytree.jpg  used on input line 36.
+(pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
+ [4 <./binarytree.jpg>]
+<invertbtree.png, id=26, 504.88625pt x 310.15875pt>
+File: invertbtree.png Graphic file (type png)
+<use invertbtree.png>
+Package pdftex.def Info: invertbtree.png  used on input line 40.
+(pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
+ [5 <./invertbtree.png>]
+File: invertbtree.png Graphic file (type png)
+<use invertbtree.png>
+Package pdftex.def Info: invertbtree.png  used on input line 43.
+(pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
+ [6] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
- 13112 strings out of 493305
- 258582 string characters out of 3127627
- 381943 words of memory out of 3000000
- 16397 multiletter control sequences out of 15000+200000
+ 13123 strings out of 493305
+ 258769 string characters out of 3127627
+ 380943 words of memory out of 3000000
+ 16405 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epi
-metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week0.pdf (2 pages, 84684 bytes).
+ 55i,6n,54p,566b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
+s/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
+Output written on Week0.pdf (6 pages, 126777 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
