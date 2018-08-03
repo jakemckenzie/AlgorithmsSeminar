@@ -7,10 +7,8 @@ public class GoingFishing{
         if (k <= 0) return sum;
         if (F1 > 0 || F2 > 0) {
             if (F1 >= F2) {
-                System.out.println(F1 + " " + k+ " " + i + " " + j);
                 return fishing(F1 - D1, F2, D1, D2, ++i, j, --k, sum + F1);
             } else {
-                System.out.println(F2+ " " + k+ " " + i + " " + j);
                 return fishing(F2 - D2, F1, D2, D1, ++j, i, (k - Math.abs(i - j)), sum + F2);
             }
         }

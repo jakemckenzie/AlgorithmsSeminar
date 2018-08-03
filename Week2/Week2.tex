@@ -51,5 +51,46 @@ $0 \leq x$,$y < 2^{31}$\\
 The above arrows point to positions where the corresponding bits are different(next page).\\\\
 Write for me (or Richard's cat :3) some code to compute the hamming distance between two integers.
 \newpage
-
+6. I'm going to ask you a lot of pop corn questions for now on but that doesn't mean I want you to treat them lightly. This is to test \textbf{YOUR} understanding not the \textbf{INTERNET}. Please do not google the answers. I know you can. I could when I was in this class but please, please don't. Think hard about these now and I'll post the solutions later.\\\\\
+\noindent \includegraphics[scale = 0.5]{ea.jpg}
+\noindent \includegraphics[scale = 0.35]{qsms.jpg}
+\noindent \includegraphics[scale = 0.5]{hs.jpg}\\
+Which of the following algorithms is \textbf{NOT} a divide and conquer algorithm by nature?\\
+\begin{enumerate}
+    \item[a)]Euclidean algorithm to compute the GCD
+    \item[b)]Heap Sort
+    \item[c)]Merge Sort
+    \item[d)]Quick Sort
+\end{enumerate}
+\newpage
+\noindent \includegraphics{c.jpg}\\
+7. Consider the following c program above, what does it compute?
+\begin{enumerate}
+    \item[a)]The greatest common divisor of $x$ and $y$
+    \item[b)]$x + y$ using repeated subtraction
+    \item[c)]$x \mod y$ 
+    \item[d)]The least common multiple of $x$ and $y$
+\end{enumerate}
+8. Maximum Subarray Sum problem is to find the subarray with maximum sum. For example, given an array \{4, -10, 7, 9, -8, -5, 2, 0, -2, 8\}, the maximum subarray sum is 16. The naive solution for this problem is to calculate sum of all subarrays starting with every element and return the maximum of all. We can solve this using Divide and Conquer, what will be the worst case time complexity using Divide and Conquer.\\
+\begin{enumerate}
+    \item[a)]$O(n)$
+    \item[b)]$O(n\log{n})$
+    \item[c)]$O(\log{n})$
+    \item[d)]$O(n^2)$
+\end{enumerate}
+\newpage
+9. Given two integers $x$ and $n$, say we wrote a function to compute $x^n$ using divide and conquer. What is the recurrence relation and worst case runtime of our function?
+\begin{enumerate}
+    \item[a)]$T(n) = T(n/2) + c$; $T(n) \in O(n\log{n})$
+    \item[b)]$T(n) = T(n/2) + n$; $T(n) \in O(n\log{n})$
+    \item[c)] $T(n) = 2T(n/2) + c$; $T(n) \in O(\log{n})$
+    \item[d)]$T(n) = T(n/2) + c$; $T(n) \in O(\log{n})$
+\end{enumerate}
+\newpage
+\noindent \includegraphics{fifolru.jpg}\\
+A. In undergraduate algorithms we typically worry about worst case analysis, but problems can be hard when it doesn't matter. In a computer there is a small speedy memory (the ``cache”) and a big sluggish memory (typically a ``harddisk"). Imagine there are two competing programs, one uses ``Least Recently Used" algorithm and another using ``First In First Out" that periodically issue read and write requests to data stored on ``pages” in the big sluggish memory. If the requested page is also in the cache, then we can happily say it can be accessed directly! If not :( we get what is known as a ``page fault” a.k.a. ``cache miss” — the requested page needs to be brought into the cache, and this requires evicting an incumbent page. The key algorithmic question is then: \textbf{which page should we evicted}? Which algorithm do you think has the worst case runtime and which do you think works better in practice? Why? Is there an intuitive answer to this reality?\\
+\begin{enumerate}
+    \item[a)]Least Recently Used
+    \item[b)]First in First Out
+\end{enumerate}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 02:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 10:53
 entering extended mode
 **./Week2.tex
 (Week2.tex
@@ -1079,30 +1079,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--53
 
  []
 
-[6 <./hamming_cat.jpg> <./hamming.jpg>] [7] (Week2.aux) ) 
+[6 <./hamming_cat.jpg> <./hamming.jpg>] [7]
+<ea.jpg, id=39, 472.01344pt x 160.34906pt>
+File: ea.jpg Graphic file (type jpg)
+<use ea.jpg>
+Package pdftex.def Info: ea.jpg  used on input line 55.
+(pdftex.def)             Requested size: 236.00613pt x 80.17433pt.
+<qsms.jpg, id=40, 520.94624pt x 261.22594pt>
+File: qsms.jpg Graphic file (type jpg)
+<use qsms.jpg>
+Package pdftex.def Info: qsms.jpg  used on input line 56.
+(pdftex.def)             Requested size: 182.33391pt x 91.43044pt.
+<hs.jpg, id=41, 582.67688pt x 286.82156pt>
+File: hs.jpg Graphic file (type jpg)
+<use hs.jpg>
+Package pdftex.def Info: hs.jpg  used on input line 57.
+(pdftex.def)             Requested size: 291.33772pt x 143.41042pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Overfull \hbox (30.95113pt too wide) in paragraph at lines 54--60
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+[8 <./ea.jpg> <./qsms.jpg> <./hs.jpg>]
+<c.jpg, id=45, 157.33781pt x 174.6525pt>
+File: c.jpg Graphic file (type jpg)
+<use c.jpg>
+Package pdftex.def Info: c.jpg  used on input line 66.
+(pdftex.def)             Requested size: 157.33742pt x 174.65207pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+
+("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
+d"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+[9 <./c.jpg>] [10]
+<fifolru.jpg, id=53, 178.41656pt x 199.49532pt>
+File: fifolru.jpg Graphic file (type jpg)
+<use fifolru.jpg>
+Package pdftex.def Info: fifolru.jpg  used on input line 90.
+(pdftex.def)             Requested size: 178.4161pt x 199.49481pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
+
+ []
+
+[11 <./fifolru.jpg>] (Week2.aux) ) 
 Here is how much of TeX's memory you used:
- 13122 strings out of 493305
- 258750 string characters out of 3127627
- 381942 words of memory out of 3000000
- 16405 multiletter control sequences out of 15000+200000
+ 13172 strings out of 493305
+ 259490 string characters out of 3127627
+ 381943 words of memory out of 3000000
+ 16447 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+ 55i,6n,54p,1011b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Epimetheus/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epim
-etheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha8.pfb>
-Output written on Week2.pdf (7 pages, 2687575 bytes).
+cm/cmsy10.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha8.pfb>
+Output written on Week2.pdf (11 pages, 2868921 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
