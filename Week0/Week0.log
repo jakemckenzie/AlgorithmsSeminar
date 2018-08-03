@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 17:00
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -901,27 +901,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--24
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Week0.aux) ) 
+<grid.jpg, id=15, 200.75pt x 252.945pt>
+File: grid.jpg Graphic file (type jpg)
+<use grid.jpg>
+Package pdftex.def Info: grid.jpg  used on input line 25.
+(pdftex.def)             Requested size: 200.7495pt x 252.94438pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+[2 <./grid.jpg>] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
- 13106 strings out of 493305
- 258519 string characters out of 3127627
+ 13112 strings out of 493305
+ 258582 string characters out of 3127627
  381943 words of memory out of 3000000
- 16393 multiletter control sequences out of 15000+200000
+ 16397 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Epi
-metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epi
+metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
 pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week0.pdf (1 page, 68094 bytes).
+msfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
+Output written on Week0.pdf (2 pages, 84684 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
