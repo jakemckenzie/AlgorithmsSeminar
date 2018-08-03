@@ -11,14 +11,16 @@
 \author{Jake McKenzie}
 \maketitle
 \begin{enumerate}
-    \item
+    \item[1.]
     \begin{align*}
         2 \cdot \max\{f(n),g(n)\} &\geq f(n) + g(n)\\
         \max\{f(n),g(n)\} &\geq \frac{1}{2} \cdot (f(n) + g(n))\\
     \end{align*}
     Which allows us to say:
     $$\frac{1}{2} \cdot (f(n) + g(n)) \geq \max\{f(n),g(n)\} \geq  f(n) + g(n)$$
-    \item
+    \item[4.]
     Consider $f(n) + g(n)$ where $g(n) \in O(f(n))$ and let $c$ be a constant such that $0 \leq g(n) < c \cdot f(n)$ for large enough $n$. Then $f(n) \leq f(n)+g(n) \leq (1 + c)f(n)$ for large enough $n$.
+    \item[5.]
+    Only sometimes true. For the case $f(n) = n$ this is true but for the case $f(n) = \frac{1}{n}$ the statement is false.
 \end{enumerate}
 \end{document}
