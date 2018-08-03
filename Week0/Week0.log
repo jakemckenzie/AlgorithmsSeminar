@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  2 AUG 2018 19:49
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -782,8 +782,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-)
-No file Week0.aux.
+) (Week0.aux)
 \openout1 = `Week0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -942,93 +941,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
  []
 
 [2 <./grid.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+<boxing.jpg, id=18, 418.56375pt x 275.52937pt>
+File: boxing.jpg Graphic file (type jpg)
+<use boxing.jpg>
+Package pdftex.def Info: boxing.jpg  used on input line 21.
+(pdftex.def)             Requested size: 104.64067pt x 68.88217pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 24--34
+[3 <./boxing.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 25--35
 
  []
 
 [4]
-<binarytree.jpg, id=25, 442.65375pt x 190.46156pt>
+<binarytree.jpg, id=26, 442.65375pt x 190.46156pt>
 File: binarytree.jpg Graphic file (type jpg)
 <use binarytree.jpg>
-Package pdftex.def Info: binarytree.jpg  used on input line 36.
+Package pdftex.def Info: binarytree.jpg  used on input line 37.
 (pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
  [5 <./binarytree.jpg>]
-<invertbtree.png, id=29, 504.88625pt x 310.15875pt>
+<invertbtree.png, id=30, 504.88625pt x 310.15875pt>
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 40.
+Package pdftex.def Info: invertbtree.png  used on input line 41.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
  [6 <./invertbtree.png>]
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
-Package pdftex.def Info: invertbtree.png  used on input line 43.
+Package pdftex.def Info: invertbtree.png  used on input line 44.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
  [7] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
- 13123 strings out of 493305
- 258769 string characters out of 3127627
+ 13130 strings out of 493305
+ 258917 string characters out of 3127627
  380943 words of memory out of 3000000
- 16405 multiletter control sequences out of 15000+200000
+ 16409 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,566b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1041,9 +1046,9 @@ mr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week0.pdf (7 pages, 129690 bytes).
+Output written on Week0.pdf (7 pages, 166475 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
