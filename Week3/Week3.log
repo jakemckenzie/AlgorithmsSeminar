@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 01:49
 entering extended mode
 **./Week3.tex
 (Week3.tex
@@ -782,8 +782,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-)
-No file Week3.aux.
+) (Week3.aux)
 \openout1 = `Week3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -942,11 +941,11 @@ Missing character: There is no ™ in font cmr12!
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Week3.aux) ) 
 Here is how much of TeX's memory you used:
- 13106 strings out of 493305
- 258519 string characters out of 3127627
- 380943 words of memory out of 3000000
- 16393 multiletter control sequences out of 15000+200000
- 17770 words of font info for 63 fonts, out of 3000000 for 9000
+ 13110 strings out of 493305
+ 258619 string characters out of 3127627
+ 380942 words of memory out of 3000000
+ 16394 multiletter control sequences out of 15000+200000
+ 18117 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
@@ -954,10 +953,12 @@ Here is how much of TeX's memory you used:
 eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epi
 metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb>
-Output written on Week3.pdf (1 page, 45424 bytes).
+pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/mathabx-type1/matha12.pfb>
+Output written on Week3.pdf (1 page, 55651 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
