@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 18:47
 entering extended mode
 **./Week2.tex
 (Week2.tex
@@ -934,42 +934,42 @@ LaTeX Warning: Command \o invalid in math mode on input line 15.
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
@@ -977,50 +977,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--29
 <tree.jpg, id=20, 4047.12pt x 3035.34pt>
 File: tree.jpg Graphic file (type jpg)
 <use tree.jpg>
-Package pdftex.def Info: tree.jpg  used on input line 31.
+Package pdftex.def Info: tree.jpg  used on input line 38.
 (pdftex.def)             Requested size: 202.36786pt x 151.7759pt.
  [3 <./tree.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
@@ -1028,55 +1028,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 <hamming_cat.jpg, id=30, 356.33125pt x 501.875pt>
 File: hamming_cat.jpg Graphic file (type jpg)
 <use hamming_cat.jpg>
-Package pdftex.def Info: hamming_cat.jpg  used on input line 38.
+Package pdftex.def Info: hamming_cat.jpg  used on input line 45.
 (pdftex.def)             Requested size: 71.26498pt x 100.37321pt.
 <hamming.jpg, id=31, 85.06781pt x 43.66313pt>
 File: hamming.jpg Graphic file (type jpg)
 <use hamming.jpg>
-Package pdftex.def Info: hamming.jpg  used on input line 50.
+Package pdftex.def Info: hamming.jpg  used on input line 57.
 (pdftex.def)             Requested size: 85.0676pt x 43.66301pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
 
  []
 
@@ -1084,30 +1084,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--53
 <ea.jpg, id=39, 472.01344pt x 160.34906pt>
 File: ea.jpg Graphic file (type jpg)
 <use ea.jpg>
-Package pdftex.def Info: ea.jpg  used on input line 55.
+Package pdftex.def Info: ea.jpg  used on input line 62.
 (pdftex.def)             Requested size: 236.00613pt x 80.17433pt.
 <qsms.jpg, id=40, 520.94624pt x 261.22594pt>
 File: qsms.jpg Graphic file (type jpg)
 <use qsms.jpg>
-Package pdftex.def Info: qsms.jpg  used on input line 56.
+Package pdftex.def Info: qsms.jpg  used on input line 63.
 (pdftex.def)             Requested size: 182.33391pt x 91.43044pt.
 <hs.jpg, id=41, 582.67688pt x 286.82156pt>
 File: hs.jpg Graphic file (type jpg)
 <use hs.jpg>
-Package pdftex.def Info: hs.jpg  used on input line 57.
+Package pdftex.def Info: hs.jpg  used on input line 64.
 (pdftex.def)             Requested size: 291.33772pt x 143.41042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
 
-Overfull \hbox (30.95113pt too wide) in paragraph at lines 54--60
+Overfull \hbox (30.95113pt too wide) in paragraph at lines 61--67
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
@@ -1115,18 +1115,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--60
 <c.jpg, id=45, 157.33781pt x 174.6525pt>
 File: c.jpg Graphic file (type jpg)
 <use c.jpg>
-Package pdftex.def Info: c.jpg  used on input line 66.
+Package pdftex.def Info: c.jpg  used on input line 73.
 (pdftex.def)             Requested size: 157.33742pt x 174.65207pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
 d"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
@@ -1134,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 <fifolru.jpg, id=53, 178.41656pt x 199.49532pt>
 File: fifolru.jpg Graphic file (type jpg)
 <use fifolru.jpg>
-Package pdftex.def Info: fifolru.jpg  used on input line 90.
+Package pdftex.def Info: fifolru.jpg  used on input line 97.
 (pdftex.def)             Requested size: 178.4161pt x 199.49481pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -1152,7 +1152,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
@@ -1178,7 +1178,7 @@ Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha8.pfb>
-Output written on Week2.pdf (11 pages, 2869126 bytes).
+Output written on Week2.pdf (11 pages, 2869205 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
