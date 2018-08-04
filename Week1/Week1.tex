@@ -6,6 +6,7 @@
 \usepackage{placeins}
 \usepackage{lipsum}
 \usepackage[shortlabels]{enumitem}
+\usepackage{wrapfig}
 \begin{document}
 \title{TCSS 343 - Week 1}
 \author{Jake McKenzie}
@@ -38,6 +39,7 @@ This is another way of saying that $f(n) \in O(g(n))$ and $f(n) \in \Theta(g(n))
 Now while we're in this course, we will typically need to show that these relationships are true when prompted, but it's always good to know that the following is true where \begin{math}0 < \epsilon < 1 < c\end{math}.\\
 \[1 < \log{\log{n}} < \log{n} < n^{\epsilon} < n^c < n^{log{n}} < c^n < n^n < c^{c^{n}}\]\\
 This asymptotic pecking order above is from Don Knuth's Concrete Mathematics.\\\\
+\newpage
 Now consider the following truths I found in Tim Roughgarden's Algorithms Illuminated: \\
 $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) + g(n)$$
 (reminder that $\land$ is the logical ``and" symbol.)\\\\
@@ -49,6 +51,8 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
 \item $n^2$\\
 \item $n^{0.9999999}\log{n}$\\
 \item $1.00001^n$\\
+\item $4^{\log{n}}$\\
+\item $100^{\sqrt{n}}$\\
 \item $\log{2^{\frac{n}{2}}}$\\
 \item $1000000n$\\
 \end{enumerate}
@@ -58,18 +62,50 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
 \item  $n^{\frac{5}{3}}$\\
 \item $\sum\limits_{i = 0}^{n} (i + 1)$\\
 \item $n\sqrt{n}$\\
+\item $\log{n^n}$\\
+\item $(\frac{n}{\log{n}})^3$\\
 \item  $2^{\frac{n}{2}}$\\
 \item  $\log{\log{n}}$\\
 \item  $n^{1.5}$\\
 \end{enumerate}
 \newpage
-4. Using what you know prove or disprove that $f(n) + O(f(n)) \in \Theta(f(n))$.
+\noindent 4. Using what you know prove or disprove that  if $f(n) \in O(f(n)) $ and $g(n) \in O(h(n))$ then $f(n) \in \Omega(h(n))$.
 \newpage
-5. Using what you know prove or disprove that $f(n)\in O(f(n)^2)$.
+\noindent 5. Using what you know prove or disprove that $f(n) + O(f(n)) \in \Theta(f(n))$.
 \newpage
-\noindent 6. Find the worst case runtime of the code below. What is the code doing? (hint: follow what the code is doing by letting $x = 100$ and returning the result. You may use a calculator.)\\
+\noindent 6. Using what you know prove or disprove that $f(n)\in O(f(n)^2)$.
+\newpage
+\noindent 7. Using the technique of splitting the sum, find the result of this summation: $\sum\limits_{k=0}^{\infty}{\frac{k^2}{2^k}}$. Take advantage of the geometric series $\sum\limits_{k=0}^{\infty}{a \cdot r^n} = \frac{a}{1-r}$ for $|r| < 1$.
+\newpage
+\noindent 8. What is the code doing and from that information can you make a guess as to the worstcase runtime of this algorithm? (hint: follow what the code is doing by letting $x = 100$ and returning the result. You may use a calculator.)\\
 \includegraphics[width=\linewidth]{isqrt.jpg} 
 \newpage
+\begin{wrapfigure}{R}{0.3\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{ssort.jpg}
+\end{wrapfigure}
+\noindent 9. Argue given the information I provide which of the following in the list of sorts given are stable or unstable. A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.\\\\
+\begin{enumerate}
+    \item[a)]Randomized Quick Sort
+    \item[b)]Bubble Sort
+    \item[c)]Selection Sort
+    \item[d)]Heap Sort
+    \item[e)]Merge Sort
+    \item[f)]Insertion Sort
+\end{enumerate}
+\noindent A. Using what you know prove or disprove that if $O(f(n)O(g(n)))\in O(f(n)g(n))$ then $O(f(n)g(n)) \in f(n)O(g(n))$.
+\newpage
+\noindent B. Given a number $a$ and a positive integer $n$, show that the value $a^{2^n}=a^{(2^{n})}$ can be computed in $O(n\log{n})$ time by repeated squaring. (Assume that multiplying two numbers takes constant time.)
+\newpage
 \noindent\textbf{Interview Question: Binary Search}\\
-\indent 7. Given an already sorted ArrayList of integers write a function in Java that finds the value $t$ from $n$ keys via binary search. Return $-1$ if $t$ is not in the list otherwise return the index.\\
+\noindent C. Given an already sorted ArrayList of integers write a function in Java that finds the value $t$ from $n$ keys via binary search. Return $-1$ if $t$ is not in the list otherwise return the index.\\
+\newpage
+\noindent D. This problem is concerned with computing all permutations of an array. For example,
+if the array is $(2,3,5, 7)$ one output could be $(2,3,5, 7)$, $(2,3,7,5)$, $(2,5,3, 7)$, $(2,5, 7,3)$,
+$(2,7,3,5)$, $(2,7,5,3)$, $(3,2,5,7)$, $(3,2,7,5)$, $(3,5,2,7)$, $(3,5,7,2)$, $(3,7,2,5)$, $(3,7,5,2)$,
+$(5, 2,3, 7)$, $(5,2,7,3)$, $(5,3,2,7)$, $(5,3,7,2)$, $(5,7,2,3)$, $(5,7,2,3)$, $(7,2,3,5)$, $(7,2,5,3)$,
+$(7,3, 2,5)$, $(7,3,5, 2)$, $(7,5, 2,3)$, $(7,5,3, 2)$. (Any other ordering is acceptable too.)\\\\
+Write a program which takes as input an array of distinct integers and generates all
+permutations of that array. No permutation of the array may appear more than once.
+Hint: How many possible values are there for the first element? Runtime?\\
 \end{document}

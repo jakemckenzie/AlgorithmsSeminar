@@ -40,7 +40,7 @@ Good, yeah I know who could have forgotten it!? It's one of my favourite series 
 \noindent 2. Take your previous result, at what level does the tree terminate?\\\\\\\\\\\\\\\\\\\\
 3. Please, please try your darndest to express the total work as a summation. Remember: Work is just a function of ``How many problems we have" and ``the amount of work for each problem".
 \newpage
-\noindent 4. Solve for the three cases of the summation you found, when $r<1$, $r=1$ and $r>1$ find their worst case runtime. 
+\noindent 4. Solve for the three worst cases of the summation you found, when $r<1$, $r=1$ and $r>1$. 
 \newpage
 \noindent \includegraphics[scale = 0.2]{hamming_cat.jpg}\\
 ``The purpose of computing is insight, not numbers" - Richard Hamming\\\\
@@ -86,7 +86,7 @@ Which of the following algorithms is \textbf{NOT} a divide and conquer algorithm
     \item[d)]$O(n^2)$
 \end{enumerate}
 \newpage
-9. Given two integers $x$ and $n$, say we wrote a function to compute $x^n$ using divide and conquer. What is the recurrence relation and worst case runtime of our function?
+9. Given two integers $x$ and $n$, say we wrote a function to compute $x^n$ using divide and conquer. What is the recurrence relation and worst case runtime of our function? Please also attempt to write some code that accomplishes this.
 \begin{enumerate}
     \item[a)]$T(n) = T(n/2) + c$; $T(n) \in O(n\log{n})$
     \item[b)]$T(n) = T(n/2) + n$; $T(n) \in O(n\log{n})$
@@ -99,5 +99,17 @@ A. In undergraduate algorithms we typically worry about worst case analysis, but
 \begin{enumerate}
     \item[a)]Least Recently Used
     \item[b)]First in First Out
+\end{enumerate}
+\newpage
+\noindent B. I have this list $S$ in sorted order where $S_{ij} = (s_i,s_{i+1},\dots,s_j)$ $\forall$ $1 \leq i < j \leq n$. Take my word for it that the probability that randomized quicksort compares each element $s_i$ and $s_j$ at least once is given by this equation where Pr[$s_i$ is compared to $s_j$] $\leq \frac{1}{j-i-1}+\frac{1}{j-i-1}$. I found this by using \\\\
+Find the \textbf{WORST CASE RUNTIME} of the expected value E[X] if\\
+E[X]$\leq \sum\limits_{i=1}^{n-1}{\sum\limits_{j=i+1}^{n}{\frac{1}{j-i-1}+\frac{1}{j-i-1}}}$
+\newpage
+C. Any comparison based sorting algorithm must make at least f(n) comparisons. Show that is f(n) $\in \Omega(n\log{n})$. Hint: How many possible ways are there are there of choosing, without replacement $N$ things from $N$ where order matters.
+\begin{enumerate}
+    \item[a)]$\log{n!}$
+    \item[b)]$n^2\log{n}$
+    \item[c)]$\log{n^n}$
+    \item[d)]$n$
 \end{enumerate}
 \end{document}

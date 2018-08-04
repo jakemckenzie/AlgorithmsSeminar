@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  3 AUG 2018 01:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 00:20
 entering extended mode
 **./Week1.tex
 (Week1.tex
@@ -783,36 +783,44 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box39
 \enitdp@description=\count123
 )
-No file Week1.aux.
+("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapf
+ig.sty"
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
+\c@WF@wrappedlines=\count124
+\WF@box=\box40
+\WF@everypar=\toks39
+Package: wrapfig 2003/01/31  v 3.6
+) (Week1.aux)
 \openout1 = `Week1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
-\scratchdimen=\dimen162
-\scratchbox=\box40
-\nofMPsegments=\count125
-\nofMParguments=\count126
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count127
-\MPscratchDim=\dimen163
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count125
+\scratchdimen=\dimen164
+\scratchbox=\box41
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen165
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks41
 )
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epst
 opdf-base.sty"
@@ -877,121 +885,116 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa
 .fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb
 .fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--39
+Underfull \hbox (badness 10000) in paragraph at lines 25--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
@@ -1015,28 +1018,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -1050,43 +1053,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[5] [6] [7]
-<isqrt.jpg, id=38, 380.17032pt x 201.75375pt>
-File: isqrt.jpg Graphic file (type jpg)
-<use isqrt.jpg>
-Package pdftex.def Info: isqrt.jpg  used on input line 71.
-(pdftex.def)             Requested size: 390.0pt x 206.9744pt.
- [8 <./isqrt.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[9] (Week1.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[5] [6] [7] [8] [9]
+<isqrt.jpg, id=44, 380.17032pt x 201.75375pt>
+File: isqrt.jpg Graphic file (type jpg)
+<use isqrt.jpg>
+Package pdftex.def Info: isqrt.jpg  used on input line 81.
+(pdftex.def)             Requested size: 390.0pt x 206.9744pt.
+ [10 <./isqrt.jpg>]
+<ssort.jpg, id=48, 176.91093pt x 278.54062pt>
+File: ssort.jpg Graphic file (type jpg)
+<use ssort.jpg>
+Package pdftex.def Info: ssort.jpg  used on input line 85.
+(pdftex.def)             Requested size: 97.5pt x 153.51231pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 87--89
+\OT1/cmr/m/n/12 of the fol-low-ing in the list of sorts given are
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 87--89
+\OT1/cmr/m/n/12 sta-ble or un-sta-ble. A sort-ing al-go-rithm is
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 87--89
+\OT1/cmr/m/n/12 said to be sta-ble if two ob-jects with equal
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 87--89
+\OT1/cmr/m/n/12 keys ap-pear in the same or-der in sorted out-
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 87--89
+\OT1/cmr/m/n/12 put as they ap-pear in the in-put ar-ray to be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Overfull \hbox (15.59908pt too wide) in paragraph at lines 96--97
+\OT1/cmr/m/n/12 A. Us-ing what you know prove or dis-prove that if $\OML/cmm/m/
+it/12 O\U/matha/m/n/12 p\OML/cmm/m/it/12 f\U/matha/m/n/12 p\OML/cmm/m/it/12 n\U
+/matha/m/n/12 q\OML/cmm/m/it/12 O\U/matha/m/n/12 p\OML/cmm/m/it/12 g\U/matha/m/
+n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 qqq P \OML/cmm/m/it/12 O\U/matha/m/n/12
+ p\OML/cmm/m/it/12 f\U/matha/m/n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 q\OML/cm
+m/m/it/12 g\U/matha/m/n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 qq$
+ []
+
+[11 <./ssort.jpg>] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+[14] (Week1.aux) ) 
 Here is how much of TeX's memory you used:
- 13122 strings out of 493305
- 258758 string characters out of 3127627
- 382942 words of memory out of 3000000
- 16407 multiletter control sequences out of 15000+200000
+ 13195 strings out of 493305
+ 259813 string characters out of 3127627
+ 384151 words of memory out of 3000000
+ 16473 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,415b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
-/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Epimetheus/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-ty
-pe1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week1.pdf (9 pages, 136378 bytes).
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/User
+s/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Epimetheus
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-t
+ype1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on Week1.pdf (14 pages, 176068 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
