@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 14:41
 entering extended mode
 **./Week3.tex
 (Week3.tex
@@ -782,8 +782,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-)
-No file Week3.aux.
+) (Week3.aux)
 \openout1 = `Week3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1053,8 +1052,8 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 98--101
 
 [10 <./mastertheorem.JPG>] (Week3.aux) ) 
 Here is how much of TeX's memory you used:
- 13162 strings out of 493305
- 259277 string characters out of 3127627
+ 13164 strings out of 493305
+ 259356 string characters out of 3127627
  382943 words of memory out of 3000000
  16435 multiletter control sequences out of 15000+200000
  19808 words of font info for 70 fonts, out of 3000000 for 9000
