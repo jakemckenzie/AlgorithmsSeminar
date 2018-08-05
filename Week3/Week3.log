@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 11:08
 entering extended mode
 **./Week3.tex
 (Week3.tex
@@ -782,8 +782,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-)
-No file Week3.aux.
+) (Week3.aux)
 \openout1 = `Week3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -968,30 +967,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--71
 
  []
 
-[6 <./lamport2.jpg>] (Week3.aux) ) 
+[6 <./lamport2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 72--74
+[]\OT1/cmr/m/n/12 : 
+ []
+
+<griesmills.jpg, id=34, 685.05937pt x 529.22719pt>
+File: griesmills.jpg Graphic file (type jpg)
+<use griesmills.jpg>
+Package pdftex.def Info: griesmills.jpg  used on input line 76.
+(pdftex.def)             Requested size: 445.28331pt x 343.99359pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+
+Overfull \hbox (55.28331pt too wide) in paragraph at lines 74--77
+[] 
+ []
+
+[7 <./griesmills.jpg>]
+<gries.jpg, id=39, 274.77657pt x 369.63094pt>
+File: gries.jpg Graphic file (type jpg)
+<use gries.jpg>
+Package pdftex.def Info: gries.jpg  used on input line 78.
+(pdftex.def)             Requested size: 68.69397pt x 92.4075pt.
+<mills.jpg, id=40, 266.49562pt x 348.55219pt>
+File: mills.jpg Graphic file (type jpg)
+<use mills.jpg>
+Package pdftex.def Info: mills.jpg  used on input line 78.
+(pdftex.def)             Requested size: 66.62373pt x 87.13782pt.
+ [8 <./gries.jpg> <./mills.jpg>] (Week3.aux) ) 
 Here is how much of TeX's memory you used:
- 13126 strings out of 493305
- 258801 string characters out of 3127627
- 382941 words of memory out of 3000000
- 16409 multiletter control sequences out of 15000+200000
+ 13143 strings out of 493305
+ 259097 string characters out of 3127627
+ 382943 words of memory out of 3000000
+ 16421 multiletter control sequences out of 15000+200000
  18117 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,657b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+ 55i,6n,54p,656b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epime
+theus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
 /Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
-/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-
-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/mathabx-type1/matha8.pfb>
-Output written on Week3.pdf (6 pages, 135714 bytes).
+ti12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/mathabx-type1/matha8.pfb>
+Output written on Week3.pdf (8 pages, 278909 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
