@@ -20,7 +20,7 @@
     Guindon
 \end{center}
 \begin{center}
-    ``Do those things that incline you toward the big questions, and avoid the things that would reduce you and make you trivial." \\$\cdots$\\ George Saunders 
+    ``Master method will never be sufficient for the detailed 'knuthian' analysis of algorithms, but they can free algorithm designers from mundane analyses to let them work on more interesting problems." \\$\cdots$\\ Jon Bentley, Dorothea Blostein et al (creators of the master method)  
 \end{center}
 \newpage
 0. Use the master method to solve the following recurrences. If the master method does not apply indicate that it does not.
@@ -36,6 +36,8 @@
     \item[IX)]$T(n) = 2T(n) + O(n^3)$
     \item[X)]$T(n) = 2T(\frac{n}{3}) + O(n^{-\log{n}})$
     \item[XI)]$T(n) = 2T(\frac{n}{2}) + O(n^{0.51})$
+    \item[XII)]$T(n) = 5T(\frac{n}{25}) + O(n^{-1})$
+    \item[XIII)]$T(n) = 2.1T(0.3n) + O(2^{\log{\sqrt{n}}})$
 \end{enumerate}
 \newpage
 1. Consider the problem of searching an element x in an array ‘arr[]’ of size $n$. The problem can be solved in $O(\log{n})$ time if:\\
@@ -78,5 +80,26 @@ Mathematical specifications can be nice compact ways of specifying algorithms wh
 \includegraphics[scale = 0.25]{gries.jpg}\includegraphics[scale = 0.25]{mills.jpg}
 6. Can you write down an algorithm that does what is described on the last page, it need not be Gries-Mills'(pictured $\leftarrow$) block swapping algorithm, that attempts to do \textit{rotate}?
 \newpage
-
+\noindent \includegraphics[scale = 0.85]{rec.jpg}\\
+7. Can you write down a recurrence relation for the python code above and then solve for the runtime?\\\\\\\\\\\\\
+8. Match the complexity class to what ``makes sense":
+\[
+\begin{array}{cc}
+ \text{A) $O(n^2)$} & \text{1) adding a nested loop for every input you have} \\
+ \text{B) $O(1)$} & \text{2) iterations that use divide and conquer} \\
+ \text{C) $O(n)$} & \text{3) random access to an element in a collection, dependent on indexing} \\
+ \text{D) $O(\log{n})$} & \text{4) list iterations} \\
+ \text{E) $O(n\log{n})$} & \text{5) nested loops on the same collection} \\
+ \text{F) $O(n!)$} & \text{6) divide and conquer} \\
+\end{array}
+\]
+9. 
+\newpage
+\includegraphics[width=\linewidth]{mastertheorem.JPG}
+9. Use this different formulation of the master theorem from CLRS to solve these recurrences relations.
+\begin{enumerate}
+    \item[a)]$T(n) = 4T(\frac{n}{9}) + O(n \log{n})$
+    \item[b)]$T(n) = 2T(\frac{n}{3}) + O(n^{-\log{n}})$
+    \item[c)]$T(n) = 5T(\frac{n}{2}) + O(2^n)$
+\end{enumerate}
 \end{document}
