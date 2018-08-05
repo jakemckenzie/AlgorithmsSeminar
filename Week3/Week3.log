@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 00:43
 entering extended mode
 **./Week3.tex
 (Week3.tex
@@ -782,7 +782,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-) (Week3.aux)
+)
+No file Week3.aux.
 \openout1 = `Week3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -930,35 +931,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Week3.aux) ) 
+[2]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+[3] [4]
+<lamport.jpg, id=26, 165.61874pt x 210.7875pt>
+File: lamport.jpg Graphic file (type jpg)
+<use lamport.jpg>
+Package pdftex.def Info: lamport.jpg  used on input line 64.
+(pdftex.def)             Requested size: 82.80916pt x 105.3935pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
+
+ []
+
+[5 <./lamport.jpg>]
+<lamport2.jpg, id=30, 361.35pt x 210.7875pt>
+File: lamport2.jpg Graphic file (type jpg)
+<use lamport2.jpg>
+Package pdftex.def Info: lamport2.jpg  used on input line 68.
+(pdftex.def)             Requested size: 180.67456pt x 105.3935pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+
+ []
+
+[6 <./lamport2.jpg>] (Week3.aux) ) 
 Here is how much of TeX's memory you used:
- 13110 strings out of 493305
- 258619 string characters out of 3127627
- 380942 words of memory out of 3000000
- 16394 multiletter control sequences out of 15000+200000
+ 13126 strings out of 493305
+ 258801 string characters out of 3127627
+ 382941 words of memory out of 3000000
+ 16409 multiletter control sequences out of 15000+200000
  18117 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epi
-metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/mathabx-type1/matha12.pfb>
-Output written on Week3.pdf (1 page, 55651 bytes).
+ 55i,6n,54p,657b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
+/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-
+type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/mathabx-type1/matha8.pfb>
+Output written on Week3.pdf (6 pages, 135714 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
