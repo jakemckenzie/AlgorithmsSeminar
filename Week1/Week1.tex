@@ -16,7 +16,7 @@
     ``You're always you, and that don't change, and you're always changing, and there's nothing you can do about it." \\$\dots$\\ Neil Gaiman
 \end{center}
 \begin{center}
-    ``Perhaps thinking should be measured not by what you do but by how you do it." \\$\dots$\\ Richard Hamming
+    If one proves the equality of two numbers $a$ and $b$ by showing first that $a \leq b$ and then that $b \geq a$, it is unfair; one should instead show that they are really equal by disclosing the inner ground for their equality. \\$\dots$\\Emmy Noether
 \end{center}
 \begin{center}
     ``You shouldn't try optimizing something that you can't measure." \\$\dots$\\ Elecia White
@@ -69,13 +69,13 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
 \item  $n^{1.5}$\\
 \end{enumerate}
 \newpage
-\noindent 4. Using what you know prove or disprove that  if $f(n) \in O(g(n)) $ and $g(n) \in O(h(n))$ then $f(n) \in \Omega(h(n))$.
+\noindent 4. Using what you know prove or disprove that  if $f(n) \in O(g(n)) $ and $g(n) \in O(f(n))$ then $f(n) = g(n) \forall n$.
 \newpage
 \noindent 5. Using what you know prove or disprove that $f(n) + O(f(n)) \in \Theta(f(n))$.
 \newpage
 \noindent 6. Using what you know prove or disprove that $f(n)\in O(f(n)^2)$.
 \newpage
-\noindent 7. Using the technique of splitting the sum, find the result of this summation: $\sum\limits_{k=0}^{\infty}{\frac{k^2}{2^k}}$. Take advantage of the geometric series $\sum\limits_{k=0}^{\infty}{a \cdot r^n} = \frac{a}{1-r}$ for $|r| < 1$.
+\noindent 7. Prove by induction that: $\sum\limits_{k=1}^{n}{\frac{k}{2^k}}=2-2^{1-n}-n2^{-n}$.
 \newpage
 \noindent 8. What is the code doing and from that information can you make a guess as to the worstcase runtime of this algorithm? (hint: follow what the code is doing by letting $x = 100$ and returning the result. You may use a calculator.)\\
 \includegraphics[width=\linewidth]{isqrt.jpg} 

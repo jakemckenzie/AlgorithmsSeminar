@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 19:47
 entering extended mode
 **./Week2.tex
 (Week2.tex
@@ -782,8 +782,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks38
 \enit@inbox=\box39
 \enitdp@description=\count123
-)
-No file Week2.aux.
+) (Week2.aux)
 \openout1 = `Week2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1163,8 +1162,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
 [12] [13] (Week2.aux) ) 
 Here is how much of TeX's memory you used:
- 13172 strings out of 493305
- 259490 string characters out of 3127627
+ 13174 strings out of 493305
+ 259569 string characters out of 3127627
  381943 words of memory out of 3000000
  16447 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
@@ -1184,7 +1183,7 @@ fb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ma
 thabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week2.pdf (13 pages, 2879593 bytes).
+Output written on Week2.pdf (13 pages, 2879621 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
