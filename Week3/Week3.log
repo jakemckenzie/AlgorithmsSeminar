@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 AUG 2018 17:31
 entering extended mode
 **./Week3.tex
 (Week3.tex
@@ -981,14 +981,14 @@ Overfull \hbox (3.26385pt too wide) in paragraph at lines 74--76
 File: griesmills.jpg Graphic file (type jpg)
 <use griesmills.jpg>
 Package pdftex.def Info: griesmills.jpg  used on input line 78.
-(pdftex.def)             Requested size: 445.28331pt x 343.99359pt.
+(pdftex.def)             Requested size: 424.73242pt x 328.11746pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
 
-Overfull \hbox (55.28331pt too wide) in paragraph at lines 76--79
+Overfull \hbox (34.73242pt too wide) in paragraph at lines 76--79
 [] 
  []
 
@@ -1039,41 +1039,102 @@ Overfull \hbox (59.89323pt too wide) detected at line 95
 []
  []
 
-[9 <./rec.jpg>]
-<mastertheorem.JPG, id=48, 491.58656pt x 191.9672pt>
+<msort.JPG, id=45, 235.63031pt x 107.65219pt>
+File: msort.JPG Graphic file (type jpg)
+<use msort.JPG>
+Package pdftex.def Info: msort.JPG  used on input line 96.
+(pdftex.def)             Requested size: 235.62973pt x 107.65192pt.
+[9 <./rec.jpg> <./msort.JPG>]
+<mastertheorem.JPG, id=49, 491.58656pt x 191.9672pt>
 File: mastertheorem.JPG Graphic file (type jpg)
 <use mastertheorem.JPG>
-Package pdftex.def Info: mastertheorem.JPG  used on input line 98.
+Package pdftex.def Info: mastertheorem.JPG  used on input line 101.
 (pdftex.def)             Requested size: 390.0pt x 152.30269pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 98--101
-[][]
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
  []
 
-[10 <./mastertheorem.JPG>] (Week3.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+[10 <./mastertheorem.JPG>]
+<wink.jpg, id=53, 270.25969pt x 263.48438pt>
+File: wink.jpg Graphic file (type jpg)
+<use wink.jpg>
+Package pdftex.def Info: wink.jpg  used on input line 108.
+(pdftex.def)             Requested size: 13.51376pt x 13.17499pt.
+ [11 <./wink.jpg>] (Week3.aux) ) 
 Here is how much of TeX's memory you used:
- 13164 strings out of 493305
- 259356 string characters out of 3127627
+ 13174 strings out of 493305
+ 259479 string characters out of 3127627
  382943 words of memory out of 3000000
- 16435 multiletter control sequences out of 15000+200000
+ 16443 multiletter control sequences out of 15000+200000
  19808 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,656b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epime
-theus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
-fb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ma
-thabx-type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/mathabx-type1/matha8.pfb>
-Output written on Week3.pdf (10 pages, 337960 bytes).
+<C:/Users/Epimetheus/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/E
+pimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/U
+sers/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-ty
+pe1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/mathabx-type1/matha8.pfb>
+Output written on Week3.pdf (11 pages, 374067 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

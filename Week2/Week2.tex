@@ -105,11 +105,26 @@ A. In undergraduate algorithms we typically worry about worst case analysis, but
 Find the \textbf{WORST CASE RUNTIME} of the expected value E[X] if\\
 E[X]$\leq \sum\limits_{i=1}^{n-1}{\sum\limits_{j=i+1}^{n}{\frac{1}{j-i-1}+\frac{1}{j-i-1}}}$
 \newpage
-C. Any comparison based sorting algorithm must make at least f(n) comparisons. Show that is f(n) $\in \Omega(n\log{n})$. Hint: How many possible ways are there are there of choosing, without replacement $n$ things from $n$ where order matters.
+\noindent C. Any comparison based sorting algorithm must make at least f(n) comparisons. Show that is f(n) $\in \Omega(n\log{n})$. Hint: How many possible ways are there are there of choosing, without replacement $n$ things from $n$ where order matters.
 \begin{enumerate}
     \item[a)]$\log{n!}$
     \item[b)]$n^2\log{n}$
-    \item[c)]$\log{n^n}$
+    \item[c)]$\log{n}$
     \item[d)]$n$
+\end{enumerate}
+D. At what step does the divide and conquer strategy run into problems?
+\begin{enumerate}
+    \item[a)]Divide step.
+    \item[b)]Conquer step.
+    \item[c)]Recombine step.
+\end{enumerate}
+E. For each of the following function indicated how much the function value will change given that it's argument were increased fourfold? (use Stirling's approximation for $n! \sim$ $(\frac{n}{e})^n\sqrt{2\pi n}$)
+\begin{enumerate}
+    \item[a)]$\log{n}$
+    \item[b)]$\sqrt{n}$
+    \item[c)]$n\log{n}$
+    \item[d)]$n^2$
+    \item[e)]$n!$
+    \item[f)]$\log{n!}$
 \end{enumerate}
 \end{document}

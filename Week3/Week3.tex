@@ -74,8 +74,8 @@ Writing formal specifications won't catch coding errors or bugs, but it will cat
 \noindent A really important algorithm that's used on the backend that you've probably never heard of is known as \textit{rotate}. It's is a fundamental tool used behind the scenes in all sorts of computer graphics from updating frame buffers on embedded devices to websites. We can even give a formal mathematical \textbf{specification}:  \\\\
 \centerline{A permutation of $n$ elements by $k$ where $k\geq 0$}:
 $$(k\mod{n},k+1\mod{n},\dots,k+n-1\mod{n},k+n-1\mod{n})$$
-Mathematical specifications can be nice compact ways of specifying algorithms when we can find them, but this isn't always possible. My favourite way that I've seen this implemented is the Gries-Mills Block Swapping algorithm which is an inplace algorithm:\\\\
-\noindent \includegraphics[scale = 0.65]{griesmills.jpg}
+Mathematical specifications can be nice compact ways of specifying algorithms when we can find them, but this isn't always possible. My favourite way that I've seen this implemented is the Gries-Mills Block Swapping algorithm which is an inplace algorithm. Below are two informal specifications for the algorithm. One in words and another that's simply a pictue:\\\\
+\noindent \includegraphics[scale = 0.62]{griesmills.jpg}
 \newpage
 \includegraphics[scale = 0.25]{gries.jpg}\includegraphics[scale = 0.25]{mills.jpg}
 6. Can you write down an algorithm that does what is described on the last page, it need not be Gries-Mills'(pictured $\leftarrow$) block swapping algorithm, that attempts to do \textit{rotate}?
@@ -93,13 +93,17 @@ Mathematical specifications can be nice compact ways of specifying algorithms wh
  \text{F) $O(n!)$} & \text{6) divide and conquer} \\
 \end{array}
 \]
-9. 
+\includegraphics{msort.JPG}\\
+9. Which line above can lead to undefined behaivor? Why?
 \newpage
-\includegraphics[width=\linewidth]{mastertheorem.JPG}
-9. Use this different formulation of the master theorem from CLRS to solve these recurrences relations.
+\noindent A. Use induction to show that $n^2\in O(2^n)$.\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent B. Use this different formulation of the master theorem from CLRS to solve these recurrences relations.
+\\\includegraphics[width=\linewidth]{mastertheorem.JPG}
 \begin{enumerate}
     \item[a)]$T(n) = 4T(\frac{n}{9}) + O(n \log{n})$
     \item[b)]$T(n) = 2T(\frac{n}{3}) + O(n^{-\log{n}})$
     \item[c)]$T(n) = 5T(\frac{n}{2}) + O(2^n)$
 \end{enumerate}
+\newpage
+\noindent C. Use Karatsuba's algorithm to multiply $0127\times9721$. (hint: you don't need to use a calculator you'll know when you got it right! \includegraphics[scale = 0.05]{wink.jpg})
 \end{document}
