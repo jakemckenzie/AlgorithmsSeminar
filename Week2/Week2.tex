@@ -86,7 +86,16 @@ Which of the following algorithms is \textbf{NOT} a divide and conquer algorithm
     \item[d)]$O(n^2)$
 \end{enumerate}
 \newpage
-9. Given two integers $x$ and $n$, say we wrote a function to compute $x^n$ using divide and conquer. What is the recurrence relation and worst case runtime of our function? Please also attempt to write some code that accomplishes this.
+\noindent 9. For each of the following function indicated how much the function value will change given that it's argument were increased fourfold? (use Stirling's approximation for $n! \sim$ $(\frac{n}{e})^n\sqrt{2\pi n}$. The $\sim$ means formally that $f(n) \sim g(n)$ that $\lim\limits_{n\to\infty}{\frac{f(n)}{g(n)}\to1}$)
+\begin{enumerate}
+    \item[a)]$\log{n}$
+    \item[b)]$\sqrt{n}$
+    \item[c)]$n\log{n}$
+    \item[d)]$n^2$
+    \item[e)]$n!$
+    \item[f)]$\log{n!}$
+\end{enumerate}
+`\\\\\\\\\\\\A. Given two integers $x$ and $n$, say we wrote a function to compute $x^n$ using divide and conquer. What is the recurrence relation and worst case runtime of our function? Please also attempt to write some code that accomplishes this.
 \begin{enumerate}
     \item[a)]$T(n) = T(n/2) + c$; $T(n) \in O(n\log{n})$
     \item[b)]$T(n) = T(n/2) + n$; $T(n) \in O(n\log{n})$
@@ -95,13 +104,13 @@ Which of the following algorithms is \textbf{NOT} a divide and conquer algorithm
 \end{enumerate}
 \newpage
 \noindent \includegraphics{fifolru.jpg}\\
-A. In undergraduate algorithms we typically worry about worst case analysis, but problems can be hard when it doesn't matter. In a computer there is a small speedy memory (the ``cache”) and a big sluggish memory (typically a ``harddisk"). Imagine there are two competing programs, one uses ``Least Recently Used" algorithm and another using ``First In First Out" that periodically issue read and write requests to data stored on ``pages” in the big sluggish memory. If the requested page is also in the cache, then we can happily say it can be accessed directly! If not :( we get what is known as a ``page fault” a.k.a. ``cache miss” — the requested page needs to be brought into the cache, and this requires evicting an incumbent page. The key algorithmic question is then: \textbf{which page should we evicted}? Which algorithm do you think has the worst case runtime and which do you think works better in practice? Why? Is there an intuitive answer to this reality?\\
+B. In undergraduate algorithms we typically worry about worst case analysis, but problems can be hard when it doesn't matter. In a computer there is a small speedy memory (the ``cache”) and a big sluggish memory (typically a ``harddisk"). Imagine there are two competing programs, one uses ``Least Recently Used" algorithm and another using ``First In First Out" that periodically issue read and write requests to data stored on ``pages” in the big sluggish memory. If the requested page is also in the cache, then we can happily say it can be accessed directly! If not :( we get what is known as a ``page fault” a.k.a. ``cache miss” — the requested page needs to be brought into the cache, and this requires evicting an incumbent page. The key algorithmic question is then: \textbf{which page should we evicted}? Which algorithm do you think has the worst case runtime and which do you think works better in practice? Why? Is there an intuitive answer to this reality?\\
 \begin{enumerate}
     \item[a)]Least Recently Used
     \item[b)]First in First Out
 \end{enumerate}
 \newpage
-\noindent B. I have this list $S$ in sorted order where $S_{ij} = (s_i,s_{i+1},\dots,s_j)$ $\forall$ $1 \leq i < j \leq n$. Take my word for it that the probability that randomized quicksort compares each element $s_i$ and $s_j$ at least once is given by this equation where Pr[$s_i$ is compared to $s_j$] $\leq \frac{1}{j-i-1}+\frac{1}{j-i-1}$. I found this by using \\\\
+\noindent C. I have this list $S$ in sorted order where $S_{ij} = (s_i,s_{i+1},\dots,s_j)$ $\forall$ $1 \leq i < j \leq n$. Take my word for it that the probability that randomized quicksort compares each element $s_i$ and $s_j$ at least once is given by this equation where Pr[$s_i$ is compared to $s_j$] $\leq \frac{1}{j-i-1}+\frac{1}{j-i-1}$. I found this by using \\\\
 Find the \textbf{WORST CASE RUNTIME} of the expected value E[X] if\\
 E[X]$\leq \sum\limits_{i=1}^{n-1}{\sum\limits_{j=i+1}^{n}{\frac{1}{j-i-1}+\frac{1}{j-i-1}}}$
 \newpage
@@ -117,14 +126,5 @@ D. At what step does the divide and conquer strategy run into problems?
     \item[a)]Divide step.
     \item[b)]Conquer step.
     \item[c)]Recombine step.
-\end{enumerate}
-E. For each of the following function indicated how much the function value will change given that it's argument were increased fourfold? (use Stirling's approximation for $n! \sim$ $(\frac{n}{e})^n\sqrt{2\pi n}$)
-\begin{enumerate}
-    \item[a)]$\log{n}$
-    \item[b)]$\sqrt{n}$
-    \item[c)]$n\log{n}$
-    \item[d)]$n^2$
-    \item[e)]$n!$
-    \item[f)]$\log{n!}$
 \end{enumerate}
 \end{document}
