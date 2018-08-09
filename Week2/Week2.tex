@@ -28,12 +28,12 @@ $\cdots$\\
 \end{center}
 
 \newpage
-\noindent On the previous worksheet I had you write code for binary search. I want you to become more and more comfortable with trees and $\log{n}$ time. Work is just a function of ``How many problems we have" and ``the amount of work for each problem". Recursions trees is an extremely powerful way of illustrating the work of recurrence problems.\\\\
+\noindent On the previous worksheet I had you write code for binary search. I want you to become more and more comfortable with trees and $\log{n}$ time/space. \\\\
+Remember that work is just a function of ``How many problems we have" and ``the amount of work for each problem". Recursion trees is an expressive way of illustrating the ``work" of recurrence problems.\\\\
 This will appear to be a digression but they are actually tightly connected ideas. Now remember the geometric series?
 $$a + ar + ar^2+ar^3+\dots + ar^{n-1} = a\frac{1-r^n}{1-r}$$
 Good, yeah I know who could have forgotten it!? It's one of my favourite series and it should be your best friend right about now.The geomtric series is a series which progresses by some multiplicative factor. \\\\
-0. The first thing I will have you do is find $O(a\frac{1-r^fa
-n}{1-r})$ for two cases. When $r>1$ and $r<1$ where $a$ is some function of $n$.\\\\\\\\\\\\
+0. The first thing I will have you do is find $O(a\frac{1-r^{n}}{1-r})$ for two cases. When $r>1$ and $r<1$ where $a$ is some function of $n$.\\\\\\\\\\\\
 \newpage
 \noindent 1. Now that you've solved for those worst-case runtimes keep them for later because they're going to be useful! Now hold onto your butts because we're going to be having a lot of fun today. Complete this tree given the following recurrence for two more levels(The $a$ need not be the same as the previous $a$...sorry a habit of notation):\\
 \centerline{\includegraphics[scale = 0.05]{tree.jpg}} 

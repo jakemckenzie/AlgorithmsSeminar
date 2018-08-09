@@ -11,7 +11,7 @@
 \title{TCSS 343 - Week 1}
 \author{Jake McKenzie}
 \maketitle
-\noindent\centerline{\textbf{Asymptotics}}\\\\\\\\\\\\\\\\
+\noindent\centerline{\textbf{Asymptotics with Divide and Conquer}}\\\\\\\\\\\\\\\\
 \begin{center}
     ``You're always you, and that don't change, and you're always changing, and there's nothing you can do about it." \\$\dots$\\ Neil Gaiman
 \end{center}
@@ -78,13 +78,24 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
 \noindent 7. Prove by induction that: $\sum\limits_{k=1}^{n}{\frac{k}{2^k}}=2-2^{1-n}-n2^{-n}$.
 \newpage
 \noindent 8. What is the code doing and from that information can you make a guess as to the worstcase runtime of this algorithm? (hint: follow what the code is doing by letting $x = 100$ and returning the result. You may use a calculator.)\\
-\includegraphics[width=\linewidth]{isqrt.jpg} 
+\includegraphics[width=\linewidth]{isqrt.jpg}
+\newpage
+\noindent So about that integer square root function on the previous page. If you said $O(\log{n})$ good job, you were really close. It actually has $O(\log{\log{n}})$ worst case runtime but degrades to $O(\log{n})$ given a bad initial guess. The choice of an initial guess is a deep and rich subject in it's own. There's a very famous algorithm, first discovered at Silicon Graphics in the 80's but popularized in the early aughts by a programmer on Usenet who worked at id Software, the creators of Quake. \\\\
+\includegraphics[scale =0.65]{fisqrt.jpg}  \includegraphics[scale =0.095]{qk.jpg}
+\\\\Do you see that 0x$5$f$3759$df? That's known as the ``magic number" and offers a better than good initial guess for just about any number. The most absolute error fast inverse square root gives is $0.175\%$. This a deeply cherished algorithm and beloved number by anyone in computer graphics, but sadly hasn't gotten studied too much due to it being an insight found by industry professionals who desperately needed it.\\\\
+I've actually been implementing my own square root algorithm in a HDL (hardware description language) and I encourage you to make your own personal projects. It need not be for anyone elses benefit or it very much may just be for others benefit!\\
+\centerline{\includegraphics[scale =0.08]{jc.jpg}}\\
+\centerline{John Carmack}
+\\``In the information age, the barriers to entry into programming just aren't there. The barriers are self imposed. If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on, and the dedication to go through with it. We slept on floors. We waded across rivers."\\ 
+\noindent If you were a bit confused and overwhelmed what I showed you in 8, please take a look at these. I wanted you to be able to look at some code and analyze it before presenting information as an oracle. Here is a simpler illustration to how the simple divide and conquer approach work. I think you should sit down and really try to understand why this example works as it does. It will help you going forward.\\\\
+\includegraphics[scale =0.5]{bs.jpg}\\
+\includegraphics[scale =0.5]{bs2.jpg}\\
 \newpage
 \begin{wrapfigure}{R}{0.3\textwidth}
     \centering
     \includegraphics[width=0.25\textwidth]{ssort.jpg}
 \end{wrapfigure}
-\noindent 9. Argue given the information I provide which of the following in the list of sorts given are stable or unstable. A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.\\\\
+\noindent A. Argue given the information I provide which of the following in the list of sorts given are stable or unstable. A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.\\\\
 \begin{enumerate}
     \item[a)]Randomized Quick Sort
     \item[b)]Bubble Sort
@@ -93,9 +104,7 @@ $$\max\{f(n),g(n)\} \leq f(n) + g(n) \land  2 \cdot \max\{f(n),g(n)\} \geq f(n) 
     \item[e)]Merge Sort
     \item[f)]Insertion Sort
 \end{enumerate}
-\noindent A. Using what you know prove or disprove that if $O(f(n)O(g(n)))\in O(f(n)g(n))$ then $O(f(n)g(n)) \in f(n)O(g(n))$.
-\newpage
-\noindent B. Given a number $a$ and a positive integer $n$, show that the value $a^{2^n}=a^{(2^{n})}$ can be computed in $O(n\log{n})$ time by repeated squaring. (Assume that multiplying two numbers takes constant time.)
+\noindent B. Using what you know prove or disprove that if $O(f(n)O(g(n)))\in O(f(n)g(n))$ then $O(f(n)g(n)) \in f(n)O(g(n))$.
 \newpage
 \noindent\textbf{Interview Question: Binary Search}\\
 \noindent C. Given an already sorted ArrayList of integers write a function in Java that finds the value $t$ from $n$ keys via binary search. Return $-1$ if $t$ is not in the list otherwise return the index.\\

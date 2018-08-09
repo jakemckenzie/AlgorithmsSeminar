@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  6 AUG 2018 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  9 AUG 2018 00:22
 entering extended mode
 **./Week1.tex
 (Week1.tex
@@ -1091,49 +1091,100 @@ File: isqrt.jpg Graphic file (type jpg)
 Package pdftex.def Info: isqrt.jpg  used on input line 81.
 (pdftex.def)             Requested size: 390.0pt x 206.9744pt.
  [10 <./isqrt.jpg>]
-<ssort.jpg, id=48, 176.91093pt x 278.54062pt>
+<fisqrt.jpg, id=48, 405.01312pt x 112.92188pt>
+File: fisqrt.jpg Graphic file (type jpg)
+<use fisqrt.jpg>
+Package pdftex.def Info: fisqrt.jpg  used on input line 84.
+(pdftex.def)             Requested size: 263.2554pt x 73.39833pt.
+<qk.jpg, id=49, 1284.8pt x 1027.84pt>
+File: qk.jpg Graphic file (type jpg)
+<use qk.jpg>
+Package pdftex.def Info: qk.jpg  used on input line 84.
+(pdftex.def)             Requested size: 122.05727pt x 97.64581pt.
+<jc.jpg, id=50, 684.5575pt x 683.55376pt>
+File: jc.jpg Graphic file (type jpg)
+<use jc.jpg>
+Package pdftex.def Info: jc.jpg  used on input line 87.
+(pdftex.def)             Requested size: 54.76572pt x 54.68541pt.
+<bs.jpg, id=51, 659.46375pt x 454.69875pt>
+File: bs.jpg Graphic file (type jpg)
+<use bs.jpg>
+Package pdftex.def Info: bs.jpg  used on input line 91.
+(pdftex.def)             Requested size: 329.73106pt x 227.34882pt.
+<bs2.jpg, id=52, 678.28406pt x 408.77719pt>
+File: bs2.jpg Graphic file (type jpg)
+<use bs2.jpg>
+Package pdftex.def Info: bs2.jpg  used on input line 92.
+(pdftex.def)             Requested size: 339.14119pt x 204.38809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
+
+ []
+
+[11 <./fisqrt.jpg> <./qk.jpg> <./jc.jpg>] [12 <./bs.jpg> <./bs2.jpg>]
+<ssort.jpg, id=59, 176.91093pt x 278.54062pt>
 File: ssort.jpg Graphic file (type jpg)
 <use ssort.jpg>
-Package pdftex.def Info: ssort.jpg  used on input line 85.
+Package pdftex.def Info: ssort.jpg  used on input line 96.
 (pdftex.def)             Requested size: 97.5pt x 153.51231pt.
 
-Underfull \hbox (badness 1019) in paragraph at lines 87--89
+Underfull \hbox (badness 1019) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 of the fol-low-ing in the list of sorts given are
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 87--89
+Underfull \hbox (badness 3168) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 sta-ble or un-sta-ble. A sort-ing al-go-rithm is
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 87--89
+Underfull \hbox (badness 2762) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 said to be sta-ble if two ob-jects with equal
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 87--89
+Underfull \hbox (badness 1048) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 keys ap-pear in the same or-der in sorted out-
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 87--89
+Underfull \hbox (badness 1112) in paragraph at lines 98--100
 \OT1/cmr/m/n/12 put as they ap-pear in the in-put ar-ray to be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Overfull \hbox (15.59908pt too wide) in paragraph at lines 96--97
-\OT1/cmr/m/n/12 A. Us-ing what you know prove or dis-prove that if $\OML/cmm/m/
+Overfull \hbox (15.11159pt too wide) in paragraph at lines 107--108
+\OT1/cmr/m/n/12 B. Us-ing what you know prove or dis-prove that if $\OML/cmm/m/
 it/12 O\U/matha/m/n/12 p\OML/cmm/m/it/12 f\U/matha/m/n/12 p\OML/cmm/m/it/12 n\U
 /matha/m/n/12 q\OML/cmm/m/it/12 O\U/matha/m/n/12 p\OML/cmm/m/it/12 g\U/matha/m/
 n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 qqq P \OML/cmm/m/it/12 O\U/matha/m/n/12
@@ -1141,30 +1192,30 @@ n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 qqq P \OML/cmm/m/it/12 O\U/matha/m/n/12
 m/m/it/12 g\U/matha/m/n/12 p\OML/cmm/m/it/12 n\U/matha/m/n/12 qq$
  []
 
-[11 <./ssort.jpg>] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[13 <./ssort.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 103--111
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
  []
 
-[14] (Week1.aux) ) 
+[15] (Week1.aux) ) 
 Here is how much of TeX's memory you used:
- 13193 strings out of 493305
- 259734 string characters out of 3127627
- 384153 words of memory out of 3000000
- 16473 multiletter control sequences out of 15000+200000
+ 13218 strings out of 493305
+ 260004 string characters out of 3127627
+ 384151 words of memory out of 3000000
+ 16493 multiletter control sequences out of 15000+200000
  17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,415b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,6n,54p,536b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppD
@@ -1179,9 +1230,9 @@ Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-t
 ype1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week1.pdf (14 pages, 175743 bytes).
+Output written on Week1.pdf (15 pages, 780324 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
