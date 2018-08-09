@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  8 AUG 2018 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  9 AUG 2018 09:07
 entering extended mode
 **./Week2.tex
 (Week2.tex
@@ -1114,11 +1114,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--50
-
- []
-
 [6]
 <hamming_cat.jpg, id=34, 356.33125pt x 501.875pt>
 File: hamming_cat.jpg Graphic file (type jpg)
@@ -1128,50 +1123,45 @@ Package pdftex.def Info: hamming_cat.jpg  used on input line 58.
 <hamming.jpg, id=35, 85.06781pt x 43.66313pt>
 File: hamming.jpg Graphic file (type jpg)
 <use hamming.jpg>
-Package pdftex.def Info: hamming.jpg  used on input line 70.
+Package pdftex.def Info: hamming.jpg  used on input line 69.
 (pdftex.def)             Requested size: 85.0676pt x 43.66301pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--73
+Underfull \hbox (badness 10000) in paragraph at lines 58--72
 
  []
 
@@ -1179,30 +1169,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--73
 <ea.jpg, id=43, 472.01344pt x 160.34906pt>
 File: ea.jpg Graphic file (type jpg)
 <use ea.jpg>
-Package pdftex.def Info: ea.jpg  used on input line 75.
+Package pdftex.def Info: ea.jpg  used on input line 74.
 (pdftex.def)             Requested size: 236.00613pt x 80.17433pt.
 <qsms.jpg, id=44, 520.94624pt x 261.22594pt>
 File: qsms.jpg Graphic file (type jpg)
 <use qsms.jpg>
-Package pdftex.def Info: qsms.jpg  used on input line 76.
+Package pdftex.def Info: qsms.jpg  used on input line 75.
 (pdftex.def)             Requested size: 182.33391pt x 91.43044pt.
 <hs.jpg, id=45, 582.67688pt x 286.82156pt>
 File: hs.jpg Graphic file (type jpg)
 <use hs.jpg>
-Package pdftex.def Info: hs.jpg  used on input line 77.
+Package pdftex.def Info: hs.jpg  used on input line 76.
 (pdftex.def)             Requested size: 291.33772pt x 143.41042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
 
  []
 
 
-Overfull \hbox (30.95113pt too wide) in paragraph at lines 74--80
+Overfull \hbox (30.95113pt too wide) in paragraph at lines 73--79
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
 
  []
 
@@ -1210,48 +1200,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--80
 <c.jpg, id=49, 157.33781pt x 174.6525pt>
 File: c.jpg Graphic file (type jpg)
 <use c.jpg>
-Package pdftex.def Info: c.jpg  used on input line 86.
+Package pdftex.def Info: c.jpg  used on input line 85.
 (pdftex.def)             Requested size: 157.33742pt x 174.65207pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
 d"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 <cry.jpg, id=50, 95.6072pt x 83.5622pt>
 File: cry.jpg Graphic file (type jpg)
 <use cry.jpg>
-Package pdftex.def Info: cry.jpg  used on input line 100.
+Package pdftex.def Info: cry.jpg  used on input line 99.
 (pdftex.def)             Requested size: 19.1211pt x 16.71213pt.
 [10 <./c.jpg> <./cry.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
@@ -1259,7 +1249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--114
 <fifolru.jpg, id=59, 178.41656pt x 199.49532pt>
 File: fifolru.jpg Graphic file (type jpg)
 <use fifolru.jpg>
-Package pdftex.def Info: fifolru.jpg  used on input line 120.
+Package pdftex.def Info: fifolru.jpg  used on input line 119.
 (pdftex.def)             Requested size: 178.4161pt x 199.49481pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -1277,7 +1267,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
@@ -1285,7 +1275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 <substring.jpg, id=67, 201.75375pt x 114.4275pt>
 File: substring.jpg Graphic file (type jpg)
 <use substring.jpg>
-Package pdftex.def Info: substring.jpg  used on input line 143.
+Package pdftex.def Info: substring.jpg  used on input line 142.
 (pdftex.def)             Requested size: 151.31493pt x 85.8204pt.
  [14 <./substring.jpg>] (Week2.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1312,7 +1302,7 @@ KTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb><C:/Users/Epimetheus/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha8.pfb><C:/U
 sers/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-ty
 pe1/mathx10.pfb>
-Output written on Week2.pdf (14 pages, 2915127 bytes).
+Output written on Week2.pdf (14 pages, 2916469 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
