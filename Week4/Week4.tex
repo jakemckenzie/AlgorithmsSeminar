@@ -90,6 +90,31 @@ as $01011$ in binary which is $11$ in decimal.
     \item  $X \& (1 << Y) != 0 \tab\tab$XI)Even/Odd check 
     \end{enumerate}
 \newpage
+\noindent 5. The N-Queens is one of the classic brain teasers. The problem can be stated simply:
+On a NxN square checkerboard, place N queens in a way so that no queen threatens any 
+of the other ones, ie. shares column, row or diagonal.\textbf{Below I will ask you a series of questions 
+on how you might make a plan of attack to solving this problem.} Below are all possible ``unique" solutions
+for an $N=8$. There are actually $92$ correct solutions in all. It's worth noting why we need dynamic
+programming for such a problem. There are $\frac{64!}{(64-8)!8!}$ ways of arranging $8$ queens on a
+chessboard.
+\centerline{\includegraphics[scale = .25]{queen.jpg}}\\
+5.0 How many (non-unique)solutions are there for $N = \{1,2,3,4,5,6\}$\\\\\\\\
+5.1 What are the subproblems to the global problem of computing all possible solutions to this problem?\\\\\\\\\\
+5.2 What are the possible guesses to the solutions to this problem?\\\\\\\\\\
+5.3 Using 5.1 and 5.2 can you come up with a recurrence that relates subproblem solutions?\\\\\\\\
+5.4 Do your subproblems follow some order that is valid?
+\newpage
+\noindent 6. Do not attempt this page until you put a 
+lot of thought and care into problem 5. Please write
+some code that attempts to produce a solution to the
+N-Queen problem.
+ I understand that solving problems like this on the 
+ fly can be difficult. I know when I was in seminar 
+ I found it to be difficult. Writing code on paper sucks.
+  Try your best, I believe in you. Please come up with your
+  own solution. There are many, many ways to solve this,
+  and I want your attempt, not the internets.
+\newpage
 \noindent 4. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-Why was this hard?
+Why was this hard? If you think you came up with a solution please tell me. 
 \end{document}
