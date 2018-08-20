@@ -45,12 +45,12 @@ i & $w_i$ & $h_i$ & $n_i$ \\ \hline
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
     \hline
     i\textbackslash{}w & 0 & 1 & 2 & 3 & 4 & 5 & 6  & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 \\ \hline
-    1                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
-    2                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
-    3                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    & 23 &    &    \\ \hline
-    4                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
-    5                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
-    6                  & 0 &   &   &   &   &   & 12 &   &   &   &    &    &    &    &    &    &    &    \\ \hline
+    \{1\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
+    \{1,2\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
+    \{1,2,3\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    & 23 &    &    \\ \hline
+    \{1,2,3,4\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
+    \{1,2,3,4,5\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    &    &    \\ \hline
+    \{1,2,3,4,5,6\}                  & 0 &   &   &   &   &   & 12 &   &   &   &    &    &    &    &    &    &    &    \\ \hline
     \end{tabular}
     \end{table}
     \FloatBarrier
@@ -127,6 +127,60 @@ Why is the relaxation algorithm safe? Can you use the triangle inequality to
 \includegraphics[scale = 0.35]{graph.jpg}\\
 Triangle inequality: $\delta$(S,V) $\leq \delta$(S,U) $+ \delta$(U,V)
 \newpage
-\noindent 4. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent 8. Say you have access to a function \textbf{dict} that returns true 
+if its input is a valid English word, and false otherwise. We are given 
+as input a sentence from which the punctuation has been
+stripped (for example: ``dynamicprogrammingisfabulous"). 
+Assuming calls to dict take unit time, give an $O(n^2)$ time 
+algorithm to figure out whether an input string of length n can be
+split into a sequence of valid words or not. 
+HINT: Try to remove valid words from the end of the input string.
+\newpage
+\noindent \centerline{\includegraphics[scale = 1.25]{brix.jpg}}\\
+9. So imagine you've graduated from University of Washington
+in Tacoma and you got a nice job at a startup in San Francisco. It's the weekend
+and you want to drive down to Monterrey to enjoy some wine with friends.
+Now depending on what scenery you're driving through you find yourself
+speeding through that locale for each time unit you're in it. It's the weekend
+you don't really care how much time it takes you to get to Monterrey, but you
+defintely don't want a ticket. What's the maximum amount of scenic value you can get
+out of your weekend drive to Monterrey?
+
+\begin{table}[]
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    r & $sp_r$ & $sc_r$ \\ \hline
+    1 & 5    & 1    \\ \hline
+    2 & 9    & 6    \\ \hline
+    3 & 26    & 18    \\ \hline
+    4 & 31    & 22    \\ \hline
+    5 & 36    & 28    \\ \hline
+    \end{tabular}
+    \end{table}
+    \FloatBarrier
+    \begin{table}[]
+        \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+        \hline
+        r\textbackslash{}speedlimit & 0 & 5 & 10 & 15 & 20 & 25 & 30  & 35 & 40 & 45 & 50 & 55 & 60 & 65 & 70 & 75 \\ \hline
+        \{1\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &  \\ \hline
+        \{1,2\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &     \\ \hline
+        \{1,2,3\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &    \\ \hline
+        \{1,2,3,4\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &      \\ \hline
+        \{1,2,3,4,5\}                  & 0 &   &   &   &   &   &    &   &   &   &    &    &    &    &    &     \\ \hline
+        \end{tabular}
+        \end{table}
+        \FloatBarrier
+\newpage
+\noindent A. You may not have seen the operation $\sim$. 
+It means ``Asymptotic to". To say $f(n) \sim g(n)$ that means that 
+$\lim\limits_{n\to\infty}\frac{f(n)}{g(n)} \to O(1)$. Now for SSSP (Single Source Shortest Path) problem
+if we solve it via brute force we find the runtime is $O((n-2)!)$(there are $n-1$ 
+vertices and $(V-1)!$ possible permutations of paths through the graph).\\\\
+I want you to show why brute force on graphs to solve the SSSP problem is worse than
+the usual way we solve similar problems by showing $(n-2)! \sim 2^{n\log{n}}$. 
+Reminder that there are $2^{n}$ possible partitions to non-graph problems 
+like the subset sum problem, which can be thought of as a SSSP problem.
+\newpage
+\noindent B. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Why was this hard? If you think you came up with a solution please tell me. 
 \end{document}
