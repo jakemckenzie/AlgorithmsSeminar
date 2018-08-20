@@ -119,7 +119,13 @@ N-Queen problem.
 on the concept of relaxation. To put simply, relaxing an edge from
 one vertex to another means temporarily violating the shortest path
 criteria locally to check to see if you can find a new global shortest path.
-The relaxation algorithm is as follows:
+The relaxation algorithm is as follows(some python code for it):\\\\
+\centerline{\includegraphics{relax.jpg}}\\
+Why is the relaxation algorithm safe? Can you use the triangle inequality to
+ prove it? Use this lemma: The relaxation algorithm maintains the 
+ invariant that V.d$ \geq \delta$(S,V)$ \forall $v$ \in $V\\\\\\\\
+\includegraphics[scale = 0.35]{graph.jpg}\\
+Triangle inequality: $\delta$(S,V) $\leq \delta$(S,U) $+ \delta$(U,V)
 \newpage
 \noindent 4. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Why was this hard? If you think you came up with a solution please tell me. 
