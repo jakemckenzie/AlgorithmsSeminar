@@ -7,6 +7,7 @@
 \usepackage{lipsum}
 \usepackage[shortlabels]{enumitem}
 \usepackage{placeins}
+\usepackage[makeroom]{cancel}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begin{document}
 \title{TCSS 343 - Week 4}
@@ -85,9 +86,9 @@ as $01011$ in binary which is $11$ in decimal.
     \item  $X \& Y \tab\tab\tab\tab$V)Barrel shift left
     \item  $X \&= (X - 1) \tab\tab\tab$VI)Intersection of two sets
     \item  $(X<<Y) | (X >> (32 - Y))\tab$VII)Signed bit
-    \item  $ \sim X + 1 \tab\tab\tab\tab$IX)Clears lowest ``ON" bit in X
+    \item  $ ! X + 1 \tab\tab\tab\tab$IX)Clears lowest ``ON" bit in X
     \item  $1 << X \tab\tab\tab\tab$X)Symmetric Difference of two sets
-    \item  $X \& (1 << Y) != 0 \tab\tab$XI)Even/Odd check 
+    \item  $(X \& (1 << Y))$ $!= 0 \tab\tab$XI)Even/Odd check 
     \end{enumerate}
 \newpage
 \noindent 5. The N-Queens is one of the classic brain teasers. The problem can be stated simply:
@@ -171,9 +172,40 @@ out of your weekend drive to Monterrey?
         \end{table}
         \FloatBarrier
 \newpage
-\noindent A. You may not have seen the operation $\sim$. 
-It means ``Asymptotic to". To say $f(n) \sim g(n)$ that means that 
-$\lim\limits_{n\to\infty}\frac{f(n)}{g(n)} \to O(1)$. Now for SSSP (Single Source Shortest Path) problem
+\noindent A. Let $s[1..m]$ and $t[1..n]$ be the two strings to be matched. 
+Let $M(i,j)$ be the number of mismatches in the best alignment of $s[1..i]$ 
+and $t[1..j]$. Which of the following is a correct recursive formulation 
+of $M(i,j)$ for $i,j > 0$? Note: By convention $s[1..0]$ and $t[1..0]$ are taken 
+to be the empty string, so $M(i, 0) = i$ for $i \in \{1,2,...,m\}$ and $M(0,j) = j$ 
+for $j \in \{1,2,...,n\}$.\\\\
+\begin{enumerate}[a)]
+    \item $M(i,j) = 2+M(i-1,j-1)$, if $s[i]$ $\cancel{=}$ $t[j]$\\
+    $min(M(i-1,j),M(i,j-1))$, otherwise
+    \item $M(i,j) = M(i-1,j-1)$, if $s[i]$ $=$ $t[j]$\\
+    $min(M(i-1,j),M(i,j-1))$, otherwise
+    \item $M(i,j) = 1+M(i-1,j-1)$, if $s[i]$ $=$ $t[j]$\\
+    $1+min(M(i-1,j),M(i,j-1))$, otherwise
+    \item $M(i,j) = M(i-1,j-1)$, if $s[i]$ $=$ $t[j]$\\
+    $1+min(M(i-1,j),M(i,j-1))$, otherwise
+\end{enumerate}
+B. You have a bag that you want to fill with toys. 
+There are $N$ toys, and the ith toy has weight $w[i]$. The bag 
+can hold a total weight of at most $W$. Maximize the number 
+of toys you can take with you in the bag.\\\\
+Formally, choose a set of as many toys as possible, 
+such that the sum of their weights is $\leq W$.\\\\
+Constraints: $N \leq 1000$; $w[i]$ $\leq$ $10,000$ $\forall$ $i$.\\\\
+Choose the best option out of the following
+\begin{enumerate}[a)]
+    \item The simplest solution to this problem is using Dynamic Programming.
+    \item This problem cannot be solved using Dynamic Programming.
+    \item This problem can be solved with Dynamic Programming, but has a simpler solution without Dynamic Programming.
+\end{enumerate}
+\newpage
+\noindent C. You may not have seen the operation $\sim$. 
+It means ``asymptotic to". To say $f(n) \sim g(n)$ that means that 
+$\lim\limits_{n\to\infty}\frac{f(n)}{g(n)} \to 1$(not just a constant, we can have that $f(n) \in \Theta (g(n))$
+but also $f(n) \cancel{\sim} g(n)$ ex: $f(n) = n$ and $g(n) = 2n$). Now for SSSP (Single Source Shortest Path) problem
 if we solve it via brute force we find the runtime is $O((n-2)!)$(there are $n-1$ 
 vertices and $(V-1)!$ possible permutations of paths through the graph).\\\\
 I want you to show why brute force on graphs to solve the SSSP problem is worse than
@@ -181,6 +213,6 @@ the usual way we solve similar problems by showing $(n-2)! \sim 2^{n\log{n}}$.
 Reminder that there are $2^{n}$ possible partitions to non-graph problems 
 like the subset sum problem, which can be thought of as a SSSP problem.
 \newpage
-\noindent B. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent D. Robert Sapolsky is a famous neuroendocrinologist (big word that means he studies hormones \& stress in humans and primates) and he's one of my favourite thinkers. He likes to use this sequence of numbers, $4, 14, 23, 34, \dots$ in his neuroscience class to illustrate an important point in categorical thinking. For purposes of our algorithms course I will call these numbers ``Sapolsky Numbers". Please compute the 10th Sapolsky Number. Can you come up with a recurrence formula for the Sapolsky numbers? (If you get stuck ask me questions)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Why was this hard? If you think you came up with a solution please tell me. 
 \end{document}
