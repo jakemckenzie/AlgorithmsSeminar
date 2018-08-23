@@ -8,12 +8,13 @@
 \usepackage[shortlabels]{enumitem}
 \usepackage{placeins}
 \usepackage[makeroom]{cancel}
+\usepackage[strings]{underscore}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begin{document}
 \title{TCSS 343 - Week 5}
 \author{Jake McKenzie}
 \maketitle
-\noindent\centerline{\textbf{Dynamic Programming}}\\\\\\\\\\\\\\\\
+\noindent\centerline{\textbf{Dynamic Programming}}\\\\\\\\\\\\
 \begin{center}
     ``Perhaps thinking should be measured not by what you do \\but by how you do it." \\$\dots$\\ Richard Hamming
 \end{center}
@@ -21,7 +22,7 @@
     ``For the last sixty five years(speaking in 2018), due to Moore's law, with a clockwork precision, computer capability has been doubling every year and a half. Without fast algorithms you cannot bring to bare Moore's Law. A dramatic increase in computer speed needs to be coupled with efficient algorithms." \\$\dots$\\ Christos Papadimitriou
 \end{center}
 \begin{center}
-    ``The best programs are the ones written when the programmer is supposed to be working on something else." \\$\dots$\\ Melinda Varian
+    ``Nobody expects plumbers to have a physics degree but they do have to know some things about water physics, and that can be learned in a way that doesn’t necessarily involve getting a physics degree. And that is super cool, totally valid, and not a problem. But that doesn’t mean that physics degrees are bullshit or not useful to plumbers." \\$\dots$\\ Steve Klabnik \\(analogy on studying CS theory as a programmer)
 \end{center}
 \newpage
 \noindent\includegraphics[scale = .3]{santa.jpg}\\
@@ -71,5 +72,121 @@ $$1+2-3 \times 4-5$$
 (example of one possible ordering of parenthesis:$((((1+2)-3) \times 4)-5)=-5$)\\\\\\\\\\\\\\\\\\\\\\\\
 4. How many different ordering of arithmetic operations are there in this problem? 
 Why do we care about solving this problem with dynamic programming(find runtime of brute force)?\\\\\\\\\\\\\\\\\\\\\\\\
+5. How many possible orderings are there for the expression: $$5-8+7 \times 4 - 8 + 9$$ 
+(do not attempt to solve for the maximum possible ordering just yet!)
 \newpage
+\noindent \textbf{Placing Parentheses:}\\
+\textbf{Input:} A sequence of digits $d_1$,$\dots$,$d_n$ and a sequence of operations $op_1$,$\dots$,$op_{n-1} \in \{ +,-,\times \}$.\\
+\textbf{Output:} An order of applying these operations that maximizes the value of the expression.\\\\
+\textbf{INTUITION:} Assume that the last operation in an optimal parenthesizing 
+is when multiplication is done last, which with our previous example limits our possible
+perumtations to the including this parenthesization:
+$$(5-8+7) \times (4 - 8 + 9)$$
+6. Now above, we've gone from having $5!$ possible
+permutations of orderings to now having $2! + 2!$ possible orderings
+because we've reduced our global problem into two more managable subproblems
+by taking advantage of the shape of the problem. You may not understand why yet, but find each
+parenthesization that maximizes and minimizes the following subproblems:\\\\
+$min\{5-8+7\}=$\\
+$max\{5-8+7\}=$\\
+$min\{4-8+9\}=$\\
+$max\{4-8+9\}=$\\\\
+7. Using what you've found 
+find the maximum value of the given expression below
+and it's parenthesization:\\\\
+$max\{(5-8+7) \times (4-8+9)\}=$\\\\
+8. Why can't we be greedy and choose the maximum value at each stage? 
+\newpage
+\noindent Let $E_{ij}$ be the subexpression
+$$d_i op_i \dots op_{j-1}d_j$$
+Where are subproblems are defined as:
+$$M(i,j) = \text{maximum value of } E_{ij}$$
+$$m(i,j) = \text{minimum value of } E_{ij}$$
+9. Given the information above and what you did on the prior page, 
+can you write down a recurrence relation that solves the placing 
+parenthesis problem? (HINT: remember that there are $2! + 2!$ possible 
+orderings now that we usered our intuition! Both $M$ and $m$ will
+have at least $4$ possible orderings each)\\\\\\\\\\\\\\\\\\
+A. What do we mean when we say: `` Our current relation expresses 
+the solution for an expression (i,j) for a solution for smaller 
+sub subexpressions"?\\\\\\\\\\\\
+B. When computing $M(i,j)$ the values of _______________ 
+should already be computed.
+\begin{enumerate}[a)]
+    \item $M(i,k)$ and $M(k+1,j)$
+    \item $M(i-1,k)$ and  $M(i,k-1)$
+    \item $M(\frac{i}{2},k)$ and  $M(i,\frac{k}{2})$
+\end{enumerate}
+C. We need to solve all subproblems in order of ______________.
+\begin{enumerate}[a)]
+    \item decreasing $(j-i)$
+    \item increasing $(j-i)$
+\end{enumerate}
+\newpage
+\noindent D. For this algorithm we have roughly ____________ number of subproblems. 
+\begin{enumerate}[a)]
+    \item Linear
+    \item Quadratic
+    \item Exponential
+    \item Tetratic
+\end{enumerate}
+Below I will give you the algorithm to compute the parenthesis problem.
+I didn't ask you to construct it because it is quite complicated, I am 
+much more interested in you seeing what it look like having explored the problem
+suffiecently up to this point. Before you move on: \textbf{Make sure you
+understand what each and every line is doing.} Please ask questions if you
+have them. This is as important as answering the questions.\\
+\noindent \textbf{MinAndMax(i,j):}\\
+$min \leftarrow +\infty$\\
+$max \leftarrow -\infty$\\
+for $k$ from $i$ to $j-1$:\\
+$\tab a \leftarrow M(i,k)$ $op_k$ $M(k+1,j)$\\
+$\tab b \leftarrow m(i,k)$ $op_k$ $M(k+1,j)$\\
+$\tab c \leftarrow M(i,k)$ $op_k$ $M(k+1,j)$\\
+$\tab d \leftarrow m(i,k)$ $op_k$ $M(k+1,j)$\\
+$\tab min \leftarrow min\{min,a,b,c,d\}$\\
+$\tab max \leftarrow min\{max,a,b,c,d\}$\\
+return $(min,max)$\\
+\noindent \textbf{Parentheses($d_1 op_1$, $d_2 op_2$, $\dots$, $d_n op_n$):}\\
+for $i$ from $1$ to $n$:\\
+$\tab m(i,i) \leftarrow d_i$, $M(i,i)\leftarrow d_i$
+for $s$ from $1$ to $n-1$:\\
+$\tab$ for $s$ from $1$ to $n-s$:\\
+$\tab\tab$ $j \leftarrow i+s$\\
+$\tab\tab$ $m(i,j),M(i,j) \leftarrow MinAndMax(i,j)$\\
+return $M(1,n)$\\\\
+E. What is the worstcase runtime of the \textbf{Parentheses} algorithm above? (HINT: What is $j-i$ at most?)
+\newpage
+\noindent\includegraphics[scale = .3]{order.jpg}\\
+Above is the possible ordering of how the algorithm 
+stores the results of $m$ and $M$ where $i$ is 
+row-wise and $j$ is column-wise.\\\\
+Down each diagonal will be filled with each value of the arithmetic expression.\\
+F. I will now ask you, using the algorithm stated previously, 
+to constrcut the table produced by the algorithm. I was kind and gave you
+two of the values in each of the tables to help you along. (HINT to get started:
+can you break down the subexpression $5-8$ any further?)\\\\
+Reminder of the expression we're maximizing:
+$5-8+7 \times 4-8+9$
+\FloatBarrier
+\begin{table}[]
+    \begin{tabular}{llllllllllllllll}
+    m                      &                        &                        &                          &                        &                        &                        &  &  & M                      &                        &                        &                        &                        &                        &                        \\
+    i\textbackslash{}j     & 1                      &                        &                          &                        &                        & n                      &  &  & i\textbackslash{}j     & 1                      &                        &                        &                        &                        & n                      \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{5} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{-10} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  &  &  & \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{5} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{8} & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  &  &  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{8} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{7}   & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  &  &  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{7} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{4} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  &  &  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{4} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{5} \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{8} & \multicolumn{1}{l|}{}  &  &  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{8} & \multicolumn{1}{l|}{}  \\ \cline{2-7} \cline{11-16} 
+    \multicolumn{1}{l|}{n} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{9} &  &  & \multicolumn{1}{l|}{n} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{9} \\ \cline{2-7} \cline{11-16} 
+    \end{tabular}
+    \end{table}
+    \FloatBarrier
+\newpage
+\noindent 10. How would you use the table to reconstruct the solution? I know that at this
+point you probably know the optimal subexpression is but we must think algorithmically
+so that we can tell the dumbest thing on the planet, namely a computer, how to
+do it. Sorry I ran out of space on the last page. Please try to trace the steps in the matrix
+and think about how you would reconstruct the solution by stepping forward and backward that got you
+to $M(6,6)$. Can you write that expression as an ordering of $m$ and $M$ ordered pairs?\\\\
 \end{document}

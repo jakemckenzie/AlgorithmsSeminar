@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  22 AUG 2018 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  22 AUG 2018 21:01
 entering extended mode
-**./Week5.tex
-(Week5.tex
+**./Week6.tex
+(Week6.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 
@@ -787,26 +787,21 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 .sty"
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\underscore\un
-derscore.sty"
-Package: underscore 2006/09/13
-LaTeX Info: Redefining \_ on input line 42.
-)
-No file Week5.aux.
-\openout1 = `Week5.aux'.
+No file Week6.aux.
+\openout1 = `Week6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-p
 df.mkii"
@@ -886,362 +881,78 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa
 .fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb
 .fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<santa.jpg, id=12, 555.0336pt x 370.0224pt>
-File: santa.jpg Graphic file (type jpg)
-<use santa.jpg>
-Package pdftex.def Info: santa.jpg  used on input line 28.
-(pdftex.def)             Requested size: 166.51135pt x 111.00757pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 30.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 43.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
-
-("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
-d"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
-
-Overfull \hbox (60.19258pt too wide) in paragraph at lines 44--54
-[][] 
- []
-
-[2 <./santa.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--67
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 68--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
-
- []
-
-[4]
-Overfull \hbox (21.85988pt too wide) in paragraph at lines 78--84
-\OT1/cmr/bx/n/12 Input: \OT1/cmr/m/n/12 A se-quence of dig-its $\OML/cmm/m/it/1
-2 d[]$\OT1/cmr/m/n/12 ,$[] $,$\OML/cmm/m/it/12 d[]$ \OT1/cmr/m/n/12 and a se-qu
-ence of op-er-a-tions $\OML/cmm/m/it/12 op[]$\OT1/cmr/m/n/12 ,$[] $,$\OML/cmm/m
-/it/12 op[] \U/matha/m/n/12 P
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--99
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--115
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 133--159
-
- []
-
-[7]
-<order.jpg, id=39, 554.07pt x 647.41875pt>
-File: order.jpg Graphic file (type jpg)
-<use order.jpg>
-Package pdftex.def Info: order.jpg  used on input line 160.
-(pdftex.def)             Requested size: 166.22227pt x 194.22711pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--171
-
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 172.
-
-[8 <./order.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
-
- []
-
-[9] (Week5.aux) ) 
+(Week6.aux) ) 
 Here is how much of TeX's memory you used:
- 13214 strings out of 493305
- 260385 string characters out of 3127627
- 392145 words of memory out of 3000000
- 16486 multiletter control sequences out of 15000+200000
- 18117 words of font info for 64 fonts, out of 3000000 for 9000
+ 13137 strings out of 493305
+ 259024 string characters out of 3127627
+ 381809 words of memory out of 3000000
+ 16420 multiletter control sequences out of 15000+200000
+ 17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,942b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
-/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Epimetheus
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
-:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx
--type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week5.pdf (9 pages, 273208 bytes).
+ 55i,6n,54p,410b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Epi
+metheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb>
+Output written on Week6.pdf (1 page, 45357 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
