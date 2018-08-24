@@ -184,6 +184,23 @@ do it. Sorry I ran out of space on the last page. Please try to trace the steps 
 and think about how you would reconstruct the solution by stepping forward and backward that got you
 to $M(6,6)$. Can you write that expression as an ordering of $m$ and $M$ ordered pairs?\\\\
 \newpage
+\noindent The longest common subsequcne can be broken donw to two cases, given two strings represented as character arrays:\\\\
+\textbf{Case 1: } If $S_1[i]\cancel{=}S_2[j]$ then we have that: $$LCS(i,j)=Max\{LCS(i-1,j),LCS(i,j-1)\}$$\\\\
+\textbf{Case 2: } If $S_1[i]=S_2[j]$ then we have that: $$LCS(i,j)=1+ LCS(i-1,j-1)$$
+10. Using your notes or the information I just provided to fill out the rest of this table.
+\FloatBarrier
+\begin{table}[]
+    \begin{tabular}{lllllll}
+                           & B                      & A                      & C                     & B                     & A                      & D                     \\ \cline{2-7} 
+    \multicolumn{1}{l|}{A} & \multicolumn{1}{l|}{0} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \multicolumn{1}{l|}{B} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \multicolumn{1}{l|}{A} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{2} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \multicolumn{1}{l|}{Z} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \multicolumn{1}{l|}{D} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{3} & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \multicolumn{1}{l|}{C} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{} \\ \cline{2-7} 
+    \end{tabular}
+    \end{table}
+    \FloatBarrier
 \noindent \textbf{Dance Dance Revolution} n is a dance video game, 
 first introduced in Japan by Konami in
 1998. Players stand on a platform marked 
@@ -212,14 +229,14 @@ foot on $\rightarrow$, and that you’ve memorized the entire sequence of arrows
 sequence is $\uparrow\uparrow\downarrow\downarrow\leftarrow\rightarrow\leftarrow\rightarrow$, you can earn $5$ style points by moving you feet as shown
 below:\\\\
 \includegraphics[width=\textwidth]{ddr.jpg}\\
-10. Prove that for any sequence of n arrows, it is possible to earn at least $\frac{n}{4} - 1$ style
+11. Prove that for any sequence of n arrows, it is possible to earn at least $\frac{n}{4} - 1$ style
 points.\\\\\
-11. Describe an efficient algorithm to find the maximum number of style points you can
+12. Describe an efficient algorithm to find the maximum number of style points you can
 earn during a given VVR routine. The input to your algorithm is an array $Arrow[1 \dots n]$
 containing the sequence of arrows.
 \afterpage{\blankpage}
 \newpage
-\noindent 12. In mathematics, a sequence of positive real numbers 
+\noindent 13. In mathematics, a sequence of positive real numbers 
 $s_1$, $s_2$,$\dots$ is called \textit{superincreasing} if each element
 in the sequence is greater than the sum of all previous elements in the sequence:
 $$s_{n+1} > \sum\limits_{i=1}^{n}s_i$$
@@ -231,4 +248,14 @@ to $k$. It is possible and desirable to find an algorithm that can accomplish th
 task in $O(n)$ time using dynamic progrmaming. If you think you've come up with an
 algorithm that can accomplish this task attempt to prove that it is correct.
 \newpage
+\noindent A \textit{covering} or \textit{vertex cover} of a graph $G$ is a subset $U ⊆ V(G)$ that covers every
+edge of $G$; that is, every edge has at least one endpoint in $U$. The white dots below
+in the following graphs are \textit{coverings} of G.\\\\
+\includegraphics[width=\textwidth]{covering.jpg}\\
+14. For the following graphs find a minimum \textit{covering} of the graph(there may
+be more than one minimum covering for the graph).\\
+\centerline{\includegraphics[scale=0.5]{graph1.jpg}}\\
+\centerline{\includegraphics[scale=0.5]{graph2.jpg}}\\
+\newpage
+
 \end{document}
