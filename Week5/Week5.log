@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  23 AUG 2018 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  23 AUG 2018 20:40
 entering extended mode
 **./Week5.tex
 (Week5.tex
@@ -1278,27 +1278,22 @@ File: covering.jpg Graphic file (type jpg)
 <use covering.jpg>
 Package pdftex.def Info: covering.jpg  used on input line 254.
 (pdftex.def)             Requested size: 390.0pt x 123.315pt.
-<graph1.jpg, id=58, 288.3272pt x 260.47313pt>
-File: graph1.jpg Graphic file (type jpg)
-<use graph1.jpg>
-Package pdftex.def Info: graph1.jpg  used on input line 257.
-(pdftex.def)             Requested size: 144.16324pt x 130.23624pt.
-<graph2.jpg, id=59, 388.45125pt x 182.93344pt>
+<graph2.jpg, id=58, 388.45125pt x 182.93344pt>
 File: graph2.jpg Graphic file (type jpg)
 <use graph2.jpg>
-Package pdftex.def Info: graph2.jpg  used on input line 258.
+Package pdftex.def Info: graph2.jpg  used on input line 257.
 (pdftex.def)             Requested size: 194.22514pt x 91.46649pt.
+<graph1.jpg, id=59, 288.3272pt x 260.47313pt>
+File: graph1.jpg Graphic file (type jpg)
+<use graph1.jpg>
+Package pdftex.def Info: graph1.jpg  used on input line 258.
+(pdftex.def)             Requested size: 144.16324pt x 130.23624pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--259
+Underfull \hbox (badness 10000) in paragraph at lines 251--265
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--259
-
- []
-
-[12 <./covering.jpg> <./graph1.jpg> <./graph2.jpg>] (Week5.aux) ) 
+[12 <./covering.jpg> <./graph2.jpg> <./graph1.jpg>] (Week5.aux) ) 
 Here is how much of TeX's memory you used:
  13255 strings out of 493305
  261082 string characters out of 3127627
@@ -1323,7 +1318,7 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users
 matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week5.pdf (13 pages, 401165 bytes).
+Output written on Week5.pdf (13 pages, 401647 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
