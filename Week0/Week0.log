@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  23 AUG 2018 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  23 AUG 2018 23:45
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -918,116 +918,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-[3]
-<prim.jpg, id=20, 246.6816pt x 185.0112pt>
+<prim.jpg, id=17, 246.6816pt x 185.0112pt>
 File: prim.jpg Graphic file (type jpg)
 <use prim.jpg>
 Package pdftex.def Info: prim.jpg  used on input line 46.
@@ -1042,7 +1031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--51
 
  []
 
-[4 <./prim.jpg>] [5]
+[3 <./prim.jpg>] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
@@ -1172,8 +1161,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
-[6]
-<boxing.jpg, id=33, 418.56375pt x 275.52937pt>
+[5]
+<boxing.jpg, id=30, 418.56375pt x 275.52937pt>
 File: boxing.jpg Graphic file (type jpg)
 <use boxing.jpg>
 Package pdftex.def Info: boxing.jpg  used on input line 73.
@@ -1238,29 +1227,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
-[7 <./boxing.jpg>]
+[6 <./boxing.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--87
 
  []
 
-[8]
-<binarytree.jpg, id=41, 442.65375pt x 190.46156pt>
+[7]
+<binarytree.jpg, id=38, 442.65375pt x 190.46156pt>
 File: binarytree.jpg Graphic file (type jpg)
 <use binarytree.jpg>
 Package pdftex.def Info: binarytree.jpg  used on input line 89.
 (pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
- [9 <./binarytree.jpg>]
-<invertbtree.png, id=45, 504.88625pt x 310.15875pt>
+ [8 <./binarytree.jpg>]
+<invertbtree.png, id=42, 504.88625pt x 310.15875pt>
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
 Package pdftex.def Info: invertbtree.png  used on input line 93.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
- [10 <./invertbtree.png>]
+ [9 <./invertbtree.png>]
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
 Package pdftex.def Info: invertbtree.png  used on input line 96.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
- [11] (Week0.aux) ) 
+ [10] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
  13135 strings out of 493305
  258942 string characters out of 3127627
@@ -1281,9 +1270,9 @@ rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb
 ><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/math
 abx-type1/matha8.pfb>
-Output written on Week0.pdf (11 pages, 226531 bytes).
+Output written on Week0.pdf (10 pages, 226036 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
