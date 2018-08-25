@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  25 AUG 2018 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  25 AUG 2018 01:55
 entering extended mode
 **./Week0.tex
 (Week0.tex
@@ -1146,7 +1146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
  []
 
 [6]
-<boxing.jpg, id=34, 418.56375pt x 275.52937pt>
+<boxing.jpg, id=33, 418.56375pt x 275.52937pt>
 File: boxing.jpg Graphic file (type jpg)
 <use boxing.jpg>
 Package pdftex.def Info: boxing.jpg  used on input line 70.
@@ -1217,13 +1217,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--84
  []
 
 [8]
-<binarytree.jpg, id=42, 442.65375pt x 190.46156pt>
+<binarytree.jpg, id=41, 442.65375pt x 190.46156pt>
 File: binarytree.jpg Graphic file (type jpg)
 <use binarytree.jpg>
 Package pdftex.def Info: binarytree.jpg  used on input line 86.
 (pdftex.def)             Requested size: 221.32632pt x 95.23053pt.
  [9 <./binarytree.jpg>]
-<invertbtree.png, id=46, 504.88625pt x 310.15875pt>
+<invertbtree.png, id=45, 504.88625pt x 310.15875pt>
 File: invertbtree.png Graphic file (type png)
 <use invertbtree.png>
 Package pdftex.def Info: invertbtree.png  used on input line 90.
@@ -1235,11 +1235,11 @@ Package pdftex.def Info: invertbtree.png  used on input line 93.
 (pdftex.def)             Requested size: 201.95091pt x 124.0613pt.
  [11] (Week0.aux) ) 
 Here is how much of TeX's memory you used:
- 13132 strings out of 493305
- 258904 string characters out of 3127627
+ 13130 strings out of 493305
+ 258883 string characters out of 3127627
  381942 words of memory out of 3000000
- 16413 multiletter control sequences out of 15000+200000
- 18117 words of font info for 64 fonts, out of 3000000 for 9000
+ 16412 multiletter control sequences out of 15000+200000
+ 17770 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,576b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
@@ -1251,14 +1251,13 @@ cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Epimetheus/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
-:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx
--type1/matha12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/mathabx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on Week0.pdf (11 pages, 192498 bytes).
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathabx-type1/matha12.pfb
+><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/math
+abx-type1/matha8.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on Week0.pdf (11 pages, 184397 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
