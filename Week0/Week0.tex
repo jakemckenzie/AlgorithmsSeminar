@@ -7,6 +7,9 @@
 \usepackage{lipsum}
 \usepackage[shortlabels]{enumitem}
 \usepackage{mathrsfs}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
 \begin{document}
 \title{TCSS 343 - Week 0}
 \author{Jake McKenzie}
@@ -96,5 +99,6 @@ Write a recursive algorithm to see how many fish Benin can fish for!
 \newpage 
 \noindent 10. Prove or disprove that if $f(n) \in \Theta(g(n))$ and $g(n) \in \Theta(h(n))$, then $h(n) \in \Theta(f(n))$.\\\\\\\\\\\\\\\\\\\\
 11. Give an example of a built-in Java operation that does not take constant time in the size of it's input(s). What time does it take?\\\\\\\\\\\\\\\\\\\\
-12. Compute the following limit $\lim\limits_{n\to\infty}\log_{n}{n}$.
+12. Compute the following limit $\lim\limits_{n\to\infty}\log_{n}{n}$.\\\\\\\\\\\\\\\\
+13. Prove or disprove that $\floor{n}\ceil{n} \in \Theta(n^2)$?
 \end{document}
