@@ -108,12 +108,17 @@ A. Consider the cashier problem you saw in class, our coin values are:
 $\{1,$ $2,$ $4,$ $8,$ $16,$ $\dots$ $,2k\}$, for some positive integer $k$. Give a modified cashier's algorithm that runs in $O(\log{n})$
 to solve the problem if the value to be paid is $y < 2^{k+1}$.
 \newpage
-\noindent B. Find which coin you could remove from the U.S. coinage system as to keep the greedy cashier algorithm
+\noindent B. Construct a greedy algorith that finds the postive integer solution $(x$, $y$, $z$, $a$, $b)$ for which\\\\
+$$\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{a}+\frac{1}{b}=1$$
+Avoid the trivial solution where $x=y=z=a=b=5$ such that $x\neq y \neq z \neq a \neq b$.\\
+(\textbf{Remark:} There are 72 tuples that satisfy this equation.)
+\newpage
+\noindent C. Find which coin you could remove from the U.S. coinage system as to keep the greedy cashier algorithm
 from returning the optimal result. To show this you need to find the coin and counter example for each.\\\\\\\\\\\\\\\\\\\\\\\\
-C. Which coins could we add which would make the coin system in the U.S. MORE canonical, which means simply, it returns even fewer coins as change? (HINT because this is harder:
+D. Which coins could we add which would make the coin system in the U.S. MORE canonical, which means simply, it returns even fewer coins as change? (HINT because this is harder:
 The numbers are prime and less than 11.)
 \newpage
-\noindent D. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
+\noindent E. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
 each containing $m$ registered voters. We’re supposed to divide these precincts into two districts,
 each consisting of $\frac{n}{2}$ of the precincts. Now, for each precinct, we have information
 on how many voters are registered to each of two political parties. We’ll say that the set of
@@ -131,7 +136,7 @@ This set of precincts is susceptible since, if we grouped precincts $1$ and $4$ 
 and precincts 2 and 3 into the other, then party A would have a majority in both districts.
 \blankpage
 \newpage
-\noindent E. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
+\noindent F. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
 $S$ $\subseteq$ $V$ such that every edge in $E$ is incident to at least one vertex in $S$.
 Consider the following algorithm for finding a vertex cover for $G$. First,
 order the vertices in $V$ by decreasing order of degree. Next execute the following
