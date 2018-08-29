@@ -30,6 +30,14 @@
     ``The best programs are the ones written when the programmer is supposed to be working on something else." \\$\dots$\\ Melinda Varian
 \end{center}
 \newpage
+\noindent 0. Construct a greedy algorith that finds postive integer solution $(x$, $y$, $z$, $a$, $b)$ for which\\\\
+$$\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{a}+\frac{1}{b}=1$$
+Avoid the trivial solution where $x=y=z=a=b=5$ such that $x\neq y \neq z \neq a \neq b$.\\
+(\textbf{Remark:} There are 72 tuples that satisfy this equation.)\\
+This was a question asked to a high school student that a puzzled tutor was desperately asking for help for on Math Stack Exchange.
+It sort of exploded in popularity and many mathematicians found many greedy approaches in solving it, some centuries old others new!
+I know of two greedy strategies that I've found but apparently there are many. Time for you to find one!
+\newpage
 \includegraphics[width=\textwidth]{svenborgia.jpg}\\
 \noindent You want to invite as many people to your party as possible. 
 But, there’s a catch: you don’t quite trust the
@@ -54,46 +62,46 @@ would represent this instance as
 \{\{1\}, \{2, 3\}, \{1, 3, 4\}\}. 
 The optimal solution to this instance 
 is to invite diplomat 1 and diplomat 2.\\\\
-Consider the two following greedy algorithms 
+Consider the four following greedy algorithms 
 designed to maximize the number of guests you 
 can invite. For each, determine whether the 
 algorithm is optimal. If it is, briefly sketch a 
 proof of optimality. If
 it’s not, give a counterexample(next page).
 \newpage
-\noindent 0. \textbf{Greedy Strategy 0:} if no two diplomats 
+\noindent 1. \textbf{Greedy Strategy 0:} if no two diplomats 
 speak the same foreign language, invite them all. 
 Otherwise, invite the diplomat who speaks the fewest 
 languages only if they don't share a language with
 the next diplomat in the invite pool, and recurse.\\\\\\\\\\\\
-1. \textbf{Greedy Strategy 1:} if no two diplomats 
+2. \textbf{Greedy Strategy 1:} if no two diplomats 
 speak the same foreign language, invite them all. 
 Otherwise, remove the diplomat who speaks 
 more than half the possible languages, and recurse.\\\\\\\\\\\\
-2. \textbf{Greedy Strategy 2:} if no two diplomats 
+3. \textbf{Greedy Strategy 2:} if no two diplomats 
 speak the same foreign language, invite them all. Otherwise,
 remove the diplomat who speaks the most languages, and recurse.\\\\\\\\\\\\
-3. \textbf{Greedy Strategy 3:} if no two diplomats speak the 
+4. \textbf{Greedy Strategy 3:} if no two diplomats speak the 
 same foreign language, invite them all. Otherwise,
 invite the diplomat who speaks the fewest languages, 
 remove all other diplomats who share a language
 with the one you just invited, and recurse.
 \newpage
 \centerline{\includegraphics[scale = .7]{braess1.jpg}}
-\noindent 4. We have a group of people commuting home from a vertex $s$ to $t$.
+\noindent 5. We have a group of people commuting home from a vertex $s$ to $t$.
 Let the edges with cost $c(x) = x$ be the proportion
 of drivers traveling along those edges at any given time. 
 Let's say drivers employ a greedy strategy.
 Find the total cost (units are hours) to get home for the drivers along this graph.\\\\\\\\
 \centerline{\includegraphics[scale = .7]{braess2.jpg}}
-5. Let's say the same group of people were traveling along the same path,
+6. Let's say the same group of people were traveling along the same path,
 but all of a sudden Google invents a teleportation device between vertex $v$ to $w$ which
 adds no additional time to their commute,
 what now is the total time it takes to get home for the drivers along this graph?\\\\\\\\
-6. Why must we be careful when implementing greedy algorithms? When do greedy algorithms fail?
+7. Why must we be careful when implementing greedy algorithms? When do greedy algorithms fail?
 \newpage
 \centerline{\includegraphics[scale = 2]{prob3.jpg}}
-\noindent 7. Above are venn diagrams and graphs that match to the three algorithmic design techniques covered in class so far. 
+\noindent 8. Above are venn diagrams and graphs that match to the three algorithmic design techniques covered in class so far. 
 Please match each design technique to their venn diagram and graph.
 \begin{enumerate}[a)]
     \item \textbf{Dynamic Programming:} Overlapping sub-problems, smart brute force, many choices for subproblems
@@ -102,23 +110,33 @@ Please match each design technique to their venn diagram and graph.
 \end{enumerate}
 \newpage
 \centerline{\includegraphics[width=\textwidth]{cookies.jpg}}
-\noindent 8. You are given a sequence of $C$ cookies rated by their tastiness factor. Partition the sequence into segments such that the sum of the tastiness in each gobble full is smaller than a given cap $H$ (handfull factor). Give an algorithm that minimizes the number of segments. (This was a question asked by Facebook on Glassdoor. They wanted it done in better than $n \log{n}$ but let's stick to a greedy approach)
-\newpage \noindent 9. Assume the tastiness factor for the cookies $C$ could be negative, meaning they're fake cookies that are actually frutis and vegetables disguised as cookies. Come up with a sequence of cookies $C$ with a handfull factor $H$ where your greedy algorithm does not come up with the optimal solution.\\\\\\\\\\\\\\\\\\\\\\\\
-A. Consider the cashier problem you saw in class, our coin values are:
+\noindent 9. You are given a sequence of $C$ cookies rated by their tastiness factor. Partition the sequence into segments such that the sum of the tastiness in each gobble full is smaller than a given cap $H$ (handfull factor). Give an algorithm that minimizes the number of segments. (This was a question asked by Facebook on Glassdoor. They wanted it done in better than $n \log{n}$ but let's stick to a greedy approach)
+\newpage \noindent A. Assume the tastiness factor for the cookies $C$ could be negative, meaning they're fake cookies that are actually frutis and vegetables disguised as cookies. Come up with a sequence of cookies $C$ with a handfull factor $H$ where your greedy algorithm does not come up with the optimal solution.\\\\\\\\\\\\\\\\\\\\\\\\
+B. Consider the cashier problem you saw in class, our coin values are:
 $\{1,$ $2,$ $4,$ $8,$ $16,$ $\dots$ $,2k\}$, for some positive integer $k$. Give a modified cashier's algorithm that runs in $O(\log{n})$
 to solve the problem if the value to be paid is $y < 2^{k+1}$.
-\newpage
-\noindent B. Construct a greedy algorith that finds the postive integer solution $(x$, $y$, $z$, $a$, $b)$ for which\\\\
-$$\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{a}+\frac{1}{b}=1$$
-Avoid the trivial solution where $x=y=z=a=b=5$ such that $x\neq y \neq z \neq a \neq b$.\\
-(\textbf{Remark:} There are 72 tuples that satisfy this equation.)
 \newpage
 \noindent C. Find which coin you could remove from the U.S. coinage system as to keep the greedy cashier algorithm
 from returning the optimal result. To show this you need to find the coin and counter example for each.\\\\\\\\\\\\\\\\\\\\\\\\
 D. Which coins could we add which would make the coin system in the U.S. MORE canonical, which means simply, it returns even fewer coins as change? (HINT because this is harder:
 The numbers are prime and less than 11.)
+\newpage 
+\noindent \centerline{\includegraphics[scale = 1]{greedycolour.jpg}}
+\noindent \centerline{\includegraphics[scale = 1]{cube.jpg}}
+\noindent E. Find the orderings of the vetex of this cube graph (Fig 8.12) for which the greedy
+algorithm requires 2,3,4 colours respectively.\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+F. Is this greedy strategy optimal, that is to say does it use the minimum number of colours to colour all vertices?
+\newpage 
+\noindent 10. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
+$S$ $\subseteq$ $V$ such that every edge in $E$ is incident to at least one vertex in $S$.
+Consider the following algorithm for finding a vertex cover for $G$. First,
+order the vertices in $V$ by decreasing order of degree. Next execute the following
+step until all edges are covered. Pick a vertex of highest degree that
+is incident to at least one edge in the remaining graph, add it to the cover,
+and delete all edges incident to that vertex. Show that this greedy approach
+does not always result in a vertex cover of minimum size.
 \newpage
-\noindent E. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
+\noindent 11. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
 each containing $m$ registered voters. We’re supposed to divide these precincts into two districts,
 each consisting of $\frac{n}{2}$ of the precincts. Now, for each precinct, we have information
 on how many voters are registered to each of two political parties. We’ll say that the set of
@@ -135,17 +153,4 @@ $57$ for B; Precinct 3 has $60$ for A, $40$ for B; Precinct 4 has $47$ for A, $5
 This set of precincts is susceptible since, if we grouped precincts $1$ and $4$ into one district,
 and precincts 2 and 3 into the other, then party A would have a majority in both districts.
 \blankpage
-\newpage
-\noindent F. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
-$S$ $\subseteq$ $V$ such that every edge in $E$ is incident to at least one vertex in $S$.
-Consider the following algorithm for finding a vertex cover for $G$. First,
-order the vertices in $V$ by decreasing order of degree. Next execute the following
-step until all edges are covered. Pick a vertex of highest degree that
-is incident to at least one edge in the remaining graph, add it to the cover,
-and delete all edges incident to that vertex. Show that this greedy approach
-does not always result in a vertex cover of minimum size.
-\newpage 
-\noindent 10. Find the orderings of the vetex of this cube graph (Fig 8.12) for which the greedy
-algorithm requires 2,3,4 colours respectively.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-11. Is this greedy strategy optimal, that is to say does it use the minimum number of colours to colour all vertices?
 \end{document}
