@@ -8,6 +8,7 @@
 \usepackage[shortlabels]{enumitem}
 \usepackage{placeins}
 \usepackage[makeroom]{cancel}
+\usepackage{mathrsfs}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \def\blankpage{%
       \clearpage%
@@ -108,26 +109,30 @@ Please match each design technique to their venn diagram and graph.
     \item \textbf{Greedy:} A sub-problem defiines the next one with a single (greedy) binary choice.
     \item \textbf{Divide and Conquer:} Non-overlapping subproblems, recursion can and is often used.
 \end{enumerate}
+9. Recall the Huffman greedy encoding algorithm covered in your data structures course.
+Now consider the fibonacci string \\$\mathscr{F}(9) = $``abaababaabaababaababaabaababaabaab" which was computed by $\mathscr{F}(1) = ``b"$ and $\mathscr{F}(2) = ``a"$ where
+$\mathscr{F}(n) = \mathscr{F}(n-1) + \mathscr{F}(n-2)$ $\forall$ $n > 2$. Find the binary Huffman code for $\mathscr{F}(9)$. What does this tell us about the properties fibonacci string? 
+(\textbf{Remark:} I found this example in Maxime Crochemore wonderful book Algorithms on Strings)
 \newpage
 \centerline{\includegraphics[width=\textwidth]{cookies.jpg}}
-\noindent 9. You are given a sequence of $C$ cookies rated by their tastiness factor. Partition the sequence into segments such that the sum of the tastiness in each gobble full is smaller than a given cap $H$ (handfull factor). Give an algorithm that minimizes the number of segments. (This was a question asked by Facebook on Glassdoor. They wanted it done in better than $n \log{n}$ but let's stick to a greedy approach)
-\newpage \noindent A. Assume the tastiness factor for the cookies $C$ could be negative, meaning they're fake cookies that are actually frutis and vegetables disguised as cookies. Come up with a sequence of cookies $C$ with a handfull factor $H$ where your greedy algorithm does not come up with the optimal solution.\\\\\\\\\\\\\\\\\\\\\\\\
-B. Consider the cashier problem you saw in class, our coin values are:
+\noindent A. You are given a sequence of $C$ cookies rated by their tastiness factor. Partition the sequence into segments such that the sum of the tastiness in each gobble full is smaller than a given cap $H$ (handfull factor). Give an algorithm that minimizes the number of segments. (This was a question asked by Facebook on Glassdoor. They wanted it done in better than $n \log{n}$ but let's stick to a greedy approach)
+\newpage \noindent B. Assume the tastiness factor for the cookies $C$ could be negative, meaning they're fake cookies that are actually frutis and vegetables disguised as cookies. Come up with a sequence of cookies $C$ with a handfull factor $H$ where your greedy algorithm does not come up with the optimal solution.\\\\\\\\\\\\\\\\\\\\\\\\
+C. Consider the cashier problem you saw in class, our coin values are:
 $\{1,$ $2,$ $4,$ $8,$ $16,$ $\dots$ $,2k\}$, for some positive integer $k$. Give a modified cashier's algorithm that runs in $O(\log{n})$
 to solve the problem if the value to be paid is $y < 2^{k+1}$.
 \newpage
-\noindent C. Find which coin you could remove from the U.S. coinage system as to keep the greedy cashier algorithm
+\noindent D. Find which coin you could remove from the U.S. coinage system as to keep the greedy cashier algorithm
 from returning the optimal result. To show this you need to find the coin and counter example for each.\\\\\\\\\\\\\\\\\\\\\\\\
-D. Which coins could we add which would make the coin system in the U.S. MORE canonical, which means simply, it returns even fewer coins as change? (HINT because this is harder:
+E. Which coins could we add which would make the coin system in the U.S. MORE canonical, which means simply, it returns even fewer coins as change? (HINT because this is harder:
 The numbers are prime and less than 11.)
 \newpage 
 \noindent \centerline{\includegraphics[scale = 1]{greedycolour.jpg}}
 \noindent \centerline{\includegraphics[scale = 1]{cube.jpg}}
-\noindent E. Find the orderings of the vetex of this cube graph (Fig 8.12) for which the greedy
+\noindent F. Find the orderings of the vetex of this cube graph (Fig 8.12) for which the greedy
 algorithm requires 2,3,4 colours respectively.\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-F. Is this greedy strategy optimal, that is to say does it use the minimum number of colours to colour all vertices?
+10. Is this greedy strategy optimal, that is to say does it use the minimum number of colours to colour all vertices?
 \newpage 
-\noindent 10. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
+\noindent 11. Let $G$ $=$ $(V,E)$ be an undirected graph. A vertex cover for $G$ is a subset
 $S$ $\subseteq$ $V$ such that every edge in $E$ is incident to at least one vertex in $S$.
 Consider the following algorithm for finding a vertex cover for $G$. First,
 order the vertices in $V$ by decreasing order of degree. Next execute the following
@@ -136,7 +141,7 @@ is incident to at least one edge in the remaining graph, add it to the cover,
 and delete all edges incident to that vertex. Show that this greedy approach
 does not always result in a vertex cover of minimum size.
 \newpage
-\noindent 11. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
+\noindent 12. Consider the Gerrymandering problem: Suppose we have a set of $n$ precincts $P_1$, $P_2$, $\dots$ , $P_n$,
 each containing $m$ registered voters. We’re supposed to divide these precincts into two districts,
 each consisting of $\frac{n}{2}$ of the precincts. Now, for each precinct, we have information
 on how many voters are registered to each of two political parties. We’ll say that the set of
