@@ -13,7 +13,7 @@
 \def\blankpage{%
       \clearpage%
       \thispagestyle{empty}%
-      \addtocounter{page}{-1}%
+      \addtocounter{page}{-1}%pdf
       \null%
       \clearpage}
 \begin{document}
@@ -23,6 +23,12 @@
 \noindent\centerline{\textbf{Greedy Algorithms}}\\\\\\\\\\\\\\\\
 \begin{center}
     ``Finding a needle in a haystack is actually quite easy. It's finding a very specific piece of hay in a haystack that happens to be hard." \\$\dots$\\ Avi Wigderson
+\end{center}
+\begin{center}
+    In his first computer science class Ryan Williams was not afraid to tell his instructor that he thought it was too easy. Eventually, his frustrated teacher pulled a heavy white book off of a shelf, dumped it dramatically on Williams' desk, and told him to look up the problem described in the final chapter. ``If you can solve that," he said, ``then you can complain." That book was CLRS' Introduction to Algorithms and the problem was P vs. NP.
+\end{center}
+\begin{center}
+    ``It is not enough to be in the right place at the right time. You should also have an open mind at the right time." \\$\dots$\\ Paul Erd\H{o}s
 \end{center}
 \newpage
 \noindent 0. With this problem I want to present a 
@@ -73,7 +79,17 @@ comes to algorithms.\\\\
 which cases this problems degrenates to that problem you've already covered.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 5. Can you produce an informal algorithm that attempts to solve this problem?
 \newpage
-\noindent 6. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
+\centerline{\includegraphics[scale = .45]{jogger.jpg}}
+\noindent 6. You're given a weighted, undirected graph $G$ with loops(edges that loop back on themselves), 
+ multiple edges and only positive edge weights. There is a special node named ``Home" and you're given a positive integer $i \geq 0$.
+ Can you find a path for the jogger $j$ that starts from home, travels the distance $i$ and returns home without repeating an edge while notes can be repeated?
+ \\\\Instead of solving the problem let's explore this problem, first off: Is the Jogger problem in NP? Give a brief explanation why or why not.\\\\\\\\\\\\\\\\\\\\\\\\
+ 7. We've talked previously in this packet about a problem being a problem that we knew. Reduce the jogger problem into the subset sum.
+\newpage
+\noindent 8. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
 (\textbf{Hint: }If you employ Prim, Kruskal, or any of the other greedy minimum spanning tree algorithms, you can find that the weights needn't be added, only compared. 
-What does this imply about collection of edge weights that make up each minimum spanning tree?)
+What does this imply about collection of edge weights that make up each minimum spanning tree? What do we know about the weights of both graphs?)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent 9. Assume that $G$ is a positive weighted graph. 
+Under what condition does Prim's and Kruskal's algorithm on $G$  
+yield the same minimum spanning trees? If they never do, explain why.
 \end{document}
