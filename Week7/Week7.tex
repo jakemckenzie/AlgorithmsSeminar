@@ -20,7 +20,7 @@
 \title{TCSS 343 - Week 7}
 \author{Jake McKenzie}
 \maketitle
-\noindent\centerline{\textbf{Greedy Algorithms}}\\\\\\\\\\\\\\\\
+\noindent\centerline{\textbf{Graph Algorithms and some NP Completeness}}\\\\\\\\\\\\\\\\
 \begin{center}
     ``Finding a needle in a haystack is actually quite easy. It's finding a very specific piece of hay in a haystack that happens to be hard." \\$\dots$\\ Avi Wigderson
 \end{center}
@@ -84,12 +84,17 @@ which cases this problems degrenates to that problem you've already covered.\\\\
  multiple edges and only positive edge weights. There is a special node named ``Home" and you're given a positive integer $i \geq 0$.
  Can you find a path for the jogger $j$ that starts from home, travels the distance $i$ and returns home without repeating an edge while notes can be repeated?
  \\\\Instead of solving the problem let's explore this problem, first off: Is the Jogger problem in NP? Give a brief explanation why or why not.\\\\\\\\\\\\\\\\
- 7. We've talked previously in this packet about a problem that was disguised as a problem that we already knew. Reduce the jogger problem into the subset sum problem.
+ 7. We've talked previously in this packet about a problem that was disguised as a problem that we already knew. Reduce the jogger problem into the subset sum problem. 
+ Since we can use jogger to solve subset sum the following must be true for the jogger algorithm $J$ and subset sum algorithm $SS$: \\
+ \centerline{``cost of $SS$" $=$ ``times we use $J$" $\times$ ``cost of $J$" $+$ ``cost of the reduction"} 
+\newpage 
+\noindent 8. Prove or disprove the following lemma: If each edge weight for a graph is increased by 1, then the minimum spanning tree does not change.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+9. Prove or disprove the following lemma: If each edge weight for a graph is decreased by 1, then the minimum spanning tree does not change.
 \newpage
-\noindent 8. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
+\noindent A. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
 (\textbf{Hint: }If you employ Prim, Kruskal, or any of the other greedy minimum spanning tree algorithms, you can find that the weights needn't be added, only compared. 
 What does this imply about collection of edge weights that make up each minimum spanning tree? What do we know about the weights of both graphs?)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\noindent 9. Assume that $G$ is a positive weighted graph. 
+\noindent B. Assume that $G$ is a positive weighted graph. 
 Under what condition does Prim's and Kruskal's algorithm on $G$  
 yield the same minimum spanning trees? If they never do, explain why.
 \end{document}
