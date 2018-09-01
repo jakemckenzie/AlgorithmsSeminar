@@ -1,0 +1,310 @@
+\documentclass[11pt]{article}
+
+\usepackage{fullpage}
+\usepackage{epsfig}
+
+
+\begin{document}
+
+\title{{\bf Minimum Spanning Trees} \\
+\normalsize{(CLRS 23)}}
+\date{}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item Problem: Given connected, undirected graph $G=(V,E)$ where each
+  edge $(u,v)$ has weight $w(u,v)$. Find acyclic set $T \subseteq E$
+  connecting all vertices in $V$ with minimal weight \\ $w(T) =
+  \sum_{(u,v) \in T} w(u,v)$.
+\item An acyclic set connecting all vertices is called a {\em spanning
+  tree}. We want to find a spanning tree of {\em minimal weight}. We
+  use {\em minimum spanning tree} as short for {\em minimum weight
+  spanning tree}).
+\item MST problem has many applications
+  \begin{itemize}
+  \item For example, think about connecting cities with minimal
+    amount of wire or roads (cities are vertices, weight of edges
+    are distances between city pairs).
+  \end{itemize}
+\item Example: \\
+  \centerline{\epsfig{file=mst_example.eps,height=3.5cm}}
+  \begin{itemize}
+  \item Weight of MST is $4+8+7+9+2+4+1+2=37$
+  \item MST is not unique: e.g. $(b,c)$ can be exchanged with $(a,h)$ 
+  \end{itemize}
+\end{itemize}
+
+
+\section{PRIM's algorithm}
+\begin{itemize}
+\item {\em Greedy} algorithm for computing MST:
+        \begin{itemize}
+        \item Start with spanning tree containing arbitrary vertex $r$ and
+        no edges
+        \item Grow spanning tree by repeatedly adding minimal weight edge
+        connecting vertex in current spanning tree with a vertex not in the
+        tree
+        \end{itemize}
+\item Implementation:
+  \begin{itemize}
+  \item To find minimal edge connected to current tree we maintain a
+    priority queue on vertices not in the tree. The key/priority of a
+    vertex is the weight of minimal weight edge connecting it to the
+    tree. (We maintain pointer from adjacency list entry of $v$ to $v$
+    in the priority queue).
+  \item For each node $u$ maintain $visit(u)$ ($(u, visit(u))$ is the
+    cuurently best edge connecting it to the tree.)
+  \end{itemize}
+  
+  \fbox{
+    \parbox{10cm}{
+      PRIM(r)\\
+      
+      For each $v \in V$ DO
+      \begin{itemize}
+      \item[] {\sc Insert}($PQ,v,\infty$)
+      \end{itemize}
+	  {\sc Decrease-Key}$(PQ,r,0)$ \\
+	  WHILE $PQ$ not empty DO
+          \begin{itemize}
+          \item[] $u$ = {\sc Deletemin}($PQ$)
+	  \item [] (output edge $(u, visit(u))$ as part of MST)
+          \item[] For each $(u,v) \in E$ DO
+            \begin{itemize}
+            \item[] IF $v \in PQ$ and $w(u,v) < $ key($v$) THEN
+            \item[] ~~~~visit[$v$] = $u$
+            \item[] ~~~~{\sc Decrease-Key}($PQ,v,w(u,v)$)
+            \end{itemize}
+          \end{itemize}
+  }}
+
+\item On the example graph, the greedy algorithm would work as follows
+	(starting at vertex $a$): \\
+  
+  \centerline{\epsfig{file=mst_prim_1.eps,height=7cm}}
+  \centerline{\epsfig{file=mst_prim_2.eps,height=7cm}}
+  
+
+\item Analysis: 
+  \begin{itemize}
+  \item While loop runs $\vert V \vert$ times $\Rightarrow$ we
+    perform $\vert V \vert$ {\sc Deletemin}'s
+  \item We perform at most one {\sc Decrease-Key} for each of the $\vert E
+    \vert$ edges \\
+    $\Downarrow$ \\
+    $O((\vert V \vert + \vert E \vert) \log \vert V \vert)=O(\vert E
+    \vert \log \vert V \vert)$ running time.
+  \end{itemize}
+\item Correctness: 
+  \begin{itemize}
+  \item When designing a greedy algorithm the hard part is to
+    prove that it works correctly.
+  \item We will prove a Theorem that allows us to prove the
+    correctness of a general class of greedy MST algorithms:
+    
+    Some definitions
+    \begin{itemize}
+    \item A {\em cut} $(S, V \setminus S)$ is a partition
+      of $V$ into sets $S$ and $V\setminus S$
+    \item A {\em edge $(u,v)$ crosses a cut $S$} if $u
+      \in S$ and $v \in V\setminus S$ {\em or} $v \in S$ and $u
+      \in V\setminus S$
+    \item A {\em cut $S$ respects a set $T \subseteq E$}
+      if no edge in $T$ crosses the cut
+    \end{itemize}
+    
+    Example: Cut $S$ respects $T$ \\
+    \centerline{\epsfig{file=cut_example.eps,height=5cm}}
+  \end{itemize}
+\item {\em Theorem}: If $G=(V,E)$ is a graph such that $T \subseteq
+  E$ is subset of some MST of $G$, and $S$ is a cut respecting $T$ {\bf
+    then} there is a MST for $G$ containing $T$ and the minimum weight edge
+  $e=(u,v)$ crossing $S$.
+  
+\item Note: Correctness of Prim's algorithm follows from the Theorem by
+  induction---cut consist of current spanning tree.
+
+\item Proof:
+  \begin{itemize}
+  \item Let $T^*$ be MST containing $T$
+  \item If $e \in T^*$ we are done
+  \item If $e \notin T^*$:
+    \begin{itemize}
+    \item There must be (at least) one other edge $(x,y) \in T^*$
+      crossing the cut $S$ such that there is a unique path from $u$
+      to $v$ in $T^*$ ($T^*$ is spanning tree) \\
+      \centerline{\epsfig{file=cut_proof.eps,height=6cm}}
+    \item This path together with $e$ forms a cycle
+    \item If we remove edge $(x,y)$ from $T^*$ and add $e$
+      instead, we still have spanning tree
+    \item New spanning tree must have same weight as $T^*$
+      since $w(u,v) \leq w(x,y)$ \\
+      $\Downarrow$ \\
+      There is a MST containing $T$ and $e$.
+    \end{itemize}
+  \end{itemize}
+
+\item The Theorem allows us to describe a very abstract greedy algorithm
+  for MST: \\ \\
+  \fbox{
+    \parbox{8cm}{
+      $T = \emptyset$ \\
+      While $\vert T \vert \leq \vert V \vert - 1$ DO
+      \begin{itemize}
+      \item[] Find cut $S$ respecting $T$
+      \item[] Find minimal edge $e$ crossing $S$
+      \item[] $T = T \cup \{ e \}$
+      \end{itemize}
+  }} 
+  \begin{itemize}
+  \item Prim's algorithm follows this abstract algorithm.
+  \item Kruskal's algorithm is another implementation of the abstract
+  algorithm.
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\section{Kruskal's Algorithm}
+\begin{itemize}
+\item Kruskal's algorithm is another implementation of the abstract algorithm.
+\item Idea in Kruskal's algorithm:
+  \begin{itemize}
+  \item Start with $|V|$ trees (one for each vertex)
+  \item Consider edges $E$ in increasing order; add edge if it
+    connects two trees
+  \end{itemize}
+  
+
+
+\item Example: \\ \\
+  \centerline{\epsfig{file=mst_kruskal_1.eps,height=7cm}} \\ \\
+  \centerline{\epsfig{file=mst_kruskal_2.eps,height=7cm}} \\
+
+\item Implementation: \\ \\
+  We need (Union-Find) data structure that supports:
+  \begin{itemize}
+  \item {\sc Make-set}($v$): Create set consisting of $v$
+  \item {\sc Union-set}($u,v$): Unite set containing $u$ and set
+    containing $v$
+  \item {\sc Find-set}($u$): Return unique representative for
+    set containing $u$
+  \end{itemize}
+  
+  \fbox{
+    \parbox{10cm}{
+      KRUSKAL \\
+      
+      $T = \emptyset$ \\
+      FOR each vertex $v \in V$ {\sc Make-Set}($v$)
+      
+      Sort edges of $E$ in increasing order by weight \\
+      FOR each edge $e=(u,v) \in E$ in order DO
+      \begin{itemize}
+      \item[] IF {\sc Find-Set}($u$) $\neq$ {\sc Find-Set}($v$) THEN
+	\begin{itemize}
+	\item[] $T = T \cup \{ e \}$
+	\item[] {\sc Union-Set}($u,v$)
+	\end{itemize}
+      \end{itemize}
+  }}
+
+\item Analysis: 
+  \begin{itemize}
+  \item We use $O(|E|\log |E|)$ time to sort edges and we perform
+    $\vert V \vert$ {\sc Make-Set}, $\vert V \vert -1$ {\sc Union-set},
+    and $2 \vert E \vert$ {\sc Find-Set} operations.
+  \item We will discuss a simple solution to the \emph{Union-Find
+    problem} such that {\sc Make-Set} and {\sc Find-Set} take $O(1)$
+    time and {\sc Union-Set} takes $O(\log V)$ time amortized.
+    
+    $\Downarrow$
+    
+    Kruskal's algorithm runs in time $O(|E|\log |E| + |V|\log
+    |V|)=O((|E|+|V|)\log |E|) = O(|E|\log |V|)$ like Prim's algorithm.
+  \end{itemize}
+
+\item Correctness 
+  \begin{itemize}
+  \item follows from Theorem above: If minimal edge connects two trees
+  then there exists a cut respecting the current set of edges (cut
+  consisting of vertices in one of the trees)
+  \end{itemize}
+  
+
+\end{itemize}
+
+
+
+
+\section{Union-Find}
+\begin{itemize}
+\item The \emph{Union-Find problem}: Maintain a set system under:
+  \begin{itemize}
+  \item {\sc Make-set}($v$): Create set consisting of $v$
+  \item {\sc Union-set}($u,v$): Unite set containing $u$ and set
+    containing $v$
+  \item {\sc Find-set}($u$): Return unique representative for
+    set containing $u$
+  \end{itemize}
+  
+\item Simple solution:
+  \begin{itemize}
+  \item Maintain elements in same set as a linked list with each
+    element having a pointer to the first element in the list (unique
+    representative) \\
+    
+
+Example: \\
+
+\centerline{\epsfig{file=union-find_linked.eps,height=5cm}}
+
+\item {\sc Make-Set}($v$): Make a list with one element
+  $\Rightarrow O(1)$ time
+\item {\sc Find-Set}($u$): Follow pointer and return unique
+  representative $\Rightarrow O(1)$ time
+\item {\sc Union-Set}($u,v$): Link first element in list with
+  unique representative {\sc Find-Set}($u$) after last element
+  in list with unique representative {\sc Find-set}($v$) $\Rightarrow
+  O(|V|)$ time (as we have to update all unique representative
+  pointers in list containing $u$)
+  \end{itemize}
+\item With this simple solution the $\vert V \vert -1$ {\sc Union-Set}
+  operations in Kruskal's algorithm may take $O(\vert V \vert ^2)$ time.
+\item We can improve the performance of {\sc Union-Set} with a very simple
+  modification: Always link the smaller list after the longer list
+  ($\Rightarrow$ update the pointers of the smaller list)
+  \begin{itemize}
+  \item One {\sc Union-Set} operation can still take $O(\vert V
+    \vert)$ time, but the $\vert V \vert -1$ {\sc Union-Set} operations
+    takes $O(\vert V \vert \log \vert V \vert)$ time altogether (one
+    {\sc Union-Set} takes $O(\log \vert V \vert)$ time
+    \emph{amortized}):
+    \begin{itemize}
+    \item Total time is proportional to number of unique
+      representative pointer changes
+    \item Consider element $u$:
+      
+      After pointer for $u$ is updated, $u$ belongs to a list of
+      size at least double the size of the list it was in before \\
+      $\Downarrow$ \\
+      After $k$ pointer changes, $u$ is in list of size at least
+      $2^k$ \\
+      $\Downarrow$ \\
+      Pointer can be changed at most $\log \vert V \vert$ times.
+    \end{itemize}
+  \end{itemize}
+\item With improvement, Kruskal's algorithm runs in time $O(|E|\log |E| +
+  |V|\log |V|)=O((|E|+|V|)\log |E|) = O(|E|\log |V|)$ like Prim's
+  algorithm.
+\end{itemize}
+
+
+ 
+
+\end{document} 

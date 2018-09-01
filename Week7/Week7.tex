@@ -25,13 +25,54 @@
     ``Finding a needle in a haystack is actually quite easy. It's finding a very specific piece of hay in a haystack that happens to be hard." \\$\dots$\\ Avi Wigderson
 \end{center}
 \begin{center}
-    In his first computer science class Ryan Williams was not afraid to tell his instructor that he thought it was too easy. Eventually, his frustrated teacher pulled a heavy white book off of a shelf, dumped it dramatically on Williams' desk, and told him to look up the problem described in the final chapter. ``If you can solve that," he said, ``then you can complain." That book was CLRS' Introduction to Algorithms and the problem was P vs. NP.
+    ``People say nothing is impossible, but I do nothing every day'' \\$\dots$\\ Winnie-the-Pooh
 \end{center}
 \begin{center}
     ``It is not enough to be in the right place at the right time. You should also have an open mind at the right time." \\$\dots$\\ Paul Erd\H{o}s
 \end{center}
 \newpage
-\noindent 0. With this problem I want to present a 
+\noindent 0. Modify Kruskal's algorithm to find the maximum spanning tree.\\
+\fbox{
+    \parbox{10cm}{
+      KRUSKAL \\
+      
+      $T = \emptyset$ \\
+      FOR each vertex $v \in V$ {\sc Make-Set}($v$)
+      
+      Sort edges of $E$ in increasing order by weight \\
+      FOR each edge $e=(u,v) \in E$ in order DO
+      \begin{itemize}
+      \item[] IF {\sc Find-Set}($u$) $\neq$ {\sc Find-Set}($v$) THEN
+	\begin{itemize}
+	\item[] $T = T \cup \{ e \}$
+	\item[] {\sc Union-Set}($u,v$)
+	\end{itemize}
+      \end{itemize}
+  }}\\\\\\\\\\\\\\\\
+  1. Modify Prim's algorithm to find the maximum spanning tree.\\
+  \fbox{
+    \parbox{10cm}{
+      PRIM(r)\\
+      
+      For each $v \in V$ DO
+      \begin{itemize}
+      \item[] {\sc Insert}($PQ,v,\infty$)
+      \end{itemize}
+	  {\sc Decrease-Key}$(PQ,r,0)$ \\
+	  WHILE $PQ$ not empty DO
+          \begin{itemize}
+          \item[] $u$ = {\sc Deletemin}($PQ$)
+	  \item [] (output edge $(u, visit(u))$ as part of MST)
+          \item[] For each $(u,v) \in E$ DO
+            \begin{itemize}
+            \item[] IF $v \in PQ$ and $w(u,v) < $ key($v$) THEN
+            \item[] ~~~~visit[$v$] = $u$
+            \item[] ~~~~{\sc Decrease-Key}($PQ,v,w(u,v)$)
+            \end{itemize}
+          \end{itemize}
+  }}
+\newpage
+\noindent With this problem I want to present a 
 problem to you and ask you why the greedy algorithm fails.\\\\
 Imagine we have a wizard that knows a few spells. 
 Each spell has 3 attributes: Damage, cooldown time, and a cast time. \\\\
@@ -52,7 +93,7 @@ the two sets of spells:\\\\\\
 Chill Touch: $100$ damage at a rate of $1$ second per cast with a $10$ second cooldown. \\\\
 Mage Hand. $10$ damage at a rate of $4$ second per cast with a $0$ second cooldown.\\\\
 Optimal spell ordering $\Sigma =\{$Chill Touch, Mage Hand, Wait, Repeat$\}$\\\\
-0. Given an arbitary amount of time $t$ what is the maximum amount of spells
+2. Given an arbitary amount of time $t$ what is the maximum amount of spells
 we can cast $S$?
 \newpage
 \noindent Now imagine that there is one spell, henceforth called the Eldritch Blast, 
@@ -65,8 +106,8 @@ Now, assume all the other spells also have cooldown $n$.
 If one optimizes a given n-second downtime with these spells, 
 then the same spell-sequence will also be possible in the next 
 $n$-second downtime, and so we can assume the solution is $n$-periodic.\\\\
-2. Why does the greedy algorithm work in this case?\\\\\\\\\\\\\\\\\\\\
-3. Would you say this problem is NP-Complete? NP-Complete problems have the 
+3. Why does the greedy algorithm work in this case?\\\\\\\\\\\\\\\\\\\\
+4. Would you say this problem is NP-Complete? NP-Complete problems have the 
 highest complexity of any problem in NP, which are the class of problems which can
 be quickly checked to be true.
 \newpage
@@ -75,18 +116,19 @@ and reduce the problem to it's key constituent parts. When you employ this
 design technique you'll begin to notice that many problems you have reduce to problems
 to classes of problems. This is the most powerful design technique I know of when it 
 comes to algorithms.\\\\
-4. Of the problems you've covered in class, which does this problem degenerate too? Describe for 
+5. Of the problems you've covered in class, which does this problem degenerate too? Describe for 
 which cases this problems degrenates to that problem you've already covered.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-5. Can you produce an informal algorithm that attempts to solve this problem?
+6. Can you produce an informal algorithm that attempts to solve this problem?
 \newpage
 \centerline{\includegraphics[scale = .45]{jogger.jpg}}
-\noindent 6. You're given a weighted, undirected graph $G$ with loops(edges that loop back on themselves), 
+\noindent 7. You're given a weighted, undirected graph $G$ with loops(edges that loop back on themselves), 
  multiple edges and only positive edge weights. There is a special node named ``Home" and you're given a positive integer $i \geq 0$.
  Can you find a path for the jogger $j$ that starts from home, travels the distance $i$ and returns home without repeating an edge while notes can be repeated?
- \\\\Instead of solving the problem let's explore this problem, first off: Is the Jogger problem in NP? Give a brief explanation why or why not.\\\\\\\\\\\\\\\\
- 7. We've talked previously in this packet about a problem that was disguised as a problem that we already knew. Reduce the jogger problem into the subset sum problem. 
+\\\\We've talked previously in this packet about a problem that was disguised as a problem that we already knew. Reduce the jogger problem into the subset sum problem. 
  Since we can use jogger to solve subset sum the following must be true for the jogger algorithm $J$ and subset sum algorithm $SS$: \\
- \centerline{``cost of $SS$" $=$ ``times we use $J$" $\times$ ``cost of $J$" $+$ ``cost of the reduction"} 
+ \centerline{``cost of $SS$" $=$ ``times we use $J$" $\times$ ``cost of $J$" $+$ ``cost of the reduction"} \\
+ \textbf{Remark:} This is how you show that a problem is NP-Complete, by showing that 
+ other problems in NP reduce to your problem.
 \newpage 
 \noindent 8. Prove or disprove the following lemma: If each edge weight for a graph is increased by 1, then the minimum spanning tree does not change.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 9. Prove or disprove the following lemma: If each edge weight for a graph is decreased by 1, then the minimum spanning tree does not change.
@@ -111,4 +153,11 @@ running time on a list of n elements is $O(n)$.\\\\\\\\\\
 10. If problem $\psi$ is NP-hard and $\sigma \le \psi$ then $\sigma$ is NP-hard.\\\\\\\\\\
 11. If problem $\sigma$ is NP-hard and $\sigma \le \psi$ then $\psi$ is NP-hard.
 \newpage
+\noindent Many of us have played physical card games 
+and many of those that have have run into the game that stops 
+being fun because we've run into a game breaking combinations.
+Typically these combinations involve playing cards which call 
+other cards which call cards which then call the original card 
+, $\dots$, repeated for some large finite amount and or the game
+is ended because the combination killed the other player. 
 \end{document}
