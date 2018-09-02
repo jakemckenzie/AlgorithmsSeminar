@@ -160,4 +160,20 @@ running time on a list of n elements is $O(n)$.\\\\\\\\\\
 have a number of edges no more than the number of edges of the minimum spanning tree for $G$.\\\\\\\\\\
 15. Breadth first search forms a minimum spanning tree while depth first search does not.\\\\\\\\\\
 16. The maximum number of minimum spanning trees is three for a positively weighted undirected graph.
+\newpage
+\noindent 17. The money game is as follows. Each vertex must give each vertex 1 to each neighboring 
+vertex each turn or it can take 1 from each neighboring vertex. The aim of the game is to
+get every node in the black (at least zero) in the fewest number of turns. Can you solve the money games 
+for the following graphs? If you can't, can you find out why? \\\\
+\textbf{HINT: } What's different about these two graphs?\\\\\\\\
+\centerline{\includegraphics[scale = .8]{graph1.jpg}}\\\\
+\centerline{\includegraphics[scale = .8]{graph2.jpg}}
+\newpage
+\noindent 18. To solve the money game optimally is an open question in mathematics and computer science.
+ This an open question, which means 
+at least a few smart people have thought about it and failed to solve it, but that doesn't mean 
+we can't think about it! A property that is known about the money game:
+To have a solvable money game you must have enough money equal to the genus of a graph where 
+the genus $=$ (number of Edges) $-$ (number of Vertices) $+$ $1$.\\\\
+Design an algorithm that attempts to solve the money game in the least number of moves. 
 \end{document}
