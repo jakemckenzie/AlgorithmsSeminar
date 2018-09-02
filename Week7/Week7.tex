@@ -48,7 +48,8 @@
 	\item[] {\sc Union-Set}($u,v$)
 	\end{itemize}
       \end{itemize}
-  }}\\\\\\\\\\\\\\\\
+  }}
+  \newpage
   1. Modify Prim's algorithm to find the maximum spanning tree.\\
   \fbox{
     \parbox{10cm}{
@@ -72,6 +73,12 @@
           \end{itemize}
   }}
 \newpage
+\noindent 2. Give an example of a weighted connected undirected graph $G$ $=$ $(V,E)$ and a vertex $v$, such that the 
+minimum spanning tree of $G$ is the same as the shortest-path tree at $v$.\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+3. Give an example of a weighted connected undirected graph $G$ $=$ $(V,E)$ and a vertex $v$, such that the 
+minimum spanning tree of $G$ is very different from the shortest-path tree at $v$.\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+4. Can the two trees be completely disjoint?
+\newpage
 \noindent With this problem I want to present a 
 problem to you and ask you why the greedy algorithm fails.\\\\
 Imagine we have a wizard that knows a few spells. 
@@ -93,7 +100,7 @@ the two sets of spells:\\\\\\
 Chill Touch: $100$ damage at a rate of $1$ second per cast with a $10$ second cooldown. \\\\
 Mage Hand. $10$ damage at a rate of $4$ second per cast with a $0$ second cooldown.\\\\
 Optimal spell ordering $\Sigma =\{$Chill Touch, Mage Hand, Wait, Repeat$\}$\\\\
-2. Given an arbitary amount of time $t$ what is the maximum amount of spells
+5. Given an arbitary amount of time $t$ what is the maximum amount of spells
 we can cast $S$?
 \newpage
 \noindent Now imagine that there is one spell, henceforth called the Eldritch Blast, 
@@ -101,13 +108,13 @@ which does a very, very large amount of damage, has $0$ casting time, and has
 some positive cooldown $n$. If all the other spells do much less damage than the 
 Eldritch Blast, it will clearly be optimal to cast the Eldritch Blast every n seconds and 
 then optimize the cooldown time with the weaker spells.\\\\
-1. Why does the greedy algorithm work in this case?\\\\\\\\\\\\\\\\\\\\
+6. Why does the greedy algorithm work in this case?\\\\\\\\\\\\\\\\\\\\
 Now, assume all the other spells also have cooldown $n$. 
 If one optimizes a given n-second downtime with these spells, 
 then the same spell-sequence will also be possible in the next 
 $n$-second downtime, and so we can assume the solution is $n$-periodic.\\\\
-3. Why does the greedy algorithm work in this case?\\\\\\\\\\\\\\\\\\\\
-4. Would you say this problem is NP-Complete? NP-Complete problems have the 
+7. Why does the greedy algorithm fail in this case?\\\\\\\\\\\\\\\\\\\\
+8. Would you say this problem is NP-Complete? NP-Complete problems have the 
 highest complexity of any problem in NP, which are the class of problems which can
 be quickly checked to be true.
 \newpage
@@ -116,48 +123,41 @@ and reduce the problem to it's key constituent parts. When you employ this
 design technique you'll begin to notice that many problems you have reduce to problems
 to classes of problems. This is the most powerful design technique I know of when it 
 comes to algorithms.\\\\
-5. Of the problems you've covered in class, which does this problem degenerate too? Describe for 
+9. Of the problems you've covered in class, which does this problem degenerate too? Describe for 
 which cases this problems degrenates to that problem you've already covered.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-6. Can you produce an informal algorithm that attempts to solve this problem?
+A. Can you produce an informal algorithm that attempts to solve this problem?
 \newpage
 \centerline{\includegraphics[scale = .45]{jogger.jpg}}
-\noindent 7. You're given a weighted, undirected graph $G$ with loops(edges that loop back on themselves), 
+\noindent B. You're given a weighted, undirected graph $G$ with loops(edges that loop back on themselves), 
  multiple edges and only positive edge weights. There is a special node named ``Home" and you're given a positive integer $i \geq 0$.
  Can you find a path for the jogger $j$ that starts from home, travels the distance $i$ and returns home without repeating an edge while notes can be repeated?
 \\\\We've talked previously in this packet about a problem that was disguised as a problem that we already knew. Reduce the jogger problem into the subset sum problem. 
  Since we can use jogger to solve subset sum the following must be true for the jogger algorithm $J$ and subset sum algorithm $SS$: \\
  \centerline{``cost of $SS$" $=$ ``times we use $J$" $\times$ ``cost of $J$" $+$ ``cost of the reduction"} \\
  \textbf{Remark:} This is how you show that a problem is NP-Complete, by showing that 
- other problems in NP reduce to your problem.
+ your problem can be reduced to other problems in NP.
 \newpage 
-\noindent 8. Prove or disprove the following lemma: If each edge weight for a graph is increased by 1, then the minimum spanning tree does not change.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-9. Prove or disprove the following lemma: If each edge weight for a graph is decreased by 1, then the minimum spanning tree does not change.
+\noindent C. Prozve or disprove the following lemma: If each edge weight for a graph is increased by 1, then the minimum spanning tree does not change.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+D. Prove or disprove the following lemma: If each edge weight for a graph is decreased by 1, then the minimum spanning tree does not change.
 \newpage
-\noindent A. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
+\noindent F. Show that there's a unique minimum spanning tree (MST) in case the edges' weights are pairwise different ($w(e)$ $\neq$ $w(f)$ for $e$ $\neq$ $f$)\\\\
 (\textbf{Hint: }If you employ Prim, Kruskal, or any of the other greedy minimum spanning tree algorithms, you can find that the weights needn't be added, only compared. 
 What does this imply about collection of edge weights that make up each minimum spanning tree? What do we know about the weights of both graphs?)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\noindent B. Assume that $G$ is a positive weighted graph. 
+\noindent 10. Assume that $G$ is a positive weighted graph. 
 Under what condition does Prim's and Kruskal's algorithm on $G$  
 yield the same minimum spanning trees? If they never do, explain why.
 \newpage
 \noindent For the next few problems state whether these desiderata are true or false and justify your work.\\\\
-C. In an undirected graph, the shortest path between two nodes lies on some minimum spanning
+11. In an undirected graph, the shortest path between two nodes lies on some minimum spanning
 tree.\\\\\\\\\\
-D. If the edges in a graph have different weights, then the minimum spanning tree is unique.\\\\\\\\\\
-E. If $P \ne NP$ then every problem in NP requires exponential time.\\\\\\\\\\
-F. Let $\Sigma$ be an algorithm that operates on a list of $n$ objects, 
+12. If the edges in a graph have different weights, then the minimum spanning tree is unique.\\\\\\\\\\
+13. Let $\Sigma$ be an algorithm that operates on a list of $n$ objects, 
 where $n$ is a power of two. $\Sigma$ spends $\Theta(n^2)$ time dividing its input 
 list into two equal pieces and selecting one of the two pieces. It 
 then calls itself recursively on that list of $\frac{n}{2}$ elements. Then $\Sigma$'s 
 running time on a list of n elements is $O(n)$.\\\\\\\\\\
-10. If problem $\psi$ is NP-hard and $\sigma \le \psi$ then $\sigma$ is NP-hard.\\\\\\\\\\
-11. If problem $\sigma$ is NP-hard and $\sigma \le \psi$ then $\psi$ is NP-hard.
-\newpage
-\noindent Many of us have played physical card games 
-and many of those that have have run into the game that stops 
-being fun because we've run into a game breaking combinations.
-Typically these combinations involve playing cards which call 
-other cards which call cards which then call the original card 
-, $\dots$, repeated for some large finite amount and or the game
-is ended because the combination killed the other player. 
+14. Assume we deleted an edge from a graph $G$ which we will denote $G'$. The minimum spanning tree of $G'$ will 
+have a number of edges no more than the number of edges of the minimum spanning tree for $G$.\\\\\\\\\\
+15. Breadth first search forms a minimum spanning tree while depth first search does not.\\\\\\\\\\
+16. The maximum number of minimum spanning trees is three for a positively weighted undirected graph.
 \end{document}
