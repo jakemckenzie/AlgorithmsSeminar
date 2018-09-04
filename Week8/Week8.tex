@@ -85,8 +85,8 @@ A car with gas tank capacity $c$ can only travel for $c$ hours on a highway and 
 D. Give an $O(V^3\log{V})$ modification to Dijkstra’s algorithm to compute, simultaneously for all pairs $(u,v)$ of cities, the minimum gas tank capacity needed to go from $u \rightarrow v$.
 \newpage
 \noindent E. There are many problems that are NP-Complete with similar problems are P. 
-For example vertex cover is NP-Complete while edge cover is P, Hamiltonian path is NP-Complete 
-while Euler path is P, 3-Sat is NP-Complete while 2-SAT is P, etc. Make a conjecture for a 
+For example vertex cover is NP-Complete while edge cover is in P, Hamiltonian path is NP-Complete 
+while Euler path is in P, 3-Sat is NP-Complete while 2-SAT is in P, etc. Make a conjecture for a 
 problems covered in class or seminar that is in P with a corresponding problem that is NP-Complete. If you can find 
 another P time algorithm that is similar to the NP-Complete algorithms stated here that's 
 fine. Below is a list of some more NP-Complete problems. Why did you make this conjecture?\\
@@ -106,5 +106,21 @@ edge $e$ $=$ $(u,v)\in E$ has at least of of it's endpoints $u$ or $v$ $\in C$.
 minimum vertex cover. (Hint: Consider being greedy — and remember that you
 can choose the optimal solution you like.)
 \newpage
-
+\noindent \centerline{\includegraphics[scale = 2]{shudderwock.jpg}}
+Blizzard has a popular card game called Hearthstone. In it 
+there exists a game mechanic called battlecry, which whenever a card is played,
+ that battlecry is put into effect. In the witchwood expansion they added a card called
+ ``Shudderwock" which due to it's high cost can only be played towards the end of a game. It's battlecry 
+ introduces recursion to Hearthstone when paired with certain cards. Recursion often breaks card games because it 
+ allows for players to spam their opponents leading to unfun scenarios.\\\\
+ If you have a card which includes the battlecry: plays the previous battlecry twice, you can begin 
+ calling multiple Shudderwocks which will spawn infinitely. Let's try to see if we can help them out!(problems 12-14)\\\\
+12. Express the mechanic that leads to recursion in a card game formally with input and output states as a \textit{decision problem}.
+\newpage
+\noindent 13. Show this problem is in NP by giving a verification algorithm for this problem and proving that algorithm is correct. \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+14. The Hamiltonian cycle problem is already known to be NP-complete. We can show that the recursion problem in card games is NP complete by reducing the Hamiltonian cycle problem to the card game recursion problem. Do so by first giving a reduction of Hamiltonian cycle problem to card game recursion problem. The reduction takes input to Hamiltonian cycle problem and converts it into input to the card game recursion problem. Then prove your reduction is correct.
+\newpage
+\noindent 15. Given an even number of coins in a row of arbitrary denominations, two players take turns taking a coin from either end. 
+Winner is who gets the most cash. Player 1 goes first. 
+Is there a strategy for player 1 that guarantees at least as much money as player 2?
 \end{document}
