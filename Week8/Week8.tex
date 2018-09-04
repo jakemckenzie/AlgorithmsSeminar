@@ -9,6 +9,7 @@
 \usepackage{placeins}
 \usepackage[makeroom]{cancel}
 \usepackage{mathrsfs}
+\usepackage{nicefrac}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \def\blankpage{%
       \clearpage%
@@ -17,7 +18,7 @@
       \null%
       \clearpage}
 \begin{document}
-\title{TCSS 343 - Week 7}
+\title{TCSS 343 - Week 8}
 \author{Jake McKenzie}
 \maketitle
 \noindent\centerline{\textbf{Graph Algorithms}}\\\\\\\\\\\\\\\\
@@ -30,8 +31,80 @@
 \begin{center}
     ``We grow in direct proportion to the amount of chaos we can sustain and dissipate." \\$\dots$\\ Ilya Prigogine
 \end{center}
+\newpage
+\noindent So when I was taking TCSS 343 I identified two core ideas of Dijkstra's algorithm. 
+I'm going to present them to you for you to think about, then ask you to complete the algorithm.\\\\
+\textit{How does Dijkstra's algorithm find new paths and do the}\textbf{ relaxation step}\textit{?}\\\\
+\textit{In which order does Dijkstra's algorithm} \textbf{process }\textit{the vertices one by one?}\\\\
+0. Fill in the rest of the algorithm for relaxing an individual edge.\\
+Relax(u,v) $\{$\\
+    $\tab$ if ( $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ $<$ d[v]) \{\\
+        $\tab\tab\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ $=$ d[u] $+$  $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$;\\
+        $\tab\tab$pred[v] = $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$;\\
+        $\tab$\}\\
+    \}\\\\
+    \textbf{Remark:} The predecessor pointer pred[] is determing the shortest path.\\\\
+1. Part of the answer to the second question is that we store the vertices of $V/S$(set division), where 
+S $\subseteq$ V for which we know the true distance,
+in a priority queue (typically), where the key value of each vertex v is d[v]. 
+That's all well and good but what are the following runtimes of the operations Insert(),
+ Extract\_Min() and Decrease\_Key()?\\\\
+ These operations run in $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ time.\\\\
+2. The initialization step of Dijkstra's algorithm runs in $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ time? (\textbf{Hint:} for each u $\in$ V)\\\\
+3. Show that $V O(1 + \log{V})+O(E) +O(E \log{V}) \in O((V+E)\log{V})$.(Dijkstra's algorithm runtime w/ a priority queue...\textbf{Bonus question:} Can you figure out the overall runtime of a sparse vs dense graph? All runtimes for bonus question can be expressed in terms of V.)
+\newpage
+\noindent 4. Consider Kruska's algorithm for the graph G $=$ (V,E) with edges \{A,B\}, \{B,C\}
+, \{A,D\}, \{B,D\}, \{C,E\}, \{B,E\}, \{D,E\}, \{D,F\}, \{F,E\}, \{F,G\}, \{E,G\}. 
+If the edge weights are:\\\\
+w(\{A,B\}) $=$ $7$, w(\{B,C\}) $=$ $8$, w(\{A,D\}) $=$ $5$, w(\{B,D\}) $=$ $9$,\\
+w(\{C,E\}) $=$ $5$, w(\{B,E\}) $=$ $7$, w(\{D,E\}) $=$ $15$, w(\{D,F\}) $=$ $6$,\\
+w(\{F,E\}) $=$ $8$, w(\{F,G\}) $=$ $11$, w(\{E,G\}) $=$ $9$
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+5. Now use Prim's algorithm on the same graph G. Did you obtain the same results?
+\newpage
+\noindent For the next few problems state whether these desiderata are true or false and justify your work.\\\\
+6. If the priority queue in Dijkstra’s algorithm is 
+implemented using a sorted linked list
+(where the list is kept sorted after 
+each priority queue operation), then 
+Dijkstra’s algorithm
+would run in $O((E+V)\log{V} )$ time.\\\\\\\\\\
+7. Given a graph with unique positive edge weights, the shortest path will be contained within the minimum 
+spanning tree of the graph.\\\\\\\\\\
+8. If $P \ne NP$ then every problem in NP requires exponential time.\\\\\\\\
+9. If problem $\psi$ is NP-hard and $\sigma \le_p \psi$ then $\sigma$ is NP-hard.\\\\\\\\
+A. If problem $\sigma$ is NP-hard and $\sigma \le_p \psi$ then $\psi$ is NP-hard.\\\\\\\\
+B. If a problem $\sigma$ is in P then $\sigma \le_p \psi$ for every problem $\psi$ in NP.\\\\\\\\
+C. If $G$ is a weighted graph with $n$ vertices and $m$ edges that does contain negative-weight
+cycle, then for every vertex $v \in G$ the shortest path from $v \rightarrow t \in G$ containing $n$ edges
+is strictly shorter than the shortest path from $v \rightarrow t \in G$ containing $n$ $-$ $1$ edges.
+\newpage
+\noindent There are $n$ cities in a country.\\\\
+Every two cities $u$ and $v$ are connected by a bi-directional highway that takes $l(u,v)$ hours to drive through.\\\\
+A car with gas tank capacity $c$ can only travel for $c$ hours on a highway and has to be refueled at the cities.\\\\
+D. Give an $O(V^3\log{V})$ modification to Dijkstra’s algorithm to compute, simultaneously for all pairs $(u,v)$ of cities, the minimum gas tank capacity needed to go from $u \rightarrow v$.
+\newpage
+\noindent E. There are many problems that are NP-Complete with similar problems are P. 
+For example vertex cover is NP-Complete while edge cover is P, Hamiltonian path is NP-Complete 
+while Euler path is P, 3-Sat is NP-Complete while 2-SAT is P, etc. Make a conjecture for a 
+problems covered in class or seminar that is in P with a corresponding problem that is NP-Complete. If you can find 
+another P time algorithm that is similar to the NP-Complete algorithms stated here that's 
+fine. Below is a list of some more NP-Complete problems. Why did you make this conjecture?\\
+\includegraphics[width=\textwidth]{npcomplete.jpg}\\ 
+Please spend as much time on this problem as the previous. It's important to make the connection 
+of these concepts for yourself.
+\newpage
+\noindent F. Given an undirected graph $G$, design an algorithm to list the vertices in each connected component of $G$ seperately.
+\newpage
+\noindent 10. Give an $O(V)$ time algorithm to determine whether a connected undirected graph contains a cycle.
 \newpage 
-13. If $P \ne NP$ then every problem in NP requires exponential time.\\\\\\\\\\
-15. If problem $\psi$ is NP-hard and $\sigma \le \psi$ then $\sigma$ is NP-hard.\\\\\\\\\\
-16. If problem $\sigma$ is NP-hard and $\sigma \le \psi$ then $\psi$ is NP-hard.
+\noindent The vertex cover problem states given $G$ $=$ $(V,E)$, we 
+want to know the minimum size of the vertex cover $C$ $\subseteq$ $V$, where $C$ is a vertex cover if every 
+edge $e$ $=$ $(u,v)\in E$ has at least of of it's endpoints $u$ or $v$ $\in C$.
+(The problem generally is NP-Complete but given certain simple graphs the problem is not nearly as hard to solve).\\\\
+11. Suppose that $G$ is a tree. Give a polynomial time algorithm to find the
+minimum vertex cover. (Hint: Consider being greedy — and remember that you
+can choose the optimal solution you like.)
+\newpage
+
 \end{document}
