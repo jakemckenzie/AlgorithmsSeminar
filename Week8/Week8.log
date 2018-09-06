@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  4 SEP 2018 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 SEP 2018 23:46
 entering extended mode
 **./Week8.tex
 (Week8.tex
@@ -944,16 +944,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -963,56 +953,56 @@ Missing character: There is no ™ in font cmr12!
 [1
 
 {C:/Users/Epimetheus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
 
 ("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
 d"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
 
  []
 
 
-Overfull \hbox (4.42342pt too wide) in paragraph at lines 35--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
+
+ []
+
+
+Overfull \hbox (4.42342pt too wide) in paragraph at lines 41--61
 \OT1/cmr/m/n/12 3. Show that $\OML/cmm/m/it/12 VO\U/matha/m/n/12 p\OT1/cmr/m/n/
 12 1 \U/matha/m/n/12   [] \OML/cmm/m/it/12 V\U/matha/m/n/12 q   \OML/cmm/m/it/1
 2 O\U/matha/m/n/12 p\OML/cmm/m/it/12 E\U/matha/m/n/12 q   \OML/cmm/m/it/12 O\U/
@@ -1022,112 +1012,112 @@ atha/m/n/12 pp\OML/cmm/m/it/12 V \U/matha/m/n/12   \OML/cmm/m/it/12 E\U/matha/m
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
@@ -1139,107 +1129,107 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--81
+Underfull \hbox (badness 10000) in paragraph at lines 71--87
 
  []
 
@@ -1248,17 +1238,17 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 
  []
 
@@ -1266,14 +1256,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 <npcomplete.jpg, id=29, 307.1475pt x 173.448pt>
 File: npcomplete.jpg Graphic file (type jpg)
 <use npcomplete.jpg>
-Package pdftex.def Info: npcomplete.jpg  used on input line 93.
+Package pdftex.def Info: npcomplete.jpg  used on input line 99.
 (pdftex.def)             Requested size: 390.0pt x 220.25003pt.
  [6 <./npcomplete.jpg>] [7] [8]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--108
+Underfull \hbox (badness 10000) in paragraph at lines 107--114
 
  []
 
@@ -1281,94 +1271,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--108
 <shudderwock.jpg, id=43, 72.5109pt x 104.0688pt>
 File: shudderwock.jpg Graphic file (type jpg)
 <use shudderwock.jpg>
-Package pdftex.def Info: shudderwock.jpg  used on input line 109.
+Package pdftex.def Info: shudderwock.jpg  used on input line 115.
 (pdftex.def)             Requested size: 145.0214pt x 208.13708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--119
+Underfull \hbox (badness 10000) in paragraph at lines 115--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--119
+Underfull \hbox (badness 10000) in paragraph at lines 115--125
 
  []
 
 [10 <./shudderwock.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-[11] [12] (Week8.aux) ) 
+[11] [12] [13] (Week8.aux) ) 
 Here is how much of TeX's memory you used:
  13263 strings out of 493305
  261354 string characters out of 3127627
@@ -1377,21 +1367,21 @@ Here is how much of TeX's memory you used:
  19107 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,481b,206s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epimetheus
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Epim
-etheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
-pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/m
-athabx-type1/matha12.pfb>
-Output written on Week8.pdf (12 pages, 693590 bytes).
+<C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Epimetheus/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Epime
+theus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Epimetheus/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Epimetheus/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb><C:/Users/Epimetheus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/mathabx-type1/matha12.pfb>
+Output written on Week8.pdf (13 pages, 695258 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
