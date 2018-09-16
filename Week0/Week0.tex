@@ -9,7 +9,12 @@
 \usepackage{mathrsfs}
 \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
 \newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
-
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%pdf
+      \null%
+      \clearpage}
 \begin{document}
 \title{TCSS 343 - Week 0}
 \author{Jake McKenzie}
@@ -59,7 +64,7 @@ $$\bigg(\frac{k(k + 1)}{2}\bigg)^2\frac{2k^2+2k-1}{3} + (k + 1)^5=\big(\frac{(k+
     \item[f)]$\frac{\log_{2}{x}}{x}$
 \end{enumerate}
 \newpage
-\noindent 5. \textbf{Compute this number: $\log_{2}{\log_{2}{(2^{16})^{(2^{16})!}}}$.} I'll give you some hints:
+\noindent 5. \textbf{Approximate this number: $\log_{2}{\log_{2}{(2^{16})^{(2^{16})!}}}$.} I'll give you some hints:
 It is hard to compute exactly by hand but accurate approximations can be found by many different methods, the power $(2^{16})!$ itself has $287,194$ digits where $16,380$ of the tail digits are zero. 
 What I'm trying to get across with this example is the power of the logarithm vs exponential functions. If you get stuck try to come up
 with an approximate answer which is perfectly okay. \textbf{Say you had a $\log{\log{n}}$ algorithm (for example some versions of binary search 
@@ -71,6 +76,7 @@ rules to approximate this.)
 \textbf{If anyone can get a better approximation than I did, where you've reduced the problem to
 only basic arithmetic then I will get you a Starbuchs \$5 giftcard. If multiple people come to the same 
 approximation I'm not made of money so I will give it to the first.}
+\blankpage
 \newpage
 \noindent 6. Calculate the second derivative of the product $f(n) \cdot g(n)$ with respect to n. Expand and collect like terms.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \noindent 7. Use your result from 7 to calculate the second derivative of the product $f(n) = n + 1$ and $g(n)=e^{2n}$.\\\\\\\\\\\\\\\\\\\\\\\\
