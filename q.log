@@ -1,23 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  8 AUG 2018 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  23 SEP 2018 22:59
 entering extended mode
-**Homework_1.tex
-("C:\Users\Epimetheus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\q.tex"
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+**Week4
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\q.tex"
+LaTeX2e <2018-04-01> patch level 5
 File ignored
 )
 ! Emergency stop.
-<*> Homework_1.tex
-                  
+<*> Week4
+         
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 10 strings out of 493305
- 285 string characters out of 3127627
- 53825 words of memory out of 3000000
- 3658 multiletter control sequences out of 15000+200000
+ 9 strings out of 492973
+ 200 string characters out of 3135932
+ 56021 words of memory out of 3000000
+ 3978 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 5i,0n,1p,95b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,1p,86b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
