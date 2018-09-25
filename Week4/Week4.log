@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  23 SEP 2018 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  24 SEP 2018 19:37
 entering extended mode
 **./Week4.tex
 (Week4.tex
@@ -1015,103 +1015,98 @@ File: queen.jpg Graphic file (type jpg)
 Package pdftex.def Info: queen.jpg  used on input line 83.
 (pdftex.def)             Requested size: 159.59586pt x 118.75587pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
+
+ []
+
+[6 <./queen.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--89
-
- []
-
-[6 <./queen.jpg>] [7]
+[7]
 <relax.jpg, id=38, 353.06906pt x 71.51718pt>
 File: relax.jpg Graphic file (type jpg)
 <use relax.jpg>
-Package pdftex.def Info: relax.jpg  used on input line 106.
+Package pdftex.def Info: relax.jpg  used on input line 99.
 (pdftex.def)             Requested size: 353.06819pt x 71.517pt.
 <graph.jpg, id=39, 447.6725pt x 803.0pt>
 File: graph.jpg Graphic file (type jpg)
 <use graph.jpg>
-Package pdftex.def Info: graph.jpg  used on input line 110.
+Package pdftex.def Info: graph.jpg  used on input line 103.
 (pdftex.def)             Requested size: 156.68771pt x 281.05421pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
@@ -1119,151 +1114,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--112
 <brix.jpg, id=46, 240.9pt x 160.4394pt>
 File: brix.jpg Graphic file (type jpg)
 <use brix.jpg>
-Package pdftex.def Info: brix.jpg  used on input line 122.
+Package pdftex.def Info: brix.jpg  used on input line 115.
 (pdftex.def)             Requested size: 301.12424pt x 200.54875pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 132.
+               Default added (so using `tbp') on input line 125.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 144.
+               Default added (so using `tbp') on input line 137.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 147.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
 
-Overfull \hbox (53.43118pt too wide) in paragraph at lines 145--154
+Overfull \hbox (53.43118pt too wide) in paragraph at lines 138--147
 [][] 
  []
 
 [10 <./brix.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 187--197
+Underfull \hbox (badness 10000) in paragraph at lines 180--190
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
@@ -1286,7 +1281,7 @@ sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on Week4.pdf (13 pages, 763035 bytes).
+Output written on Week4.pdf (13 pages, 763537 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

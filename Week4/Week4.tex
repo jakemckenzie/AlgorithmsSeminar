@@ -83,20 +83,13 @@ chessboard.
 \centerline{\includegraphics[scale = .25]{queen.jpg}}\\
 7.0 How many (non-unique)solutions are there for $N = 1,2,3,4,5,6$\\\\\\\\
 7.1 What are the subproblems to the global problem of computing all possible solutions to this problem?\\\\\\\\\\
-7.2 What are the possible guesses to the solutions to this problem?\\\\\\\\\\
-7.3 Using 5.1 and 5.2 can you come up with a recurrence that relates subproblem solutions?\\\\\\\\
-7.4 Do your subproblems follow some order that is valid?
 \newpage
-\noindent 8. Do not attempt this page until you put a 
-lot of thought and care into problem 5. Please write
-some code that attempts to produce a solution to the
-N-Queen problem.
- I understand that solving problems like this on the 
- fly can be difficult. I know when I was in seminar 
- I found it to be difficult. Writing code on paper sucks.
-  Try your best, I believe in you. Please come up with your
-  own solution. There are many, many ways to solve this,
-  and I want your attempt, not the internets.
+\noindent \textbf{8. Analysis of N-Queen}\\
+a. Given a method isSafe that checks to see if the board is safe. This method
+will take $O(n)$ time as it iterates trhough our board every time.\\\\
+b. To places a queen, we must go throught the board everytime which takes $O(n)$ time.\\\\
+c. In each iteration of this loop, there is an isSafe invocation which is $O(n)$ and a recursive call.\\\\\\\\
+Given this information can you come up with a recurrence relation for the N-Queen problem?
 \newpage
 \noindent 9. Time for some graph review. Shortest path algorithms on graphs all fixated 
 on the concept of relaxation. To put simply, relaxing an edge from
