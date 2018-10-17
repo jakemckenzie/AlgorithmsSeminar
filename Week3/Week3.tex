@@ -32,6 +32,10 @@
     \item[V)]$T(n) = 4T(\frac{n}{9}) + O(n \log{n})$
     \item[VI)]$T(n) = T(\frac{n}{9}) + O(\sqrt{n})$
     \item[VII)]$T(n) = 7T(\frac{n}{2}) + O(n^2)$
+\end{enumerate}
+\newpage
+1. Use the master method to solve the following recurrences. If the master method does not apply indicate that it does not.
+\begin{enumerate}
     \item[VIII)]$T(n) = 4T(\frac{n}{2}) + O(16^{\log{n}})$
     \item[IX)]$T(n) = 2T(n) + O(n^3)$
     \item[X)]$T(n) = 2T(\frac{n}{3}) + O(n^{-\log{n}})$
@@ -40,36 +44,15 @@
     \item[XIII)]$T(n) = 2.1T(0.3n) + O(2^{\log{\sqrt{n}}})$
 \end{enumerate}
 \newpage
-1. Consider the problem of searching an element x in an array ‘arr[]’ of size $n$. The problem can be solved in $O(\log{n})$ time if:\\
-\begin{enumerate}
-    \item[I)]Array is sorted
-    \item[II)]Array is sorted and rotated by $k$. $k$ is given to you and $k \leq n$
-    \item[III)]Array is sorted and rotated by $k$. $k$ is NOT given to you and $k \leq n$
-    \item[IV)]Array is not sorted
-\end{enumerate}
-\begin{enumerate}
-    \item[a)]I
-    \item[b)]I and II
-    \item[c)]I,II and III
-    \item[d)]I,II,III and IV
-\end{enumerate}
-2. What is the probability that a number is composite numbers in first 50 natural numbers inclusive? (hint: 1 is neither composite nor prime and composite). (I've seen this question in pools of interview questions for algorithms) 
-\begin{enumerate}
-    \item[a)]$0.58$
-    \item[b)]$0.62$
-    \item[c)]$0.68$
-    \item[d)]$0.72$
-\end{enumerate}
-\newpage
-3. Solve the following recurrence: $T(n) = T(\frac{6n}{7}) + T(\frac{n}{7})  + O(n)$. The master method cannot be used on this one. Use the tree method or repeated substition to find the runtime.
+2. Solve the following recurrence: $T(n) = T(\frac{6n}{7}) + T(\frac{n}{7})  + n$. The master method cannot be used on this one. Use the tree method or repeated substition to find the runtime.
 \newpage
 \noindent \includegraphics[scale = 0.5]{lamport.jpg}
 Thinking doesn't guarantee that we won't make mistakes. But not thinking guarantees that we will. $\sim$ Leslie Lamport (turing award winnder, both devised important algorithms and ways of formal modeling)\\\\
-4. \textbf{Preferably by using your notes, write down a formal specification for quicksort}. Formal specifications are important, they give us the language to describe subtle problems that you can't get from simply writing code. When students hear ``specifications" they typically panic. You have to learn and use these funny symbols and such, but if you don't get it right that's okay. The world isn't going to come crashing down if you don't do get it perfectly right but please try.  
+3. \textbf{Preferably by using your notes, write down a formal specification for quicksort}. Formal specifications are important, they give us the language to describe subtle problems that you can't get from simply writing code. When students hear ``specifications" they typically panic. You have to learn and use these funny symbols and such, but if you don't get it right that's okay. The world isn't going to come crashing down if you don't do get it perfectly right but please try.  
 \newpage
 \noindent \includegraphics[scale = 0.5]{lamport2.jpg}
 Writing formal specifications won't catch coding errors or bugs, but it will catch algorithm errors. $\sim$ Leslie Lamport (the guy from the previous page)
-\\\\5. You typically write specifications while thinking about the problem, before you write code. I'm assuming you probably wrote a recursive specification for quicksort on the previous page. If you didn't, great you're done you can move on. \textbf{If you did write a recursive specification for quicksort, please now attempt to write a non-recursive specification for quicksort}. This is more challenging but please, please try to do so. It requires more thought but thinking is a really good idea; don't trust anyone who tells you otherwise. \textbf{Come up with one reason why you think it's a good idea to write a spec}.
+\\\\4. You typically write specifications while thinking about the problem, before you write code. I'm assuming you probably wrote a recursive specification for quicksort on the previous page. If you didn't, great you're done you can move on. \textbf{If you did write a recursive specification for quicksort, please now attempt to write a non-recursive specification for quicksort}. This is more challenging but please, please try to do so. It requires more thought but thinking is a really good idea; don't trust anyone who tells you otherwise. \textbf{Come up with one reason why you think it's a good idea to write a spec}.
 \newpage
 \noindent A really important algorithm that's used on the backend that you've probably never heard of is known as \textit{rotate}. It's is a fundamental tool used behind the scenes in all sorts of computer graphics from updating frame buffers on embedded devices to websites. We can even give a formal mathematical \textbf{specification}:  \\\\
 \centerline{A permutation of $n$ elements by $k$ where $k\geq 0$}:
@@ -78,11 +61,11 @@ Mathematical specifications can be nice compact ways of specifying algorithms wh
 \noindent \includegraphics[scale = 0.62]{griesmills.jpg}
 \newpage
 \includegraphics[scale = 0.25]{gries.jpg}\includegraphics[scale = 0.25]{mills.jpg}
-6. Can you write down an algorithm that does what is described on the last page, it need not be Gries-Mills'(pictured $\leftarrow$) block swapping algorithm, that attempts to do \textit{rotate}?
+5. Can you write down an algorithm that does what is described on the last page, it need not be Gries-Mills'(pictured $\leftarrow$) block swapping algorithm, that attempts to do \textit{rotate}?
 \newpage
 \noindent \includegraphics[scale = 0.85]{rec.jpg}\\
-7. Can you write down a recurrence relation for the python code above and then solve for the runtime?\\\\\\\\\\\\\
-8. Match the complexity class to what ``makes sense":
+6. Can you write down a recurrence relation for the python code above and then solve for the runtime?\\\\\\\\\\\\\
+7. Match the complexity class to what ``makes sense":
 \[
 \begin{array}{cc}
  \text{A) $O(n^2)$} & \text{1) adding a nested loop for every input you have} \\
@@ -94,10 +77,10 @@ Mathematical specifications can be nice compact ways of specifying algorithms wh
 \end{array}
 \]
 \includegraphics{msort.JPG}\\
-9. Which line above can lead to undefined behaivor? Why?
+8. Which line in the above method can lead to undefined behaivor? Why?
 \newpage
-\noindent A. Use induction to show that $n^2\in O(2^n)$.\\\\\\\\\\\\\\\\\\\\\\\\
-\noindent B. Use this different formulation of the master theorem from CLRS to solve these recurrences relations.
+\noindent 9. Use induction to show that $n^2\in O(2^n)$.\\\\\\\\\\\\\\\\\\\\\\\\
+\noindent A. Use this different formulation of the master theorem from CLRS to solve these recurrences relations.
 \\\includegraphics[width=\linewidth]{mastertheorem.JPG}
 \begin{enumerate}
     \item[a)]$T(n) = 4T(\frac{n}{9}) + O(n \log{n})$
@@ -105,25 +88,25 @@ Mathematical specifications can be nice compact ways of specifying algorithms wh
     \item[c)]$T(n) = 5T(\frac{n}{2}) + O(2^n)$
 \end{enumerate}
 \newpage
-\noindent C. Use Karatsuba's algorithm to multiply $0127\times9721$. (hint: you don't need to use a calculator you'll know when you got it right! \includegraphics[scale = 0.05]{wink.jpg})
+\noindent B. Use Karatsuba's algorithm to multiply $0127\times9721$. (hint: you don't need to use a calculator you'll know when you got it right! \includegraphics[scale = 0.05]{wink.jpg})
 Some instructors give you this algorithm in terms of their binary representations. Because I'm a nice person
 $0127_{10}=1111111_2$ and $9721_{10}=10010111111001_2$. Note: I used dynamic programming and a little bit of number
 theory to find this special number. When we get to it next week, think about how you might use dynamic programming to
 find such a number.
 \newpage
-\noindent D. Write a recurrence that represents the number of lines printed and solve it using the master theorem for the given python function.\\
+\noindent C. Write a recurrence that represents the number of lines printed and solve it using the master theorem for the given python function.\\
 \includegraphics{printer.jpg}\\\\\\\\\\\\\\\
-\noindent E. You are given an array of $n$ elements, and you notice that 
+\noindent D. You are given an array of $n$ elements, and you notice that 
 some of the elements are duplicates; that is, they appear more 
 than once in the array. Show how to remove all duplicates from 
 the array in time $O(n \log{n})$.\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\noindent F. Is it true that $2^{n+1} \leq O(2^n)$? Show your work.
+\noindent E. Is it true that $2^{n+1} \leq O(2^n)$? Show your work.
 \newpage 
-\noindent 10. Using what you know prove or disprove that if $f(n) \in O(g(n))$ then $2^{f(n)}\in O(2^{g(n)})$.
+\noindent F. Using what you know prove or disprove that if $f(n) \in O(g(n))$ then $2^{f(n)}\in O(2^{g(n)})$.
 \newpage
-\noindent 11. If you solve $4$ sub-problems of size $\frac{n}{4}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $12n+4$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
-\noindent 12. If you solve $4$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $69$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
-\noindent 13. If you solve $3$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $3n^2+2n+1$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
-\noindent 14. If you solve $2$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $n^3+1$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
-\noindent 15. Which divide and conquer algorithm above has the fastest asymptotic runtime?
+\noindent 10. If you solve $4$ sub-problems of size $\frac{n}{4}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $12n+4$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
+\noindent 11. If you solve $4$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $69$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
+\noindent 12. If you solve $3$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $3n^2+2n+1$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
+\noindent 13. If you solve $2$ sub-problems of size $\frac{n}{2}$, then the cost of combining the solutions of the subproblems to obtain a solution for the original problem is $n^3+1$. Show the recurrence and solve the recurrence using the master theorem.\\\\\\\\\\\\
+\noindent 14. Which divide and conquer algorithm above has the fastest asymptotic runtime?
 \end{document}
