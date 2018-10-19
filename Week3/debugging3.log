@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  19 OCT 2018 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  19 OCT 2018 12:45
 entering extended mode
 **./debugging3.tex
 (debugging3.tex
@@ -799,28 +799,41 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-<debug.jpg, id=4, 383.93437pt x 301.125pt>
+<debug.jpg, id=4, 315.42844pt x 298.86656pt>
 File: debug.jpg Graphic file (type jpg)
 <use debug.jpg>
 Package pdftex.def Info: debug.jpg  used on input line 13.
-(pdftex.def)             Requested size: 383.93343pt x 301.12425pt.
+(pdftex.def)             Requested size: 315.42766pt x 298.86581pt.
  [1
 
 {C:/Users/iapetus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./debug.j
-pg>] (debugging3.aux) ) 
+pg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2] [3] [4]
+(debugging3.aux) ) 
 Here is how much of TeX's memory you used:
- 13053 strings out of 492973
- 251845 string characters out of 3135932
- 385859 words of memory out of 3000000
- 16686 multiletter control sequences out of 15000+200000
- 3938 words of font info for 15 fonts, out of 3000000 for 9000
+ 13111 strings out of 492973
+ 252613 string characters out of 3135932
+ 396859 words of memory out of 3000000
+ 16718 multiletter control sequences out of 15000+200000
+ 11426 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,54p,415b,121s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb>
-Output written on debugging3.pdf (1 page, 35229 bytes).
+ 55i,11n,54p,415b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
+ublic\mathabx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb>
+Output written on debugging3.pdf (4 pages, 52695 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
