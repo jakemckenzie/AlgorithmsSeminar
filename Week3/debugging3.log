@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  16 OCT 2018 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  19 OCT 2018 11:51
 entering extended mode
-**./Week3.tex
-(Week3.tex
+**./debugging3.tex
+(debugging3.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -715,21 +715,24 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box39
 \enitdp@description=\count124
 )
-No file Week3.aux.
-\openout1 = `Week3.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\cancel\cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+No file debugging3.aux.
+\openout1 = `debugging3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
@@ -796,441 +799,28 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[1
-
-{C:/Users/iapetus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3] [4]
-<lamport.jpg, id=26, 165.61874pt x 210.7875pt>
-File: lamport.jpg Graphic file (type jpg)
-<use lamport.jpg>
-Package pdftex.def Info: lamport.jpg  used on input line 49.
-(pdftex.def)             Requested size: 82.80916pt x 105.3935pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
-
- []
-
-[5 <./lamport.jpg>]
-<lamport2.jpg, id=30, 361.35pt x 210.7875pt>
-File: lamport2.jpg Graphic file (type jpg)
-<use lamport2.jpg>
-Package pdftex.def Info: lamport2.jpg  used on input line 53.
-(pdftex.def)             Requested size: 180.67456pt x 105.3935pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
-
- []
-
-[6 <./lamport2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
-
-Overfull \hbox (3.26385pt too wide) in paragraph at lines 57--59
-[]\OT1/cmr/m/n/12 : 
- []
-
-<griesmills.jpg, id=34, 685.05937pt x 529.22719pt>
-File: griesmills.jpg Graphic file (type jpg)
-<use griesmills.jpg>
-Package pdftex.def Info: griesmills.jpg  used on input line 61.
-(pdftex.def)             Requested size: 424.73242pt x 328.11746pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
-
- []
-
-
-Overfull \hbox (34.73242pt too wide) in paragraph at lines 59--62
-[] 
- []
-
-[7 <./griesmills.jpg>]
-<gries.jpg, id=39, 274.77657pt x 369.63094pt>
-File: gries.jpg Graphic file (type jpg)
-<use gries.jpg>
-Package pdftex.def Info: gries.jpg  used on input line 63.
-(pdftex.def)             Requested size: 68.69397pt x 92.4075pt.
-<mills.jpg, id=40, 266.49562pt x 348.55219pt>
-File: mills.jpg Graphic file (type jpg)
-<use mills.jpg>
-Package pdftex.def Info: mills.jpg  used on input line 63.
-(pdftex.def)             Requested size: 66.62373pt x 87.13782pt.
- [8 <./gries.jpg> <./mills.jpg>]
-<rec.jpg, id=44, 304.88907pt x 164.11313pt>
-File: rec.jpg Graphic file (type jpg)
-<use rec.jpg>
-Package pdftex.def Info: rec.jpg  used on input line 66.
-(pdftex.def)             Requested size: 259.15692pt x 139.4968pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-
- []
-
-
-Overfull \hbox (59.89323pt too wide) detected at line 78
-[]
- []
-
-<msort.JPG, id=45, 235.63031pt x 107.65219pt>
-File: msort.JPG Graphic file (type jpg)
-<use msort.JPG>
-Package pdftex.def Info: msort.JPG  used on input line 79.
-(pdftex.def)             Requested size: 235.62973pt x 107.65192pt.
-[9 <./rec.jpg> <./msort.JPG>]
-<mastertheorem.JPG, id=49, 491.58656pt x 191.9672pt>
-File: mastertheorem.JPG Graphic file (type jpg)
-<use mastertheorem.JPG>
-Package pdftex.def Info: mastertheorem.JPG  used on input line 84.
-(pdftex.def)             Requested size: 390.0pt x 152.30269pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-[10 <./mastertheorem.JPG>]
-<wink.jpg, id=53, 270.25969pt x 263.48438pt>
-File: wink.jpg Graphic file (type jpg)
-<use wink.jpg>
-Package pdftex.def Info: wink.jpg  used on input line 91.
-(pdftex.def)             Requested size: 13.51376pt x 13.17499pt.
- [11 <./wink.jpg>]
-<printer.jpg, id=57, 196.48407pt x 73.02281pt>
-File: printer.jpg Graphic file (type jpg)
-<use printer.jpg>
-Package pdftex.def Info: printer.jpg  used on input line 98.
-(pdftex.def)             Requested size: 196.48358pt x 73.02261pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
-
- []
-
-[12 <./printer.jpg>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-[14] (Week3.aux) ) 
+<debug.jpg, id=4, 383.93437pt x 301.125pt>
+File: debug.jpg Graphic file (type jpg)
+<use debug.jpg>
+Package pdftex.def Info: debug.jpg  used on input line 13.
+(pdftex.def)             Requested size: 383.93343pt x 301.12425pt.
+ [1
+
+{C:/Users/iapetus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./debug.j
+pg>] (debugging3.aux) ) 
 Here is how much of TeX's memory you used:
- 13168 strings out of 492973
- 253328 string characters out of 3135932
- 387993 words of memory out of 3000000
- 16758 multiletter control sequences out of 15000+200000
- 19808 words of font info for 70 fonts, out of 3000000 for 9000
+ 13053 strings out of 492973
+ 251845 string characters out of 3135932
+ 385859 words of memory out of 3000000
+ 16686 multiletter control sequences out of 15000+200000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,656b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
-ublic\mathabx\dpi600\matha8.pk> <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Week3.pdf (14 pages, 389782 bytes).
+ 55i,5n,54p,415b,121s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb>
+Output written on debugging3.pdf (1 page, 35229 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 14 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
