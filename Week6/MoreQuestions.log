@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  14 NOV 2018 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  18 NOV 2018 22:29
 entering extended mode
-**./Week6.tex
-(Week6.tex
+**./MoreQuestions.tex
+(MoreQuestions.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -718,12 +718,18 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cancel\cancel.sty"
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup9
+("C:\Program Files\MiKTeX 2.9\tex\latex\underscore\underscore.sty"
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
 )
-No file Week6.aux.
-\openout1 = `Week6.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks39
+\AP@partial=\box40
+\AP@footins=\box41
+)
+(MoreQuestions.aux)
+\openout1 = `MoreQuestions.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -737,19 +743,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
 \scratchdimen=\dimen162
-\scratchbox=\box40
+\scratchbox=\box42
 \nofMPsegments=\count126
 \nofMParguments=\count127
-\everyMPshowfont=\toks39
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count128
 \MPscratchDim=\dimen163
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks40
+\everyMPtoPDFconversion=\toks41
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -813,21 +819,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 22.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -860,319 +851,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 [1
 
 {C:/Users/iapetus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+<debugging.JPG, id=12, 272.51813pt x 388.45125pt>
+File: debugging.JPG Graphic file (type jpg)
+<use debugging.JPG>
+Package pdftex.def Info: debugging.JPG  used on input line 31.
+(pdftex.def)             Requested size: 272.51746pt x 388.45029pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[2]
-<svenborgia.jpg, id=16, 955.31906pt x 596.2275pt>
-File: svenborgia.jpg Graphic file (type jpg)
-<use svenborgia.jpg>
-Package pdftex.def Info: svenborgia.jpg  used on input line 42.
-(pdftex.def)             Requested size: 390.0pt x 243.39952pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+[2 <./debugging.JPG>] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 42--72
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--72
-
- []
-
-[3 <./svenborgia.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--90
+Underfull \hbox (badness 10000) in paragraph at lines 39--47
 
  []
 
 [4]
-<braess1.jpg, id=24, 335.00156pt x 219.06844pt>
-File: braess1.jpg Graphic file (type jpg)
-<use braess1.jpg>
-Package pdftex.def Info: braess1.jpg  used on input line 91.
-(pdftex.def)             Requested size: 234.49948pt x 153.34685pt.
-<braess2.jpg, id=25, 316.18124pt x 211.54031pt>
-File: braess2.jpg Graphic file (type jpg)
-<use braess2.jpg>
-Package pdftex.def Info: braess2.jpg  used on input line 97.
-(pdftex.def)             Requested size: 221.32535pt x 148.0772pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
+Underfull \hbox (badness 10000) in paragraph at lines 48--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
+Underfull \hbox (badness 10000) in paragraph at lines 48--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
+Underfull \hbox (badness 10000) in paragraph at lines 48--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
+Underfull \hbox (badness 10000) in paragraph at lines 48--57
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--103
-
- []
-
-[5 <./braess1.jpg> <./braess2.jpg>]
-<prob3.jpg, id=29, 192.72pt x 90.0966pt>
-File: prob3.jpg Graphic file (type jpg)
-<use prob3.jpg>
-Package pdftex.def Info: prob3.jpg  used on input line 104.
-(pdftex.def)             Requested size: 385.43903pt x 180.19275pt.
- [6 <./prob3.jpg>]
-<cookies.jpg, id=34, 1003.75pt x 565.11125pt>
-File: cookies.jpg Graphic file (type jpg)
-<use cookies.jpg>
-Package pdftex.def Info: cookies.jpg  used on input line 117.
-(pdftex.def)             Requested size: 390.0pt x 219.57332pt.
- [7 <./cookies.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 129--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--145
-
- []
-
-[10] [10
-
-] (Week6.aux) ) 
+[5] (MoreQuestions.aux) ) 
 Here is how much of TeX's memory you used:
- 13208 strings out of 492973
- 254193 string characters out of 3135932
- 387974 words of memory out of 3000000
- 16792 multiletter control sequences out of 15000+200000
- 18760 words of font info for 69 fonts, out of 3000000 for 9000
+ 13216 strings out of 492973
+ 254345 string characters out of 3135932
+ 388709 words of memory out of 3000000
+ 16803 multiletter control sequences out of 15000+200000
+ 18117 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,447b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publ
-ic\mathabx\dpi600\matha8.pk> <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Week6.pdf (11 pages, 597326 bytes).
+ 55i,6n,54p,418b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\iapetus\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\public\mathabx\dpi720\mathx10.pk> <C:\Users\iapetus\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha8.pk> <C:\Users\iapetus\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MoreQuestions.pdf (5 pages, 133510 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
