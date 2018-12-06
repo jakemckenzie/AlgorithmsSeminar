@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx,mathabx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{placeins}
+\usepackage{lipsum}
+\usepackage[shortlabels]{enumitem}
+\usepackage{placeins}
+\usepackage[makeroom]{cancel}
+\usepackage{mathrsfs}
+\usepackage{nicefrac}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%pdf
+      \null%
+      \clearpage}
+\begin{document}
+\title{TCSS 343 - Week 10}
+\author{Jake McKenzie}
+\maketitle
+\noindent\centerline{\textbf{Final Review}}\\\\\\\\\\\\
+\begin{center}
+    ``Behind every argument is someone's ignorance." \\$\dots$\\ Louis Brandeis
+\end{center}
+\begin{center}
+    ``The fastest algorithm can frequently be replaced by one that is almost as fast and much easier to understand" \\$\dots$\\ Douglas W. Jones
+\end{center}
+\newpage
+\newpage
+Given an even number of coins in a row of arbitrary denominations, two players take turns taking a coin from either end. 
+Winner is who gets the most cash. Player 1 goes first. 
+0. Would you rather go first or second? Does it matter?\\\\\\\\\\\\\\\\
+1. Assume that you go first, describe an algorithm to compute the maximum amount of money you can win 
+with tidy input and output conditions.\\
+(HINT: If you go first, is there a strategy you can follow which prevents you from losing? 
+Try to consider how it matters when the number of coins are odd vs. even.)\\\\
+\newpage
+The Institute of Technology of UW Tacoma will offer eight courses and seminar cycles 
+during the Summer quarter. Their starting and ending times cannot be changed, and are 
+given in the following table:\\
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+Course ID: & TCSS 440 & \multicolumn{1}{l|}{TCSS 445} & TCSS 450 & TCSS 456 & TCSS 487 & TCSS 491 & \multicolumn{1}{l|}{TCSS 372} & \multicolumn{1}{l|}{TCSS 343} \\ \hline
+Starts At: & 8:15 am & 9 am & 9:45 am & 11 am & 12 pm & 1:15 pm & 1:45 pm & 2 pm \\ \hline
+Ends At: & 10 am & 11 am & 10:45 pm & 12:15 pm & 2 pm & 2 pm & 3:45 pm & 4 pm \\ \hline
+\end{tabular}%
+}
+\end{table}
+Using the Interval Scheduling algorithm, determine:\\
+2. The maximum number of courses/seminars that can share one single classroom.\\\\\\\\\\\\
+3. The minimum number of classrooms needed to accommodate all these courses/seminars. \\\\\\\\\\\\
+4. A suitable assignment of classrooms to courses/seminars matching the constraints found in the previous items.
+\newpage
+Al Gore-\textit{ithm} has become concerned about global warming and has decided to modify his energy consumption in order 
+to minimize the amount of carbon dioxide ($CO_2$) produced.  There are three electricity providers in his area, but 
+all three providers, depending on seasonal weather and various other factors, change their electricity generating 
+methods from week-to-week.  Thus, for some weeks of the year company A might produce less $CO_2$ and for other weeks 
+companies B or C might produce less $CO_2$.  Al would like to switch providers each week to make use of the one that 
+produces the least $CO_2$, but switching creates extra $CO_2$ (e.g., the companies have to send trucks out to his house).\\\\
+
+
+Here's an example using just two companies. Suppose that changing providers costs $40$ units of $CO_2$ and that, over two weeks, 
+using company A will cause the release $130$ and $77$ units of $CO_2$ while using company B will cause release of $85$ and $101$ units 
+of $CO_2$.  If we use company B for the first week and then change to company A for the second week then the total released is 
+$85 + 77 + 40 = 202$.  If we stay with company B for the whole two weeks then the total released is $85 + 101 = 186$.\\\\
+
+5. So here's the problem: We have lists, $a_1$, $a_2$, ..., $a_n$ and $b_1$, $b_2$, ..., $b_n$ and $c_1$, $c_2$, ..., $c_n$, of $CO_2$ amounts over $n$ weeks for 
+companies A, B, and C, respectively.  We also know $p$, the amount of $CO_2$ released due to changing providers.  Give an algorithm 
+to determine which provider to use for each week so that total $CO_2$ released is minimized.\\\\
+6. Suppose that company A has switched to trucks that burn only bio-fuels. Now the amount of $CO_2$ released when switching to 
+company A is reduced (but the switch-over cost remains the same for the other companies).  Briefly explain how your algorithm 
+should be changed to reflect this new  information.
+\newpage
+For each of the following statements, respond \textit{True}, \textit{False}, or \textit{Unknown}\\\\
+7. P $=$ NP\\\\\\\\
+8. If a problem is NP-Complete then it is NP-Hard.\\\\\\\\
+9. No problem in NP can be solved in polynomial time.\\\\\\\\
+A. If there is a polynomial time algorithm to solve problem A then A is in P.\\\\\\\\
+B. If there is a polynomial time algorithm to solve problem A then A is in NP.\\\\\\\\
+\end{document}
