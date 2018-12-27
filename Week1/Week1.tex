@@ -21,7 +21,7 @@
 \begin{center}
     ``You shouldn't try optimizing something that you can't measure." \\$\dots$\\ Elecia White
 \end{center}
-    \newpage
+\newpage
 Exact answers are nice when you can find them. Often times we can't or don't care to find them. As computer scientists we care about the behaivor of the algorithms we employ. If we run into a recurrence relation or summation that expressed loosly the behaivor of these algorithms we'd like to know something about their runtime.\\\\
 \centerline{\textbf{Asymptotic Notation in Seven Words}}\\
 \centerline{\textbf{suppress constant factors and lower-order terms}}\\\\
@@ -35,7 +35,7 @@ If $\lim\limits_{n\to\infty}{\frac{f(n)}{g(n)}}\to\infty$ then $f(n) \in \Omega(
 This is another way of saying that $f(n) \geq c \cdot g(n)$ for some position $c$.\\
 \textbf{Big-$\Theta$ Notation}\\
 If $\lim\limits_{n\to\infty}{\frac{f(n)}{g(n)}}\to k$ where k is a positive finite number then $f(n) \in \Theta(g(n))$\\\\
-This is another way of saying that $f(n) \in O(g(n))$ and $f(n) \in \Theta(g(n))$\.\\
+This is another way of saying that $f(n) \in O(g(n))$ and $f(n) \in \Omega(g(n))$\.\\
 Now while we're in this course, we will typically need to show that these relationships are true when prompted, but it's always good to know that the following is true where \begin{math}0 < \epsilon < 1 < c\end{math}.\\
 \[1 < \log{\log{n}} < \log{n} < n^{\epsilon} < n^c < n^{log{n}} < c^n < n^n < c^{c^{n}}\]\\
 This asymptotic pecking order above is from Don Knuth's Concrete Mathematics.\\\\
