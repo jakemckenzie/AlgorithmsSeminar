@@ -10,11 +10,15 @@ int main(void) {
     int a = 1;
     int b = -1;
     while (i > j) { 
-        i = i + a - 2 * j; 
+        i = i + a - 2 * j;
+        printf("%d",i); 
         if (j >= k) { 
-            i = i + 2; 
-            k = k - b + 2 * j; 
+            i = i + 2;
+            printf("%d",i); 
+            k = k - b + 2 * j;
+            printf("%d",k); 
         } 
         j++; 
+        printf("%d",j);
     } 
 }
